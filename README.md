@@ -45,9 +45,10 @@ The typology of the paper is as follows:
 
 ### Datasets 
 
-| 表头1 | 表头2       |       |
-|-------|------------|-------|
-| 内容1 | 内容2 和 内容3      |       |
+| Header 1 | Header 2 |
+|----------|----------|
+| <td colspan="2">Cell 1 spans two columns!</td>   |
+| Cell 3   | <td style="color: red;">Cell 4 is red!</td>   |
 
 
 ### Models
