@@ -49,10 +49,10 @@ The typology of the paper is as follows:
 ### Models
 
 | Instruction tuned LLMs | # Params | Github | Base Model ｜  Self-build Train | Trainset | Trainset Size |
-| ------|-----------|---------------------|-----------|---------|-----------| --------|
-| Instruct-GPT | 176B      | -  | GPT-3    | Yes    | -   | - | 
-| BLOOMZ\tnotex{id:1} | 176B     |    [link](https://huggingface.co/bigscience/bloomz)  | BLOOM           | No               | xP3       | -  | 
-| FLAN-T5\tnotex{id:2} | 11B      |     [link]()    | T5         | No               | FLAN 2021 | - | 
+| ------------------|-----------|-----|-----------|---------|-----------| --------|
+| Instruct-GPT | 176B | -  | GPT-3    | Yes    | -   | - | 
+| BLOOMZ | 176B     |    [link](https://huggingface.co/bigscience/bloomz)  | BLOOM      | No     | xP3       | -  | 
+| FLAN-T5\tnotex{id:2} | 11B      |     [link]()    | T5         | No   | FLAN 2021 | - | 
 | Alpaca\tnotex{id:3} | 7B       |    [link]()  | LLaMA           | Yes              | -         | 52K  | 
 | Vicuna\tnotex{id:4} | 13B      |    [link]()   | LLaMA         | Yes              | -         | 70K  | 
 | GPT-4-LLM\tnotex{id:5} | 7B       |     [link]()  | LLaMA           | Yes              | -         | 52K | 
