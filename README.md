@@ -45,38 +45,32 @@ The typology of the paper is as follows:
 
 ### Datasets 
 
-| Header 1 | Header 2 |
-|----------|----------|
-| <td colspan="2">Cell 1 spans two columns!</td>   |
-| Cell 3   | <td style="color: red;">Cell 4 is red!</td>   |
-
 
 ### Models
 
-| Instruction tuned LLMs | # Params | Base Model | <td colspan="3">Fine-tuning Trainset</td> |
-| ------| --------| -------| --------| --------| --------| 
-| | | | Self-build | Dataset Name | Size |
-| Instruct-GPT | 176B | GPT-3 | Yes | - | - | 
-| BLOOMZ\tnotex{id:1} | 176B | BLOOM | No | xP3 | -  | 
-| FLAN-T5\tnotex{id:2} | 11B | T5 | No | FLAN 2021 | - | 
-| Alpaca\tnotex{id:3} | 7B | LLaMA | Yes | - | 52K  | 
-| Vicuna\tnotex{id:4} | 13B | LLaMA | Yes | - | 70K  | 
-| GPT-4-LLM\tnotex{id:5} | 7B | LLaMA | Yes | - | 52K | 
-| Claude~\citep{bai2022constitutional} | - | - | Yes | - | - | 
-| WizardLM\tnotex{id:6} | 7B | LLaMA | Yes | Evol-Instruct | 70K  | 
-| ChatGLM2\tnotex{id:7}| 6B | GLM | Yes | - | 1.1 Tokens | 
-| LIMA | 65B | LLaMA | Yes | - | 1K  | 
-| OPT-IML \tnotex{id:8}| 175B | OPT | No | - | - | 
-| Dolly 2.0\tnotex{id:9} | 12B | Pythia | No | - | 15K  | 
-| Falcon-Instruct\tnotex{id:10}| 40B | Falcon | No | - | - | 
-| Guanaco\tnotex{id:11} | 7B | LLaMA | Yes | - | 586K | 
-| Minotaur\tnotex{id:12}| 15B | Starcoder Plus | No | - | -  | 
-| Nous-Hermes\tnotex{id:13}| 13B | LLaMA | No | - | 300K+ | 
-| TÜLU\tnotex{id:14} | 6.7B | OPT | No | Mixed   | - | 
-| YuLan-Chat\tnotex{id:15}| 13B | LLaMA | Yes | - | 250K  | 
-| MOSS\tnotex{id:16} | 16B | - | Yes | - | -  | 
-| Airoboros\tnotex{id:17} | 13B | LLaMA | Yes | - | -  | 
-| UltraLM\tnotex{id:18}| 13B | LLaMA | Yes | - | - | 
+| Instruction tuned LLMs | # Params | Base Model | Self-build Train-set | Dataset Name | Size |
+| ------| --------| -------|-------------| --------| --------|
+| Instruct-GPT | 176B | GPT-3 | Yes         | - | - | 
+| BLOOMZ\tnotex{id:1} | 176B | BLOOM | No          | xP3 | -  | 
+| FLAN-T5\tnotex{id:2} | 11B | T5 | No          | FLAN 2021 | - | 
+| Alpaca\tnotex{id:3} | 7B | LLaMA | Yes         | - | 52K  | 
+| Vicuna\tnotex{id:4} | 13B | LLaMA | Yes         | - | 70K  | 
+| GPT-4-LLM\tnotex{id:5} | 7B | LLaMA | Yes         | - | 52K | 
+| Claude~\citep{bai2022constitutional} | - | - | Yes         | - | - | 
+| WizardLM\tnotex{id:6} | 7B | LLaMA | Yes         | Evol-Instruct | 70K  | 
+| ChatGLM2\tnotex{id:7}| 6B | GLM | Yes         | - | 1.1 Tokens | 
+| LIMA | 65B | LLaMA | Yes         | - | 1K  | 
+| OPT-IML \tnotex{id:8}| 175B | OPT | No          | - | - | 
+| Dolly 2.0\tnotex{id:9} | 12B | Pythia | No          | - | 15K  | 
+| Falcon-Instruct\tnotex{id:10}| 40B | Falcon | No          | - | - | 
+| Guanaco\tnotex{id:11} | 7B | LLaMA | Yes         | - | 586K | 
+| Minotaur\tnotex{id:12}| 15B | Starcoder Plus | No          | - | -  | 
+| Nous-Hermes\tnotex{id:13}| 13B | LLaMA | No          | - | 300K+ | 
+| TÜLU\tnotex{id:14} | 6.7B | OPT | No          | Mixed   | - | 
+| YuLan-Chat\tnotex{id:15}| 13B | LLaMA | Yes         | - | 250K  | 
+| MOSS\tnotex{id:16} | 16B | - | Yes         | - | -  | 
+| Airoboros\tnotex{id:17} | 13B | LLaMA | Yes         | - | -  | 
+| UltraLM\tnotex{id:18}| 13B | LLaMA | Yes         | - | - | 
 
 ## Multi-modality Instruction Tuning
 
