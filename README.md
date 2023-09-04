@@ -77,8 +77,8 @@ The typology of the paper is as follows:
 
 <table>
     <tr>
-        <th>头部1</th>
-        <td colspan="3">这是跨三列的内容</td>
+        <th>Instruction tuned LLMs</th>
+        <th colspan="3">这是跨三列的内容</th>
     </tr>
     <tr>
         <td>内容4.1</td>
