@@ -48,8 +48,8 @@ The typology of the paper is as follows:
 
 ### Models
 
-| Instruction fine-tuned LLMs} | # Params | Base Model | <td colspan=3>Fine-tuning Trainset |
-| | | | Self-build | Dataset Name |  Size |
+| Instruction tuned LLMs | # Params | Base Model | <td colspan=3>Fine-tuning Trainset</td> |
+| | | | Self-build | Dataset Name | Size |
 | ------| --------| -------| --------| --------| --------| 
 | Instruct-GPT | 176B | GPT-3~\citep{Brown2020LanguageMA} | Yes | - | - | 
 | BLOOMZ\tnotex{id:1} | 176B | BLOOM~\citep{Scao2022BLOOMA1} | No | xP3 | -  | 
