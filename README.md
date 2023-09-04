@@ -1,8 +1,8 @@
 # Instruction-Tuning-Survey
 
-[Paper Link](https://arxiv.org/abs/2308.10792)<br>
+This repository contains resources for `Instruction Tuning for Large Language Models: A Survey` [link](https://arxiv.org/abs/2308.10792). 
 
-If you find this repo helpful, please cite the following:
+If you find this repository helpful, please cite the following:
 ```latex
 @article{zhang2023instruction,
   title={Instruction Tuning for Large Language Models: A Survey},
@@ -14,21 +14,25 @@ If you find this repo helpful, please cite the following:
 
 ## Quick links
 * [Overview](#Overview)
-* [Datasets](#Datasets)
-* [Instruction Tuned LLMs](Instruction-Tuned-LLMs)
+* [Natural Language Instruction Tuning](Instruction-Tuned-LLMs)
+  * [Datasets](#Datasets)
+  * [Models](#Models)
 * [Multi-modality Instruction Tuning](Multi-modality-Instruction-Tuning)
-  * [Datasets]()
-  * [Models]()
-
+  * [Datasets](#Datasets)
+  * [Models](#Models)
+* [Domain-specific Instruction Tuning](Domain-specific-Instruction-Tuning)
+  
 
 ## Overview
 ![](./assets/method_overview.png)
 
-![](./assets/method_overview.png)
 
-## Datasets
 
-## Instruction Tuned LLMs
+## Natural Language Instruction Tuning
+
+### Datasets 
+
+### Models
 
 ## Multi-modality Instruction Tuning
 
