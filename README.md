@@ -97,10 +97,10 @@ The typology of the paper is as follows:
     <tr>
         <td> Instruct-GPT</td>
         <td>176B</td>
-        <td>[paper]()</td>
+        <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
+        <td>-</td>
         <td>GPT-3</td>
         <td>Yes</td>
-        <td>-</td>
         <td>-</td>
         <td>-</td>
     </tr>
