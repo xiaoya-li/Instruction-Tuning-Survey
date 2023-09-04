@@ -78,13 +78,21 @@ The typology of the paper is as follows:
 <table>
     <tr>
         <th>Instruction tuned LLMs</th>
-        <th colspan="3">这是跨三列的内容</th>
+        <th># Params</th> 
+        <th>Paper</th>
+        <th>Project</th>
+        <th>Base Model</th>
+        <th colspan="3">Instruction Train Set</th>
     </tr>
     <tr>
-        <td>内容4.1</td>
-    <td>内容4.1</td>
-    <td>内容4.1</td>
-    <td>内容4.1</td>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th>Self-build</th>
+        <th>Dataset Name</th>
+        <th>Size</th>
     </tr>
     <tr>
         <td>内容1.2</td>
