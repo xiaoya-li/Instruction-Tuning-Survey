@@ -1,3 +1,14 @@
+# Xcode
+*.DS_Store
+
+# local logs
+bks/*
+results
+custom_configs
+
+# JetBrains PyCharm IDE
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
