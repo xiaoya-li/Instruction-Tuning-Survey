@@ -45,6 +45,9 @@ The typology of the paper is as follows:
 
 ### Datasets 
 
+|/3. spans 3 rows | row a |
+| row b |
+| row c |
 
 ### Models
 
