@@ -30,7 +30,7 @@ of `(instruction, output)` pairs
  in a supervised fashion, 
 which bridges the gap between the next-word prediction objective of LLMs and the users' objective of having LLMs adhere 
 to human instructions. The general pipeline of instruction tuning is shown in the following: 
-![link](./assets/method_overview.png)
+![project](./assets/method_overview.png)
 
 In the [paper](https://arxiv.org/abs/2308.10792), we make a systematic review of the literature, including the general methodology of IT, 
 the construction of IT datasets, the training of IT models, 
@@ -48,29 +48,29 @@ The typology of the paper is as follows:
 
 ### Models
 
-| Instruction tuned LLMs | Params | Paper |  Project | Base Model ｜  Self-build Train | Trainset | Trainset Size |
-| ------------------|----------|------|-----|----------------|---------|-----------| --------|
-| Instruct-GPT | 176B | [paper]() | -  | GPT-3          | Yes    | -   | - | 
-| BLOOMZ | 176B   |  [paper]() |    [link](https://huggingface.co/bigscience/bloomz)  | BLOOM          | No     | xP3       | -  | 
-| FLAN-T5 | 11B   |  [paper]()   |     [link](https://huggingface.co/google/flan-t5-xxl)    | T5             | No   | FLAN 2021 | - | 
-| Alpaca | 7B     |  [paper]()  |    [link](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA          | Yes              | -         | 52K  | 
-| Vicuna | 13B    |  [paper]()  |    [link](https://github.com/lm-sys/FastChat)   | LLaMA          | Yes              | -         | 70K  | 
-| GPT-4-LLM | 7B    |  [paper]()   |     [link](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)  | LLaMA          | Yes              | -         | 52K | 
-| Claude | -     |  [paper]()  |     -     | -              | Yes              | -         | - | 
-| WizardLM | 7B   |  [paper]()   |    [link](https://github.com/nlpxucan/WizardLM)   | LLaMA          | Yes              | Evol-Instruct | 70K  | 
-| ChatGLM2 | 6B   |  [paper]()   |    [link](https://github.com/THUDM/ChatGLM2-6B)   | GLM            | Yes              | -         | 1.1 Tokens | 
-| LIMA | 65B   |  |  [paper]()  -  | LLaMA          | Yes              | -         | 1K  | 
-| OPT-IML | 175B |  [paper]()  |    [link](https://huggingface.co/facebook/opt-iml-30b)   | OPT            | No               | -         | - | 
-| Dolly 2.0 | 12B  |  [paper]()  |    [link](https://github.com/databrickslabs/dolly)    | Pythia         | No               | -         | 15K  | 
-| Falcon-Instruct | 40B  |  [paper]()  |   [link](https://huggingface.co/tiiuae/falcon-40b-instruct)    | Falcon         | No               | -         | - | 
-| Guanaco | 7B   |  [paper]()  |    [link](https://huggingface.co/JosephusCheung/Guanaco)    | LLaMA          | Yes              | -         | 586K | 
-| Minotaur | 15B   |  [paper]()   |    [link](https://huggingface.co/openaccess-ai-collective/minotaur-15b)  | Starcoder Plus | No               | -         | -  | 
-| Nous-Hermes | 13B  |  [paper]()   |    [link](https://huggingface.co/NousResearch/Nous-Hermes-13b)   | LLaMA          | No               | -         | 300K+ | 
-| TÜLU  | 6.7B  |  [paper]()  |   [link](https://github.com/allenai/open-instruct)   | OPT            | No     | Mixed     | - | 
-| YuLan-Chat | 13B  |  [paper]()  |    [link](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA          | Yes     | -         | 250K  | 
-| MOSS  | 16B   |  [paper]()  |    [link](https://github.com/OpenLMLab/MOSS)   | -              | Yes        | -         | -  | 
-| Airoboros  | 13B   |  [paper]() |    [link](https://github.com/jondurbin/airoboros)    | LLaMA          | Yes              | -         | -  | 
-| UltraLM | 13B    |  [paper]() |    [link](https://github.com/thunlp/UltraChat)   | LLaMA          | Yes              | -         | - | 
+| Instruction tuned LLMs | # Params | Paper | Project | Base Model ｜  Self-build Train | Trainset | Trainset Size |
+|------------------|----------|------|-----|----------------|---------|-----------|--------|
+| Instruct-GPT | 176B | [paper]() | -  | GPT-3   | Yes    | -   | - | 
+| BLOOMZ | 176B   |  [paper]() |    [project](https://huggingface.co/bigscience/bloomz)  | BLOOM   | No     | xP3       | -  | 
+| FLAN-T5 | 11B   |  [paper]()   |     [project](https://huggingface.co/google/flan-t5-xxl)    | T5      | No   | FLAN 2021 | - | 
+| Alpaca | 7B     |  [paper]()  |    [project](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA   | Yes       | -  | 52K  | 
+| Vicuna | 13B    |  [paper]()  |    [project](https://github.com/lm-sys/FastChat)   | LLaMA   | Yes       | -  | 70K  | 
+| GPT-4-LLM | 7B    |  [paper]()   |     [project](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)  | LLaMA   | Yes       | -  | 52K | 
+| Claude | -     |  [paper]()  |     -     | -       | Yes       | -  | - | 
+| WizardLM | 7B   |  [paper]()   |    [project](https://github.com/nlpxucan/WizardLM)   | LLaMA   | Yes       | Evol-Instruct | 70K  | 
+| ChatGLM2 | 6B   |  [paper]()   |    [project](https://github.com/THUDM/ChatGLM2-6B)   | GLM     | Yes       | -  | 1.1 Tokens | 
+| LIMA | 65B   |  |  [paper]()  -  | LLaMA   | Yes       | -  | 1K  | 
+| OPT-IML | 175B |  [paper]()  |    [project](https://huggingface.co/facebook/opt-iml-30b)   | OPT     | No | -  | - | 
+| Dolly 2.0 | 12B  |  [paper]()  |    [project](https://github.com/databrickslabs/dolly)    | Pythia  | No  | -  | 15K  | 
+| Falcon-Instruct | 40B  |  [paper]()  |   [project](https://huggingface.co/tiiuae/falcon-40b-instruct)    | Falcon  | No  | -  | - | 
+| Guanaco | 7B   |  [paper]()  |    [project](https://huggingface.co/JosephusCheung/Guanaco)    | LLaMA   | Yes       | -  | 586K | 
+| Minotaur | 15B   |  [paper]()   |    [project](https://huggingface.co/openaccess-ai-collective/minotaur-15b)  | Starcoder Plus | No   | -  | -  | 
+| Nous-Hermes | 13B  |  [paper]()   |    [project](https://huggingface.co/NousResearch/Nous-Hermes-13b)   | LLaMA   | No   | -  | 300K+ | 
+| TÜLU  | 6.7B  |  [paper]()  |   [project](https://github.com/allenai/open-instruct)   | OPT     | No     | Mixed     | - | 
+| YuLan-Chat | 13B  |  [paper]()  |    [project](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA   | Yes     | -  | 250K  | 
+| MOSS  | 16B   |  [paper]()  |    [project](https://github.com/OpenLMLab/MOSS)   | -  | Yes | -  | -  | 
+| Airoboros  | 13B   |  [paper]() |    [project](https://github.com/jondurbin/airoboros)    | LLaMA   | Yes       | -  | -  | 
+| UltraLM | 13B    |  [paper]() |    [project](https://github.com/thunlp/UltraChat)   | LLaMA   | Yes       | -  | - | 
 
 ## Multi-modality Instruction Tuning
 
