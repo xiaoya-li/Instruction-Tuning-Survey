@@ -95,22 +95,39 @@ The typology of the paper is as follows:
         <th>Size</th>
     </tr>
     <tr>
-        <td>内容1.2</td>
-        <td>内容2.2</td>
-        <td>内容3.2</td>
-        <td>内容4.2</td>
+        <td> Instruct-GPT</td>
+        <td>176B</td>
+        <td>[paper]()</td>
+        <td>GPT-3</td>
+        <td>Yes</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>内容1.3</td>
-        <td colspan="2">这是跨两列的内容</td>
-        <td>内容4.3</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Self-build</td>
+        <td>Dataset Name</td>
+        <td>Size</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Self-build</td>
+        <td>Dataset Name</td>
+        <td>Size</td>
     </tr>
 </table>
 
 
-| Instruction tuned LLMs | # Params | Paper | Project | Base Model ｜  Self-build Train | Trainset | Trainset Size |
-|------------------|----------|------|-----|----------------|---------|-----------|--------|
-| Instruct-GPT | 176B | [paper]() | -  | GPT-3   | Yes    | -   | - | 
+
 | BLOOMZ | 176B   |  [paper]() |    [project](https://huggingface.co/bigscience/bloomz)  | BLOOM   | No     | xP3       | -  | 
 | FLAN-T5 | 11B   |  [paper]()   |     [project](https://huggingface.co/google/flan-t5-xxl)    | T5      | No   | FLAN 2021 | - | 
 | Alpaca | 7B     |  [paper]()  |    [project](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA   | Yes       | -  | 52K  | 
