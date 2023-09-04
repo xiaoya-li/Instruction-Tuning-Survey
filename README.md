@@ -48,7 +48,7 @@ The typology of the paper is as follows:
 
 ### Models
 
-| Instruction tuned LLMs | Params | Github | Base Model ｜  Self-build Train | Trainset | Trainset Size |
+| Instruction tuned LLMs | Params | Project Link | Base Model ｜  Self-build Train | Trainset | Trainset Size |
 | ------------------|-----------|-----|-----------|---------|-----------| --------|
 | Instruct-GPT | 176B | -  | GPT-3    | Yes    | -   | - | 
 | BLOOMZ | 176B     |    [link](https://huggingface.co/bigscience/bloomz)  | BLOOM      | No     | xP3       | -  | 
@@ -66,11 +66,11 @@ The typology of the paper is as follows:
 | Guanaco | 7B     |    [link](https://huggingface.co/JosephusCheung/Guanaco)    | LLaMA         | Yes              | -         | 586K | 
 | Minotaur | 15B      |    [link](https://huggingface.co/openaccess-ai-collective/minotaur-15b)  | Starcoder Plus      | No               | -         | -  | 
 | Nous-Hermes | 13B     |    [link](https://huggingface.co/NousResearch/Nous-Hermes-13b)   | LLaMA          | No               | -         | 300K+ | 
-| TÜLU  | 6.7B    |    [link](https://github.com/allenai/open-instruct)   | OPT          | No               | Mixed     | - | 
-| YuLan-Chat | 13B    |    [link](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA             | Yes              | -         | 250K  | 
-| MOSS  | 16B     |    [link](https://github.com/OpenLMLab/MOSS)   | -  | Yes              | -         | -  | 
+| TÜLU  | 6.7B    |    [link](https://github.com/allenai/open-instruct)   | OPT          | No     | Mixed     | - | 
+| YuLan-Chat | 13B    |    [link](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA      | Yes     | -         | 250K  | 
+| MOSS  | 16B     |    [link](https://github.com/OpenLMLab/MOSS)   | -  | Yes        | -         | -  | 
 | Airoboros  | 13B    |    [link](https://github.com/jondurbin/airoboros)    | LLaMA        | Yes              | -         | -  | 
-| UltraLM | 13B     |    [link](https://github.com/thunlp/UltraChat)   | LLaMA             | Yes              | -         | - | 
+| UltraLM | 13B     |    [link](https://github.com/thunlp/UltraChat)   | LLaMA         | Yes              | -         | - | 
 
 ## Multi-modality Instruction Tuning
 
