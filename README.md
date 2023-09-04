@@ -1,6 +1,6 @@
 # Instruction-Tuning-Survey
 
-This repository contains resources referenced in the paper`[Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792). 
+This repository contains resources referenced in the paper [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792). 
 
 If you find this repository helpful, please cite the following:
 ```latex
@@ -37,8 +37,7 @@ the construction of IT datasets, the training of IT models,
 and applications to different modalities, domains and application, along with analysis on aspects that influence the outcome of IT (e.g., generation of instruction outputs, size of the instruction dataset, etc). We also 
 review the potential pitfalls of IT along with criticism against it, along with efforts
 pointing out current deficiencies of existing strategies and suggest some avenues for fruitful research.
-
-
+The typology of the paper is as follows: 
 
 
 
@@ -46,7 +45,33 @@ pointing out current deficiencies of existing strategies and suggest some avenue
 
 ### Datasets 
 
+
 ### Models
+
+| Instruction fine-tuned LLMs} | # Params | Base Model | <td colspan=3>Fine-tuning Trainset |
+| | | | Self-build | Dataset Name |  Size |
+| ------| --------| -------| --------| --------| --------| 
+| Instruct-GPT | 176B | GPT-3~\citep{Brown2020LanguageMA} | Yes | - | - | 
+| BLOOMZ\tnotex{id:1} | 176B | BLOOM~\citep{Scao2022BLOOMA1} | No | xP3 | -  | 
+| FLAN-T5\tnotex{id:2} | 11B | T5~\citep{Raffel2019ExploringTL} | No | FLAN 2021 | - | 
+| Alpaca\tnotex{id:3} | 7B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | 52K  | 
+| Vicuna\tnotex{id:4} | 13B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | 70K  | 
+| GPT-4-LLM\tnotex{id:5} | 7B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | 52K | 
+| Claude~\citep{bai2022constitutional} | - | - | Yes | - | - | 
+| WizardLM\tnotex{id:6} | 7B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | Evol-Instruct | 70K  | 
+| ChatGLM2\tnotex{id:7}| 6B | GLM~\citep{du2022glm} | Yes | - | 1.1 Tokens | 
+| LIMA | 65B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | 1K  | 
+| OPT-IML \tnotex{id:8}| 175B | OPT~\citep{Zhang2022OPTOP} | No | - | - | 
+| Dolly 2.0\tnotex{id:9} | 12B | Pythia~\citep{Biderman2023PythiaAS} | No | - | 15K  | 
+| Falcon-Instruct\tnotex{id:10}| 40B | Falcon~\citep{almazrouei2023falcon} | No | - | - | 
+| Guanaco\tnotex{id:11} | 7B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | 586K | 
+| Minotaur\tnotex{id:12}| 15B | Starcoder Plus~\citep{li2023starcoder} | No | - | -  | 
+| Nous-Hermes\tnotex{id:13}| 13B | LLaMA~\citep{Touvron2023LLaMAOA} | No | - | 300K+ | 
+| TÜLU\tnotex{id:14} | 6.7B | OPT~\citep{Zhang2022OPTOP} | No | Mixed   | - | 
+| YuLan-Chat\tnotex{id:15}| 13B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | 250K  | 
+| MOSS\tnotex{id:16} | 16B | - | Yes | - | -  | 
+| Airoboros\tnotex{id:17} | 13B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | -  | 
+| UltraLM\tnotex{id:18}| 13B | LLaMA~\citep{Touvron2023LLaMAOA} | Yes | - | - | 
 
 ## Multi-modality Instruction Tuning
 
