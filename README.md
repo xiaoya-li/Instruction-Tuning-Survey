@@ -53,7 +53,7 @@ The typology of the paper is as follows:
 
 ### Models
 
-| Instruction tuned LLMs | # Params | Base Model | <td colspan=3>Fine-tuning Trainset</td> |
+| Instruction tuned LLMs | # Params | Base Model | <td colspan="3">Fine-tuning Trainset</td> |
 | ------| --------| -------| --------| --------| --------| 
 | | | | Self-build | Dataset Name | Size |
 | Instruct-GPT | 176B | GPT-3 | Yes | - | - | 
