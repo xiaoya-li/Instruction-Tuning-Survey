@@ -821,7 +821,7 @@ The typology of the paper is as follows:
 
 ## Efficient Tuning Techniques
 
-<table border="1" align="center" style="text-align:center;">
+<table border="1" style="text-align:center;">
 <tr>
         <th style="width:8cm;">Name</th>
         <th>Paper</th>
