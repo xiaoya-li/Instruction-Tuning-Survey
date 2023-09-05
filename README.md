@@ -366,29 +366,237 @@ The typology of the paper is as follows:
         <td align="center"></td>
         <td align="center"></td>
     </tr>
+<tr>
+		<td align="center">FLAN-T5</td>
+		<td align="center">11B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2210.11416" target="_blank">paper</a></td>
+		<td align="center"><a href="https://huggingface.co/google/flan-t5-xxl" target="_blank">project</a></td>
+		<td align="center">T5</td>
+		<td align="center">No</td>
+		<td align="center">FLAN 2021</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Alpaca</td>
+		<td align="center">7B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/tatsu-lab/stanford_alpaca" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">52K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Vicuna</td>
+		<td align="center">13B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/lm-sys/FastChat" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">70K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">GPT-4-LLM</td>
+		<td align="center">7B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2304.03277" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">52K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Claude</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">WizardLM</td>
+		<td align="center">7B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2304.12244" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/nlpxucan/WizardLM" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">Evol-Instruct</td>
+		<td align="center">70K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">ChatGLM2</td>
+		<td align="center">6B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/THUDM/ChatGLM2-6B" target="_blank">project</a></td>
+		<td align="center">GLM</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">1.1 Tokens</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">LIMA</td>
+		<td align="center">65B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2305.11206 ｜  -" target="_blank">paper</a></td>
+		<td align="center"><a href="LLaMA" target="_blank">project</a></td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">1K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">OPT-IML</td>
+		<td align="center">175B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2212.12017" target="_blank">paper</a></td>
+		<td align="center"><a href="https://huggingface.co/facebook/opt-iml-30b" target="_blank">project</a></td>
+		<td align="center">OPT</td>
+		<td align="center">No</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Dolly 2.0</td>
+		<td align="center">12B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/databrickslabs/dolly" target="_blank">project</a></td>
+		<td align="center">Pythia</td>
+		<td align="center">No</td>
+		<td align="center">-</td>
+		<td align="center">15K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Falcon-Instruct</td>
+		<td align="center">40B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://huggingface.co/tiiuae/falcon-40b-instruct" target="_blank">project</a></td>
+		<td align="center">Falcon</td>
+		<td align="center">No</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Guanaco</td>
+		<td align="center">7B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://huggingface.co/JosephusCheung/Guanaco" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">586K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Minotaur</td>
+		<td align="center">15B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://huggingface.co/openaccess-ai-collective/minotaur-15b" target="_blank">project</a></td>
+		<td align="center">Starcoder Plus</td>
+		<td align="center">No</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Nous-Hermes</td>
+		<td align="center">13B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://huggingface.co/NousResearch/Nous-Hermes-13b" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">No</td>
+		<td align="center">-</td>
+		<td align="center">300K+</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">TÜLU</td>
+		<td align="center">6.7B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2306.04751" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/allenai/open-instruct" target="_blank">project</a></td>
+		<td align="center">OPT</td>
+		<td align="center">No</td>
+		<td align="center">Mixed</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">YuLan-Chat</td>
+		<td align="center">13B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/RUC-GSAI/YuLan-Chat" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">250K</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">MOSS</td>
+		<td align="center">16B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/OpenLMLab/MOSS" target="_blank">project</a></td>
+		<td align="center">-</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">Airoboros</td>
+		<td align="center">13B</td>
+		<td align="center">-</td>
+		<td align="center"><a href="https://github.com/jondurbin/airoboros" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
+<tr>
+		<td align="center">UltraLM</td>
+		<td align="center">13B</td>
+		<td align="center"><a href="https://arxiv.org/abs/2305.14233" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/thunlp/UltraChat" target="_blank">project</a></td>
+		<td align="center">LLaMA</td>
+		<td align="center">Yes</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center"></td>
+</tr>
 </table>
 
 
 
-| FLAN-T5 | 11B   |  [paper]()   |     [project](https://huggingface.co/google/flan-t5-xxl)    | T5      | No   | FLAN 2021 | - | 
-| Alpaca | 7B     |  [paper]()  |    [project](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA   | Yes       | -  | 52K  | 
-| Vicuna | 13B    |  [paper]()  |    [project](https://github.com/lm-sys/FastChat)   | LLaMA   | Yes       | -  | 70K  | 
-| GPT-4-LLM | 7B    |  [paper]()   |     [project](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)  | LLaMA   | Yes       | -  | 52K | 
-| Claude | -     |  [paper]()  |     -     | -       | Yes       | -  | - | 
-| WizardLM | 7B   |  [paper]()   |    [project](https://github.com/nlpxucan/WizardLM)   | LLaMA   | Yes       | Evol-Instruct | 70K  | 
-| ChatGLM2 | 6B   |  [paper]()   |    [project](https://github.com/THUDM/ChatGLM2-6B)   | GLM     | Yes       | -  | 1.1 Tokens | 
-| LIMA | 65B   | [paper]() ｜  -  | LLaMA   | Yes       | -  | 1K  | 
-| OPT-IML | 175B |  [paper]()  |    [project](https://huggingface.co/facebook/opt-iml-30b)   | OPT     | No | -  | - | 
-| Dolly 2.0 | 12B  |  [paper]()  |    [project](https://github.com/databrickslabs/dolly)    | Pythia  | No  | -  | 15K  | 
-| Falcon-Instruct | 40B  |  [paper]()  |   [project](https://huggingface.co/tiiuae/falcon-40b-instruct)    | Falcon  | No  | -  | - | 
-| Guanaco | 7B   |  [paper]()  |    [project](https://huggingface.co/JosephusCheung/Guanaco)    | LLaMA   | Yes       | -  | 586K | 
-| Minotaur | 15B   |  [paper]()   |    [project](https://huggingface.co/openaccess-ai-collective/minotaur-15b)  | Starcoder Plus | No   | -  | -  | 
-| Nous-Hermes | 13B  |  [paper]()   |    [project](https://huggingface.co/NousResearch/Nous-Hermes-13b)   | LLaMA   | No   | -  | 300K+ | 
-| TÜLU  | 6.7B  |  [paper]()  |   [project](https://github.com/allenai/open-instruct)   | OPT     | No     | Mixed     | - | 
-| YuLan-Chat | 13B  |  [paper]()  |    [project](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA   | Yes     | -  | 250K  | 
-| MOSS  | 16B   |  [paper]()  |    [project](https://github.com/OpenLMLab/MOSS)   | -  | Yes | -  | -  | 
-| Airoboros  | 13B   |  [paper]() |    [project](https://github.com/jondurbin/airoboros)    | LLaMA   | Yes       | -  | -  | 
-| UltraLM | 13B    |  [paper]() |    [project](https://github.com/thunlp/UltraChat)   | LLaMA   | Yes       | -  | - | 
+| FLAN-T5 | 11B   |  [paper](https://arxiv.org/abs/2210.11416)   |     [project](https://huggingface.co/google/flan-t5-xxl)    | T5      | No   | FLAN 2021 | - | 
+| Alpaca | 7B     |  -  |    [project](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA   | Yes       | -  | 52K  | 
+| Vicuna | 13B    |  -  |    [project](https://github.com/lm-sys/FastChat)   | LLaMA   | Yes       | -  | 70K  | 
+| GPT-4-LLM | 7B    |  [paper](https://arxiv.org/abs/2304.03277)   |     [project](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)  | LLaMA   | Yes       | -  | 52K | 
+| Claude | -     |  -  |     -     | -       | Yes       | -  | - | 
+| WizardLM | 7B   |  [paper](https://arxiv.org/abs/2304.12244)   |    [project](https://github.com/nlpxucan/WizardLM)   | LLaMA   | Yes       | Evol-Instruct | 70K  | 
+| ChatGLM2 | 6B   |  -  |    [project](https://github.com/THUDM/ChatGLM2-6B)   | GLM     | Yes       | -  | 1.1 Tokens | 
+| LIMA | 65B   | [paper](https://arxiv.org/abs/2305.11206) ｜  -  | LLaMA   | Yes       | -  | 1K  | 
+| OPT-IML | 175B |  [paper](https://arxiv.org/abs/2212.12017)  |    [project](https://huggingface.co/facebook/opt-iml-30b)   | OPT     | No | -  | - | 
+| Dolly 2.0 | 12B  |  -  |    [project](https://github.com/databrickslabs/dolly)    | Pythia  | No  | -  | 15K  | 
+| Falcon-Instruct | 40B  |  -  |   [project](https://huggingface.co/tiiuae/falcon-40b-instruct)    | Falcon  | No  | -  | - | 
+| Guanaco | 7B   |  - |    [project](https://huggingface.co/JosephusCheung/Guanaco)    | LLaMA   | Yes       | -  | 586K | 
+| Minotaur | 15B   |  -   |    [project](https://huggingface.co/openaccess-ai-collective/minotaur-15b)  | Starcoder Plus | No   | -  | -  | 
+| Nous-Hermes | 13B  |  -  |    [project](https://huggingface.co/NousResearch/Nous-Hermes-13b)   | LLaMA   | No   | -  | 300K+ | 
+| TÜLU  | 6.7B  |  [paper](https://arxiv.org/abs/2306.04751)  |   [project](https://github.com/allenai/open-instruct)   | OPT     | No     | Mixed     | - | 
+| YuLan-Chat | 13B  |  - |    [project](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA   | Yes     | -  | 250K  | 
+| MOSS  | 16B   |  - |    [project](https://github.com/OpenLMLab/MOSS)   | -  | Yes | -  | -  | 
+| Airoboros  | 13B   |  - |    [project](https://github.com/jondurbin/airoboros)    | LLaMA   | Yes       | -  | -  | 
+| UltraLM | 13B    |  [paper](https://arxiv.org/abs/2305.14233) |    [project](https://github.com/thunlp/UltraChat)   | LLaMA   | Yes       | -  | - | 
 
 
 ## Multi-modality Instruction Tuning
