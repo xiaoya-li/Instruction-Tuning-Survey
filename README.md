@@ -50,7 +50,7 @@ The typology of the paper is as follows:
 
 ### Datasets
 
-<table border="1" align="center" style="text-align:center;">
+<table border="1" style="text-align:center;">
 <tr>
         <th style="width:8cm;">Type</th>
         <th>Dataset Name</th> 
@@ -319,7 +319,7 @@ The typology of the paper is as follows:
 
 ### Models
 
-<table border="1" align="center" style="text-align:center;">
+<table border="1" style="text-align:center;">
     <tr>
         <th>Model Name</th>
         <th># Params</th> 
@@ -564,7 +564,7 @@ The typology of the paper is as follows:
 
 ### Datasets 
 
-<table border="1" align="center" style="text-align:center;">
+<table border="1" style="text-align:center;">
 <tr>
         <th style="width:8cm;">Dataset Name</th>
         <th>Paper</th>
@@ -613,7 +613,7 @@ The typology of the paper is as follows:
 
 ### Models
 
-<table border="1" align="center" style="text-align:center;">
+<table border="1" style="text-align:center;">
 <tr>
         <th style="width:8cm;">Model Name</th>
         <th># Params</th>
@@ -720,7 +720,7 @@ The typology of the paper is as follows:
 
 ## Domain-specific Instruction Tuning
 
-<table border="1" align="center" style="text-align:center;">
+<table border="1" style="text-align:center;">
 <tr>
         <th style="width:8cm;">Domain</th>
         <th>Model Name</th>
