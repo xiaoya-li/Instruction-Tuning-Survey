@@ -611,7 +611,24 @@ The typology of the paper is as follows:
 
 ### Models
 
-
+<table border="1" align="center" style="text-align:center;">
+<tr>
+        <th style="width:8cm;">Model</th>
+        <th># Params</th>
+        <th>Modality</th>
+        <th colspan="2">Base Model</th>
+         <th colspan="2">Train set</th>
+</tr>
+<tr>
+        <th style="width:8cm;"></th>
+        <th></th>
+        <th></th>
+        <th>Model Name</th>
+        <th># Params</th>
+        <th>Self-build</th>
+        <th>Size</th>
+</tr>
+</table>
 
 ## Domain-specific Instruction Tuning
 
