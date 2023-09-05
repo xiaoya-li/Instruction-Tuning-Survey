@@ -53,17 +53,17 @@ The typology of the paper is as follows:
     </tr>
     <tr>
         <td rowspan="2">这是跨两行的内容</td>
-        <td>内容2.1</td>
-        <td>内容3.1</td>
+        <td align="center">内容2.1</td>
+        <td align="center">内容3.1</td>
     </tr>
     <tr>
-        <td>内容2.2</td>
-        <td>内容3.2</td>
+        <td align="center">内容2.2</td>
+        <td align="center">内容3.2</td>
     </tr>
     <tr>
-        <td>内容1.3</td>
-        <td>内容2.3</td>
-        <td>内容3.3</td>
+        <td align="center">内容1.3</td>
+        <td align="center">内容2.3</td>
+        <td align="center">内容3.3</td>
     </tr>
 </table>
 
@@ -82,12 +82,12 @@ The typology of the paper is as follows:
 </tr>
  <tr>
         <td rowspan="9">Generalize to unseen tasks</td>
-        <td>UnifiedQA</td> 
-        <td>750K</td>
-        <td>46</td>
-        <td>En</td>
-        <td>human-crafted</td>
-        <td>Yes</td>
+        <td align="center">UnifiedQA</td> 
+        <td align="center">750K</td>
+        <td align="center">46</td>
+        <td align="center">En</td>
+        <td align="center">human-crafted</td>
+        <td align="center">Yes</td>
 </tr>
 </table>
 
@@ -113,34 +113,34 @@ The typology of the paper is as follows:
         <th>Size</th>
     </tr>
     <tr>
-        <td>Instruct-GPT</td>
-        <td>176B</td>
-        <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
-        <td>-</td>
-        <td>GPT-3</td>
-        <td>Yes</td>
-        <td>-</td>
-        <td>-</td>
+        <td align="center">Instruct-GPT</td>
+        <td align="center">176B</td>
+        <td align="center"><a href="https://www.example.com/project1" target="_blank">paper</a></td>
+        <td align="center">-</td>
+        <td align="center">GPT-3</td>
+        <td align="center">Yes</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
     </tr>
     <tr>
-        <td>BLOOMZ</td>
-        <td>176B</td>
-        <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
-        <td><a href="https://huggingface.co/bigscience/bloomz" target="_blank">project</a></td>
-        <td>BLOOM</td>
-        <td>No</td>
-        <td>xP3</td>
-        <td>-</td>
+        <td align="center">BLOOMZ</td>
+        <td align="center">176B</td>
+        <td align="center"><a href="https://www.example.com/project1" target="_blank">paper</a></td>
+        <td align="center"><a href="https://huggingface.co/bigscience/bloomz" target="_blank">project</a></td>
+        <td align="center">BLOOM</td>
+        <td align="center">No</td>
+        <td align="center">xP3</td>
+        <td align="center">-</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
-        <td><a href="https://www.example.com/project1" target="_blank">project</a></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"><a href="https://www.example.com/project1" target="_blank">paper</a></td>
+        <td align="center"><a href="https://www.example.com/project1" target="_blank">project</a></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
+        <td align="center"></td>
     </tr>
 </table>
 
