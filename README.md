@@ -75,7 +75,7 @@ The typology of the paper is as follows:
 
 ### Models
 
-<table>
+<table border="1" align="center" style="text-align:center;">
     <tr>
         <th>Model Name</th>
         <th># Params</th> 
