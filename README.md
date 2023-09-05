@@ -14,13 +14,15 @@ If you find this repository helpful, please cite the following:
 
 ## Table of Contents 
 * [Overview](#Overview)
-* [Instruction Tuning](Instruction-Tuning)
+* [Instruction Tuning](#Instruction-Tuning)
   * [Datasets](#Datasets)
   * [Models](#Models)
-* [Multi-modality Instruction Tuning](Multi-modality-Instruction-Tuning)
+* [Multi-modality Instruction Tuning](#Multi-modality-Instruction-Tuning)
   * [Datasets](#Datasets)
   * [Models](#Models)
-* [Domain-specific Instruction Tuning](Domain-specific-Instruction-Tuning)
+* [Domain-specific Instruction Tuning](#Domain-specific-Instruction-Tuning)
+* [Efficient Tuning Techniques](#Efficient Tuning Techniques)
+* [Contact](#Contact) 
   
 
 ## Overview
@@ -732,24 +734,24 @@ The typology of the paper is as follows:
         <td rowspan="3" align="center">Medical</td>
          <td align="center">Radiology-GPT</td>
         <td align="center">7B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://arxiv.org/abs/2306.08666" target="_blank">paper</a></td>
+		<td align="center"><a href="https://huggingface.co/spaces/allen-eric/radiology-gpt" target="_blank">project</a></td>
         <td align="center">Alpaca</td>
         <td align="center">122K</td>
 </tr>
 <tr>
         <td align="center">ChatDoctor</td>
         <td align="center">7B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://arxiv.org/abs/2303.14070" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/Kent0n-Li/ChatDoctor" target="_blank">project</a></td>
         <td align="center">LLaMA</td>
         <td align="center">122K</td>
 </tr>
 <tr>
          <td align="center">ChatGLM-Med</td>
         <td align="center">6B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">-</td>
+		<td align="center"><a href="https://github.com/SCIR-HI/Med-ChatGLM" target="_blank">project</a></td>
         <td align="center">ChatGLM</td>
         <td align="center">-</td>
 </tr>
@@ -758,24 +760,24 @@ The typology of the paper is as follows:
         <td rowspan="3" align="center">Writing</td>
          <td align="center">Writing-Alpaca</td>
         <td align="center">7B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://arxiv.org/abs/2305.13225" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/facebookresearch/EditEval" target="_blank">project</a></td>
         <td align="center">LLaMa </td>
         <td align="center">-</td>
 </tr>
 <tr>
          <td align="center">CoEdIT</td>
         <td align="center">11B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://arxiv.org/abs/2305.09857" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/vipulraheja/coedit" target="_blank">project</a></td>
         <td align="center">FlanT5</td>
         <td align="center">82K</td>
 </tr>
 <tr>
          <td align="center">CoPoet</td>
         <td align="center">11B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://aclanthology.org/2022.emnlp-main.460/" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/vishakhpk/creative-instructions" target="_blank">project</a></td>
         <td align="center">T5</td>
         <td align="center">-</td>
 </tr>
@@ -783,8 +785,8 @@ The typology of the paper is as follows:
         <td align="center">Code Generation</td>
          <td align="center">WizardCoder</td>
         <td align="center">15B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://arxiv.org/abs/2306.08568" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/nlpxucan/WizardLM" target="_blank">project</a></td>
         <td align="center">StarCoder</td>
         <td align="center">78K</td>
 </tr>
@@ -793,7 +795,7 @@ The typology of the paper is as follows:
          <td align="center">IT-MTL</td>
         <td align="center">220M</td>
         <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+		<td align="center"><a href="https://github.com/amazon-science/instruction-tuning-for-absa" target="_blank">project</a></td>
         <td align="center">T5</td>
         <td align="center">-</td>
 </tr>
@@ -802,7 +804,7 @@ The typology of the paper is as follows:
          <td align="center">Goat</td>
         <td align="center">7B</td>
         <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+		<td align="center"><a href="https://github.com/liutiedong/goat" target="_blank">project</a></td>
         <td align="center">LLaMA</td>
         <td align="center">1.0M</td>
 </tr>
@@ -810,10 +812,54 @@ The typology of the paper is as follows:
         <td align="center">Information Extraction</td>
          <td align="center">InstructUIE</td>
         <td align="center">11B</td>
-        <td align="center"><a href="" target="_blank">paper</a></td>
-		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center"><a href="https://arxiv.org/abs/2304.08085" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/BeyonderXX/InstructUIE" target="_blank">project</a></td>
         <td align="center">FLANT5</td>
         <td align="center">1.0M</td>
 </tr>
 </table> 
+
+## Efficient Tuning Techniques
+
+<table border="1" align="center" style="text-align:center;">
+<tr>
+        <th style="width:8cm;">Name</th>
+        <th>Paper</th>
+        <th>Project</th>
+</tr>
+<tr>
+        <td align="center">LoRA</td>
+        <td align="center"><a href="https://arxiv.org/abs/2106.09685" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/microsoft/LoRA" target="_blank">project</a></td>
+</tr>
+<tr>
+        <td align="center">HINT</td>
+        <td align="center"><a href="https://arxiv.org/abs/2212.10315" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/allenai/hyper-task-descriptions" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">QLoRA</td>
+        <td align="center"><a href="https://arxiv.org/abs/2305.14314" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/artidoro/qlora" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">LOMO</td>
+        <td align="center"><a href="https://arxiv.org/abs/2306.09782" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/OpenLMLab/LOMO" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">Delta-tuning</td>
+        <td align="center"><a href="https://arxiv.org/abs/2203.06904" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/thunlp/OpenDelta" target="_blank">project</a></td>
+</tr>
+
+
+</table>
+
+## Contact 
+
+If you have any questions or suggestions, please feel free to create an issue or mail to `xiaoya_li@shannonai.com`.
 
