@@ -776,8 +776,44 @@ The typology of the paper is as follows:
         <td align="center">11B</td>
         <td align="center"><a href="" target="_blank">paper</a></td>
 		<td align="center"><a href="" target="_blank">project</a></td>
-        <td align="center">11B</td>
+        <td align="center">T5</td>
         <td align="center">-</td>
+</tr>
+<tr>
+        <td align="center">Code Generation</td>
+         <td align="center">WizardCoder</td>
+        <td align="center">15B</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">StarCoder</td>
+        <td align="center">78K</td>
+</tr>
+<tr>
+        <td align="center">Sentiment Analysis</td>
+         <td align="center">IT-MTL</td>
+        <td align="center">220M</td>
+        <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">T5</td>
+        <td align="center">-</td>
+</tr>
+<tr>
+        <td align="center">Arithmetic</td>
+         <td align="center">Goat</td>
+        <td align="center">7B</td>
+        <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">LLaMA</td>
+        <td align="center">1.0M</td>
+</tr>
+<tr>
+        <td align="center">Information Extraction</td>
+         <td align="center">InstructUIE</td>
+        <td align="center">11B</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">FLANT5</td>
+        <td align="center">1.0M</td>
 </tr>
 </table> 
 
