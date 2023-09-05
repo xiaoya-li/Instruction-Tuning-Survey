@@ -375,7 +375,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">FLAN 2021</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Alpaca</td>
@@ -386,7 +385,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">52K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Vicuna</td>
@@ -397,7 +395,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">70K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">GPT-4-LLM</td>
@@ -408,7 +405,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">52K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Claude</td>
@@ -419,7 +415,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">WizardLM</td>
@@ -430,7 +425,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">Evol-Instruct</td>
 		<td align="center">70K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">ChatGLM2</td>
@@ -441,7 +435,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">1.1 Tokens</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">LIMA</td>
@@ -451,7 +444,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">1K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">OPT-IML</td>
@@ -462,7 +454,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Dolly 2.0</td>
@@ -473,7 +464,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">15K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Falcon-Instruct</td>
@@ -484,7 +474,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Guanaco</td>
@@ -495,7 +484,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">586K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Minotaur</td>
@@ -506,7 +494,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Nous-Hermes</td>
@@ -517,7 +504,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">300K+</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">TÜLU</td>
@@ -528,7 +514,6 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 		<td align="center">Mixed</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">YuLan-Chat</td>
@@ -539,7 +524,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">250K</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">MOSS</td>
@@ -550,7 +534,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">Airoboros</td>
@@ -561,7 +544,6 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
 <tr>
 		<td align="center">UltraLM</td>
@@ -572,8 +554,8 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center"></td>
 </tr>
+
 </table>
 
 
