@@ -77,7 +77,7 @@ The typology of the paper is as follows:
 
 <table>
     <tr>
-        <th>Instruction tuned LLMs</th>
+        <th>Model Name</th>
         <th># Params</th> 
         <th>Paper</th>
         <th>Project</th>
@@ -95,7 +95,7 @@ The typology of the paper is as follows:
         <th>Size</th>
     </tr>
     <tr>
-        <td> Instruct-GPT</td>
+        <td>Instruct-GPT</td>
         <td>176B</td>
         <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
         <td>-</td>
@@ -107,22 +107,22 @@ The typology of the paper is as follows:
     <tr>
         <td></td>
         <td></td>
+        <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
+        <td><a href="https://www.example.com/project1" target="_blank">project</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>Self-build</td>
-        <td>Dataset Name</td>
-        <td>Size</td>
+        <td></td>
     </tr>
     <tr>
         <td></td>
         <td></td>
+        <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
+        <td><a href="https://www.example.com/project1" target="_blank">project</a></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>Self-build</td>
-        <td>Dataset Name</td>
-        <td>Size</td>
+        <td></td>
     </tr>
 </table>
 
