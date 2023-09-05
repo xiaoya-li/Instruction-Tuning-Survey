@@ -21,7 +21,7 @@ If you find this repository helpful, please cite the following:
   * [Datasets](#Datasets)
   * [Models](#Models)
 * [Domain-specific Instruction Tuning](#Domain-specific-Instruction-Tuning)
-* [Efficient Tuning Techniques](#Efficient Tuning Techniques)
+* [Efficient Tuning Techniques](#Efficient-Tuning-Techniques)
 * [Contact](#Contact) 
   
 
