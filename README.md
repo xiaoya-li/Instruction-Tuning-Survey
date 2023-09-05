@@ -153,6 +153,89 @@ The typology of the paper is as follows:
 		<td align="center">-</td>
 		<td align="center">Yes</td>
 </tr>
+<tr>
+        <td rowspan="10" align="center">Follow users' instructions in a single turn</td>
+		<td align="center">InstructGPT~citep{ouyang2022training}</td>
+		<td align="center">13K</td>
+		<td align="center">-</td>
+		<td align="center">Multi</td>
+		<td align="center">human-crafted</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Unnatural Instructions~citep{honovich2022unnatural}tnotex{id:10}</td>
+		<td align="center">240K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">InstructGPT-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Self-Instruct~citep{wang2022self}tnotex{id:11}</td>
+		<td align="center">52K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">InstructGPT-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">InstructWild~citep{instructionwild}tnotex{id:12}</td>
+		<td align="center">104K</td>
+		<td align="center">429</td>
+		<td align="center">-</td>
+		<td align="center">model-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Evol-Instruct~citep{xu2023wizardlm}tnotex{id:13}</td>
+		<td align="center">52K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">ChatGPT-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Alpaca~citep{taori2023alpaca}tnotex{id:14}</td>
+		<td align="center">52K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">InstructGPT-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">LogiCoT~citep{Liu2023LogiCoTLC}tnotex{id:15}</td>
+		<td align="center">-</td>
+		<td align="center">2</td>
+		<td align="center">En</td>
+		<td align="center">GPT-4-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Dolly~citep{conover2023free}tnotex{id:16}</td>
+		<td align="center">15K</td>
+		<td align="center">7</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">GPT-4-LLM~citep{peng2023instruction}tnotex{id:17}</td>
+		<td align="center">52K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">Zh</td>
+		<td align="center">GPT-4-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">LIMA~citep{Zhou2023LIMALI}tnotex{id:18}</td>
+		<td align="center">1K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+
 </table>
 
 ### Models
