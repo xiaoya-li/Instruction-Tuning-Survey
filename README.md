@@ -68,9 +68,27 @@ The typology of the paper is as follows:
 </table>
 
 
-<table>
 
-
+<table border="1" align="center" style="text-align:center;">
+<tr>
+        <th>Type</th>
+        <th>Dataset Name</th> 
+        <th># of Instructions</th>
+        <th># of Tasks</th>
+        <th># of Lang</th>
+        <th>Construction</th>
+        <th>Open Source</th>
+  
+</tr>
+ <tr>
+        <td rowspan="9">Generalize to unseen tasks</td>
+        <td>UnifiedQA</td> 
+        <td>750K</td>
+        <td>46</td>
+        <td>En</td>
+        <td>human-crafted</td>
+        <td>Yes</td>
+</tr>
 </table>
 
 ### Models
@@ -91,7 +109,7 @@ The typology of the paper is as follows:
         <th></th>
         <th></th>
         <th>Self-build</th>
-        <th>Dataset Name</th>
+        <th>Name</th>
         <th>Size</th>
     </tr>
     <tr>
