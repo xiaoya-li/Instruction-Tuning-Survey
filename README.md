@@ -82,7 +82,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Natural Instructions~citep{honovich2022unnatural}tnotex{id:4}</td>
+		<td align="center">Natural Instructions~tnotex{id:4}</td>
 		<td align="center">193K</td>
 		<td align="center">61</td>
 		<td align="center">En</td>
@@ -90,7 +90,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Super-Natural Instructions~citep{supernaturalinstructions}tnotex{id:5}</td>
+		<td align="center">Super-Natural Instructions~tnotex{id:5}</td>
 		<td align="center">5M</td>
 		<td align="center">76</td>
 		<td align="center">55 Lang</td>
@@ -98,7 +98,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">P3~citep{sanh2021multitask}tnotex{id:6}</td>
+		<td align="center">P3~tnotex{id:6}</td>
 		<td align="center">12M</td>
 		<td align="center">62</td>
 		<td align="center">En</td>
@@ -106,7 +106,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">xP3~citep{muennighoff2022crosslingual}tnotex{id:7}</td>
+		<td align="center">xP3~tnotex{id:7}</td>
 		<td align="center">81M</td>
 		<td align="center">53</td>
 		<td align="center">46 Lang</td>
@@ -114,7 +114,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Flan 2021~citep{longpre2023flan}tnotex{id:8}</td>
+		<td align="center">Flan 2021~tnotex{id:8}</td>
 		<td align="center">4.4M</td>
 		<td align="center">62</td>
 		<td align="center">En</td>
@@ -122,7 +122,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">COIG~citep{Zhang2023ChineseOI}tnotex{id:9}</td>
+		<td align="center">COIG~tnotex{id:9}</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -131,7 +131,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td rowspan="10" align="center">Follow users' instructions in a single turn</td>
-		<td align="center">InstructGPT~citep{ouyang2022training}</td>
+		<td align="center">InstructGPT</td>
 		<td align="center">13K</td>
 		<td align="center">-</td>
 		<td align="center">Multi</td>
@@ -139,7 +139,7 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 </tr>
 <tr>
-		<td align="center">Unnatural Instructions~citep{honovich2022unnatural}tnotex{id:10}</td>
+		<td align="center">Unnatural Instructions~tnotex{id:10}</td>
 		<td align="center">240K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -147,7 +147,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Self-Instruct~citep{wang2022self}tnotex{id:11}</td>
+		<td align="center">Self-Instruct~tnotex{id:11}</td>
 		<td align="center">52K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -155,7 +155,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">InstructWild~citep{instructionwild}tnotex{id:12}</td>
+		<td align="center">InstructWild~tnotex{id:12}</td>
 		<td align="center">104K</td>
 		<td align="center">429</td>
 		<td align="center">-</td>
@@ -163,7 +163,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Evol-Instruct~citep{xu2023wizardlm}tnotex{id:13}</td>
+		<td align="center">Evol-Instruct~tnotex{id:13}</td>
 		<td align="center">52K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -171,7 +171,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Alpaca~citep{taori2023alpaca}tnotex{id:14}</td>
+		<td align="center">Alpaca~tnotex{id:14}</td>
 		<td align="center">52K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -179,7 +179,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">LogiCoT~citep{Liu2023LogiCoTLC}tnotex{id:15}</td>
+		<td align="center">LogiCoT~tnotex{id:15}</td>
 		<td align="center">-</td>
 		<td align="center">2</td>
 		<td align="center">En</td>
@@ -187,7 +187,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Dolly~citep{conover2023free}tnotex{id:16}</td>
+		<td align="center">Dolly~tnotex{id:16}</td>
 		<td align="center">15K</td>
 		<td align="center">7</td>
 		<td align="center">En</td>
@@ -195,7 +195,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">GPT-4-LLM~citep{peng2023instruction}tnotex{id:17}</td>
+		<td align="center">GPT-4-LLM~tnotex{id:17}</td>
 		<td align="center">52K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -204,7 +204,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">LIMA~citep{Zhou2023LIMALI}tnotex{id:18}</td>
+		<td align="center">LIMA~tnotex{id:18}</td>
 		<td align="center">1K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -213,7 +213,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td rowspan="9" align="center">Offer assistance like humans across multiple turns</td>
-		<td align="center">ChatGPT~citep{chatgpt}</td>
+		<td align="center">ChatGPT</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 		<td align="center">Multi</td>
@@ -221,7 +221,7 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 </tr>
 <tr>
-		<td align="center">Vicuna~citep{chiang2023vicuna}</td>
+		<td align="center">Vicuna</td>
 		<td align="center">70K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -229,7 +229,7 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 </tr>
 <tr>
-		<td align="center">Guanaco~citep{Guanaco}tnotex{id:19}</td>
+		<td align="center">Guanaco~tnotex{id:19}</td>
 		<td align="center">534,530</td>
 		<td align="center">-</td>
 		<td align="center">Multi</td>
@@ -237,7 +237,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">OpenAssistant~citep{kopf2023openassistant}tnotex{id:20}</td>
+		<td align="center">OpenAssistant~tnotex{id:20}</td>
 		<td align="center">161,443</td>
 		<td align="center">-</td>
 		<td align="center">Multi</td>
@@ -245,7 +245,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Baize v1~citep{DatabricksBlog2023DollyV2}tnotex{id:21}</td>
+		<td align="center">Baize v1~tnotex{id:21}</td>
 		<td align="center">111.5K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
@@ -253,7 +253,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">UltraChat~citep{ding2023enhancing}tnotex{id:22}</td>
+		<td align="center">UltraChat~tnotex{id:22}</td>
 		<td align="center">675K</td>
 		<td align="center">-</td>
 		<td align="center">En</td>
