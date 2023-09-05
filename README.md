@@ -47,7 +47,7 @@ The typology of the paper is as follows:
 
 <table border="1" align="center" style="text-align:center;">
 <tr>
-        <th style="width:5cm;">Type</th>
+        <th style="width:8cm;">Type</th>
         <th>Dataset Name</th> 
         <th>Paper</th> 
         <th>Project</th> 
