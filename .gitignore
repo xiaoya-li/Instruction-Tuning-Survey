@@ -5,6 +5,8 @@
 bks/*
 results
 custom_configs
+code_snippets
+
 
 # JetBrains PyCharm IDE
 .idea/

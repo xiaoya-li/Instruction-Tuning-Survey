@@ -80,7 +80,7 @@ The typology of the paper is as follows:
         <th>Open Source</th>
   
 </tr>
- <tr>
+<tr>
         <td rowspan="9" align="center">Generalize to unseen tasks</td>
         <td align="center">UnifiedQA</td> 
         <td align="center">750K</td>
@@ -89,13 +89,69 @@ The typology of the paper is as follows:
         <td align="center">human-crafted</td>
         <td align="center">Yes</td>
 </tr>
- <tr>
+<tr>
         <td align="center">OIG\tnotex{id:2}</td> 
         <td align="center">43M</td>
         <td align="center">30</td>
         <td align="center">En</td>
         <td align="center">human-model-mixed</td>
         <td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">UnifiedSKG\tnotex{id:3}</td>
+		<td align="center">0.8M</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Natural Instructions~citep{honovich2022unnatural}tnotex{id:4}</td>
+		<td align="center">193K</td>
+		<td align="center">61</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Super-Natural Instructions~citep{supernaturalinstructions}tnotex{id:5}</td>
+		<td align="center">5M</td>
+		<td align="center">76</td>
+		<td align="center">55 Lang</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">P3~citep{sanh2021multitask}tnotex{id:6}</td>
+		<td align="center">12M</td>
+		<td align="center">62</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">xP3~citep{muennighoff2022crosslingual}tnotex{id:7}</td>
+		<td align="center">81M</td>
+		<td align="center">53</td>
+		<td align="center">46 Lang</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Flan 2021~citep{longpre2023flan}tnotex{id:8}</td>
+		<td align="center">4.4M</td>
+		<td align="center">62</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">COIG~citep{Zhang2023ChineseOI}tnotex{id:9}</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">Yes</td>
 </tr>
 </table>
 
