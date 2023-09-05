@@ -638,13 +638,13 @@ The typology of the paper is as follows:
         <td align="center">450K</td>
 </tr>
 <tr>
-        <td rowspan="2" align="center">LLaVA</td>
-         <td rowspan="2" align="center">13B</td>
-		 <td rowspan="2" align="center">Image-Text</td>
+        <td rowspan="3" align="center">LLaVA</td>
+         <td rowspan="3" align="center">13B</td>
+		 <td rowspan="3" align="center">Image-Text</td>
 		<td align="center">CLIP</td>
         <td align="center">400M</td>
-         <td rowspan="2" align="center">Yes</td>
-         <td rowspan="2" align="center">158K</td>
+         <td rowspan="3" align="center">Yes</td>
+         <td rowspan="3" align="center">158K</td>
 </tr>
 <tr>
 		<td align="center">LLaMA</td>
@@ -653,6 +653,27 @@ The typology of the paper is as follows:
 <tr>
 		<td align="center">LLaMA</td>
         <td align="center">7B</td>
+</tr>
+
+
+
+
+<tr>
+        <td rowspan="3" align="center">Video-LLaMA</td>
+         <td rowspan="3" align="center">-</td>
+		 <td rowspan="3" align="center">Image-Text-Video-Audio</td>
+		<td align="center">BLIP-2</td>
+        <td align="center">-</td>
+         <td rowspan="3" align="center">No</td>
+         <td rowspan="3" align="center">-</td>
+</tr>
+<tr>
+		<td align="center">ImageBind</td>
+        <td align="center">-</td>
+</tr>
+<tr>
+		<td align="center">Vicuna</td>
+        <td align="center">7B/13B</td>
 </tr>
 </table>
 
