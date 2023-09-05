@@ -14,7 +14,7 @@ If you find this repository helpful, please cite the following:
 
 ## Table of Contents 
 * [Overview](#Overview)
-* [Natural Language Instruction Tuning](Instruction-Tuned-LLMs)
+* [Instruction Tuning](Instruction-Tuning)
   * [Datasets](#Datasets)
   * [Models](#Models)
 * [Multi-modality Instruction Tuning](Multi-modality-Instruction-Tuning)
@@ -44,7 +44,7 @@ The typology of the paper is as follows:
 </div>
 
 
-## Natural Language Instruction Tuning
+## Instruction Tuning
 
 ### Datasets
 
