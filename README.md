@@ -105,14 +105,14 @@ The typology of the paper is as follows:
         <td>-</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>BLOOMZ</td>
+        <td>176B</td>
         <td><a href="https://www.example.com/project1" target="_blank">paper</a></td>
-        <td><a href="https://www.example.com/project1" target="_blank">project</a></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><a href="https://huggingface.co/bigscience/bloomz" target="_blank">project</a></td>
+        <td>BLOOM</td>
+        <td>No</td>
+        <td>xP3</td>
+        <td>-</td>
     </tr>
     <tr>
         <td></td>
@@ -128,7 +128,6 @@ The typology of the paper is as follows:
 
 
 
-| BLOOMZ | 176B   |  [paper]() |    [project](https://huggingface.co/bigscience/bloomz)  | BLOOM   | No     | xP3       | -  | 
 | FLAN-T5 | 11B   |  [paper]()   |     [project](https://huggingface.co/google/flan-t5-xxl)    | T5      | No   | FLAN 2021 | - | 
 | Alpaca | 7B     |  [paper]()  |    [project](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA   | Yes       | -  | 52K  | 
 | Vicuna | 13B    |  [paper]()  |    [project](https://github.com/lm-sys/FastChat)   | LLaMA   | Yes       | -  | 70K  | 
