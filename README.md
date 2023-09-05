@@ -43,31 +43,7 @@ The typology of the paper is as follows:
 
 ## Natural Language Instruction Tuning
 
-### Datasets 
-
-<table>
-    <tr>
-        <th>头部1</th>
-        <th>头部2</th>
-        <th>头部3</th>
-    </tr>
-    <tr>
-        <td rowspan="2">这是跨两行的内容</td>
-        <td align="center">内容2.1</td>
-        <td align="center">内容3.1</td>
-    </tr>
-    <tr>
-        <td align="center">内容2.2</td>
-        <td align="center">内容3.2</td>
-    </tr>
-    <tr>
-        <td align="center">内容1.3</td>
-        <td align="center">内容2.3</td>
-        <td align="center">内容3.3</td>
-    </tr>
-</table>
-
-
+### Datasets
 
 <table border="1" align="center" style="text-align:center;">
 <tr>
@@ -289,6 +265,56 @@ The typology of the paper is as follows:
         <td align="center"></td>
         <td align="center"></td>
     </tr>
+<tr>
+        <td align="center">Offer assistance like humans across multiple turns</td>
+		<td align="center">ChatGPT~citep{chatgpt}</td>
+		<td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">Multi</td>
+		<td align="center">human-crafted</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Vicuna~citep{chiang2023vicuna}</td>
+		<td align="center">70K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">user-shared</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Guanaco~citep{Guanaco}tnotex{id:19}</td>
+		<td align="center">534,530</td>
+		<td align="center">-</td>
+		<td align="center">Multi</td>
+		<td align="center">model-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">OpenAssistant~citep{kopf2023openassistant}tnotex{id:20}</td>
+		<td align="center">161,443</td>
+		<td align="center">-</td>
+		<td align="center">Multi</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Baize v1~citep{DatabricksBlog2023DollyV2}tnotex{id:21}</td>
+		<td align="center">111.5K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">ChatGPT-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">UltraChat~citep{ding2023enhancing}tnotex{id:22}</td>
+		<td align="center">675K</td>
+		<td align="center">-</td>
+		<td align="center">En</td>
+		<td align="center">Zh</td>
+		<td align="center">model-generated</td>
+		<td align="center">Yes</td>
+</tr>
 </table>
 
 
