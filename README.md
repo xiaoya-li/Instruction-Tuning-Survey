@@ -81,7 +81,7 @@ The typology of the paper is as follows:
   
 </tr>
  <tr>
-        <td rowspan="9">Generalize to unseen tasks</td>
+        <td rowspan="9" align="center">Generalize to unseen tasks</td>
         <td align="center">UnifiedQA</td> 
         <td align="center">750K</td>
         <td align="center">46</td>
