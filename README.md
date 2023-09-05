@@ -558,34 +558,28 @@ The typology of the paper is as follows:
 
 </table>
 
-
-
-| FLAN-T5 | 11B   |  [paper](https://arxiv.org/abs/2210.11416)   |     [project](https://huggingface.co/google/flan-t5-xxl)    | T5      | No   | FLAN 2021 | - | 
-| Alpaca | 7B     |  -  |    [project](https://github.com/tatsu-lab/stanford_alpaca)  | LLaMA   | Yes       | -  | 52K  | 
-| Vicuna | 13B    |  -  |    [project](https://github.com/lm-sys/FastChat)   | LLaMA   | Yes       | -  | 70K  | 
-| GPT-4-LLM | 7B    |  [paper](https://arxiv.org/abs/2304.03277)   |     [project](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)  | LLaMA   | Yes       | -  | 52K | 
-| Claude | -     |  -  |     -     | -       | Yes       | -  | - | 
-| WizardLM | 7B   |  [paper](https://arxiv.org/abs/2304.12244)   |    [project](https://github.com/nlpxucan/WizardLM)   | LLaMA   | Yes       | Evol-Instruct | 70K  | 
-| ChatGLM2 | 6B   |  -  |    [project](https://github.com/THUDM/ChatGLM2-6B)   | GLM     | Yes       | -  | 1.1 Tokens | 
-| LIMA | 65B   | [paper](https://arxiv.org/abs/2305.11206) ｜  -  | LLaMA   | Yes       | -  | 1K  | 
-| OPT-IML | 175B |  [paper](https://arxiv.org/abs/2212.12017)  |    [project](https://huggingface.co/facebook/opt-iml-30b)   | OPT     | No | -  | - | 
-| Dolly 2.0 | 12B  |  -  |    [project](https://github.com/databrickslabs/dolly)    | Pythia  | No  | -  | 15K  | 
-| Falcon-Instruct | 40B  |  -  |   [project](https://huggingface.co/tiiuae/falcon-40b-instruct)    | Falcon  | No  | -  | - | 
-| Guanaco | 7B   |  - |    [project](https://huggingface.co/JosephusCheung/Guanaco)    | LLaMA   | Yes       | -  | 586K | 
-| Minotaur | 15B   |  -   |    [project](https://huggingface.co/openaccess-ai-collective/minotaur-15b)  | Starcoder Plus | No   | -  | -  | 
-| Nous-Hermes | 13B  |  -  |    [project](https://huggingface.co/NousResearch/Nous-Hermes-13b)   | LLaMA   | No   | -  | 300K+ | 
-| TÜLU  | 6.7B  |  [paper](https://arxiv.org/abs/2306.04751)  |   [project](https://github.com/allenai/open-instruct)   | OPT     | No     | Mixed     | - | 
-| YuLan-Chat | 13B  |  - |    [project](https://github.com/RUC-GSAI/YuLan-Chat)    | LLaMA   | Yes     | -  | 250K  | 
-| MOSS  | 16B   |  - |    [project](https://github.com/OpenLMLab/MOSS)   | -  | Yes | -  | -  | 
-| Airoboros  | 13B   |  - |    [project](https://github.com/jondurbin/airoboros)    | LLaMA   | Yes       | -  | -  | 
-| UltraLM | 13B    |  [paper](https://arxiv.org/abs/2305.14233) |    [project](https://github.com/thunlp/UltraChat)   | LLaMA   | Yes       | -  | - | 
-
-
 ## Multi-modality Instruction Tuning
 
-### Datasets
+### Datasets 
+
+<table border="1" align="center" style="text-align:center;">
+<tr>
+        <th style="width:8cm;">Dataset Name</th>
+        <th colspan="2">Modalities</th>
+        <th># Tasks</th>
+</tr>
+<tr>
+        <th></th>
+        <th>Modality Pair</th>
+        <th># Instance</th>
+        <th></th>
+</tr>
+
+</table>
 
 ### Models
+
+
 
 ## Domain-specific Instruction Tuning
 
