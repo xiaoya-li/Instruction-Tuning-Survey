@@ -718,5 +718,40 @@ The typology of the paper is as follows:
 
 ## Domain-specific Instruction Tuning
 
-
+<table border="1" align="center" style="text-align:center;">
+<tr>
+        <th style="width:8cm;">Domain</th>
+        <th>Model Name</th>
+        <th># Params</th>
+        <th>Paper</th>
+        <th>Project</th>
+        <th>Base Model</th>
+        <th>Train Size</th>
+</tr>
+<tr>
+        <td rowspan="3" align="center">Medical</td>
+         <td align="center">Radiology-GPT</td>
+        <td align="center">7B</td>
+        <td rowspan="3" align="center"><a href="" target="_blank">paper</a></td>
+		<td rowspan="3" align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">Alpaca</td>
+        <td align="center">122K</td>
+</tr>
+<tr>
+         <td align="center">ChatDoctor</td>
+        <td align="center">7B</td>
+        <td rowspan="3" align="center"><a href="" target="_blank">paper</a></td>
+		<td rowspan="3" align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">LLaMA</td>
+        <td align="center">122K</td>
+</tr>
+<tr>
+         <td align="center">ChatGLM-Med</td>
+        <td align="center">6B</td>
+        <td rowspan="3" align="center"><a href="" target="_blank">paper</a></td>
+		<td rowspan="3" align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">ChatGLM</td>
+        <td align="center">-</td>
+</tr>
+</table> 
 
