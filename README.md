@@ -574,7 +574,29 @@ The typology of the paper is as follows:
         <th># Instance</th>
         <th></th>
 </tr>
-
+<tr>
+		<td align="center">MUL-TIINSTRUCT</td>
+		<td align="center">Image-Text</td>
+		<td align="center">5K to 5M per task</td>
+		<td align="center">62 </td>
+</tr>
+<tr>
+		<td align="center">PMC-VQA</td>
+		<td align="center">Image-Text</td>
+		<td align="center">227K</td>
+		<td align="center">9</td>
+</tr>
+<tr>
+        <td rowspan="2" align="center">LAMM</td>
+		<td align="center">Image-Text</td>
+		<td align="center">186K</td>
+		<td align="center">9</td>
+</tr>
+<tr>
+		<td align="center">Point Cloud-Text</td>
+		<td align="center">10K</td>
+		<td align="center">3</td>
+</tr>
 </table>
 
 ### Models
