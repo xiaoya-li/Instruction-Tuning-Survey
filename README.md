@@ -1,4 +1,4 @@
-# Instruction-Tuning-Survey
+# Instruction Tuning for Large Language Models: A Survey
 
 This repository contains resources referenced in the paper [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792). 
 
