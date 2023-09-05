@@ -99,7 +99,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Super-Natural Instructions}</td>
+		<td align="center">Super-Natural Instructions</td>
         <td align="center"><a href="https://arxiv.org/abs/2204.07705" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/natural-instructions" target="_blank">project</a></td>
 		<td align="center">5M</td>
@@ -235,8 +235,7 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM" target="_blank">project</a></td>
 		<td align="center">52K</td>
 		<td align="center">-</td>
-		<td align="center">En</td>
-		<td align="center">Zh</td>
+		<td align="center">En&Zh</td>
 		<td align="center">GPT-4-generated</td>
 		<td align="center">Yes</td>
 </tr>
@@ -302,13 +301,12 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">UltraChat~tnotex{id:22}</td>
+		<td align="center">UltraChat</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.14233" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/thunlp/UltraChat" target="_blank">project</a></td>
 		<td align="center">675K</td>
 		<td align="center">-</td>
-		<td align="center">En</td>
-		<td align="center">Zh</td>
+		<td align="center">En&Zh</td>
 		<td align="center">model-generated</td>
 		<td align="center">Yes</td>
 </tr>
