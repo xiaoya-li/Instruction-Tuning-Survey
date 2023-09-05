@@ -861,5 +861,5 @@ The typology of the paper is as follows:
 
 ## Contact 
 
-If you have any questions or suggestions, please feel free to create an issue or mail to `xiaoya_li@shannonai.com`.
+If you have any questions or suggestions, please feel free to create an issue or send an e-mail to `xiaoya_li@shannonai.com`.
 
