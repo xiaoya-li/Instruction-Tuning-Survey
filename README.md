@@ -613,7 +613,7 @@ The typology of the paper is as follows:
 
 <table border="1" align="center" style="text-align:center;">
 <tr>
-        <th style="width:8cm;">Model</th>
+        <th style="width:8cm;">Model Name</th>
         <th># Params</th>
         <th>Modality</th>
         <th colspan="2">Base Model</th>
@@ -627,6 +627,14 @@ The typology of the paper is as follows:
         <th># Params</th>
         <th>Self-build</th>
         <th>Size</th>
+</tr>
+<tr>
+		<td align="center">InstructPix2Pix</td>
+		<td align="center">Image-Text</td>
+		<td align="center">Stable Diffusion</td>
+        <td align="center">983M</td>
+        <td align="center">Yes</td>
+        <td align="center">450K</td>
 </tr>
 </table>
 
