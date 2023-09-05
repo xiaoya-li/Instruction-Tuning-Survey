@@ -565,10 +565,14 @@ The typology of the paper is as follows:
 <table border="1" align="center" style="text-align:center;">
 <tr>
         <th style="width:8cm;">Dataset Name</th>
+        <th>Paper</th>
+        <th>Project</th>
         <th colspan="2">Modalities</th>
         <th># Tasks</th>
 </tr>
 <tr>
+        <th></th>
+        <th></th>
         <th></th>
         <th>Modality Pair</th>
         <th># Instance</th>
@@ -576,18 +580,24 @@ The typology of the paper is as follows:
 </tr>
 <tr>
 		<td align="center">MUL-TIINSTRUCT</td>
+        <td align="center"><a href="https://arxiv.org/abs/2212.10773" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/VT-NLP/MultiInstruct" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
 		<td align="center">5K to 5M per task</td>
 		<td align="center">62 </td>
 </tr>
 <tr>
 		<td align="center">PMC-VQA</td>
+        <td align="center"><a href="https://arxiv.org/abs/2305.10415" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/xiaoman-zhang/PMC-VQA" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
 		<td align="center">227K</td>
 		<td align="center">9</td>
 </tr>
 <tr>
         <td rowspan="2" align="center">LAMM</td>
+        <td rowspan="2" align="center"><a href="https://arxiv.org/abs/2306.06687" target="_blank">paper</a></td>
+		<td rowspan="2" align="center"><a href="https://github.com/OpenLAMM/LAMM" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
 		<td align="center">186K</td>
 		<td align="center">9</td>
