@@ -615,12 +615,16 @@ The typology of the paper is as follows:
 <tr>
         <th style="width:8cm;">Model Name</th>
         <th># Params</th>
+        <th>Paper</th>
+        <th>Project</th>
         <th>Modality</th>
         <th colspan="2">Base Model</th>
          <th colspan="2">Train set</th>
 </tr>
 <tr>
         <th style="width:8cm;"></th>
+        <th></th>
+        <th></th>
         <th></th>
         <th></th>
         <th>Model Name</th>
@@ -631,6 +635,8 @@ The typology of the paper is as follows:
 <tr>
 		<td align="center">InstructPix2Pix</td>
         <td align="center">983M</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
 		<td align="center">Stable Diffusion</td>
         <td align="center">983M</td>
@@ -640,6 +646,8 @@ The typology of the paper is as follows:
 <tr>
         <td rowspan="3" align="center">LLaVA</td>
          <td rowspan="3" align="center">13B</td>
+        <td rowspan="3" align="center"><a href="" target="_blank">paper</a></td>
+		<td rowspan="3" align="center"><a href="" target="_blank">project</a></td>
 		 <td rowspan="3" align="center">Image-Text</td>
 		<td align="center">CLIP</td>
         <td align="center">400M</td>
@@ -654,10 +662,6 @@ The typology of the paper is as follows:
 		<td align="center">LLaMA</td>
         <td align="center">7B</td>
 </tr>
-
-
-
-
 <tr>
         <td rowspan="3" align="center">Video-LLaMA</td>
          <td rowspan="3" align="center">-</td>
@@ -674,6 +678,39 @@ The typology of the paper is as follows:
 <tr>
 		<td align="center">Vicuna</td>
         <td align="center">7B/13B</td>
+</tr>
+<tr>
+		<td align="center">InstructBLIP</td>
+        <td align="center">12B</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+		<td align="center">Image-Text-Video</td>
+		<td align="center">BLIP-2</td>
+        <td align="center">-</td>
+        <td align="center">No</td>
+        <td align="center">-</td>
+</tr>
+<tr>
+		<td align="center">Otter</td>
+        <td align="center">-</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+		<td align="center">Image-Text-Video</td>
+		<td align="center">OpenFlamingo</td>
+        <td align="center">9B</td>
+        <td align="center">Yes</td>
+        <td align="center">2.8M</td>
+</tr>
+<tr>
+		<td align="center">MultiModal-GPT</td>
+        <td align="center">-</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+		<td align="center">Image-Text-Video</td>
+		<td align="center">OpenFlamingo</td>
+        <td align="center">9B</td>
+        <td align="center">No</td>
+        <td align="center">-</td>
 </tr>
 </table>
 
