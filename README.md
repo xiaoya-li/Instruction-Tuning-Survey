@@ -738,7 +738,7 @@ The typology of the paper is as follows:
         <td align="center">122K</td>
 </tr>
 <tr>
-         <td align="center">ChatDoctor</td>
+        <td align="center">ChatDoctor</td>
         <td align="center">7B</td>
         <td align="center"><a href="" target="_blank">paper</a></td>
 		<td align="center"><a href="" target="_blank">project</a></td>
@@ -751,6 +751,32 @@ The typology of the paper is as follows:
         <td align="center"><a href="" target="_blank">paper</a></td>
 		<td align="center"><a href="" target="_blank">project</a></td>
         <td align="center">ChatGLM</td>
+        <td align="center">-</td>
+</tr>
+
+<tr>
+        <td rowspan="3" align="center">Writing</td>
+         <td align="center">Writing-Alpaca</td>
+        <td align="center">7B</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">LLaMa </td>
+        <td align="center">-</td>
+</tr>
+<tr>
+         <td align="center">CoEdIT</td>
+        <td align="center">11B</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">FlanT5</td>
+        <td align="center">82K</td>
+</tr>
+<tr>
+         <td align="center">CoPoet</td>
+        <td align="center">11B</td>
+        <td align="center"><a href="" target="_blank">paper</a></td>
+		<td align="center"><a href="" target="_blank">project</a></td>
+        <td align="center">11B</td>
         <td align="center">-</td>
 </tr>
 </table> 
