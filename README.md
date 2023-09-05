@@ -39,6 +39,9 @@ review the potential pitfalls of IT along with criticism against it, along with 
 pointing out current deficiencies of existing strategies and suggest some avenues for fruitful research.
 The typology of the paper is as follows: 
 
+<div align="center">
+  <img src="assets/paper_typology.png" width="800">
+</div>
 
 
 ## Natural Language Instruction Tuning
@@ -386,6 +389,7 @@ The typology of the paper is as follows:
 | MOSS  | 16B   |  [paper]()  |    [project](https://github.com/OpenLMLab/MOSS)   | -  | Yes | -  | -  | 
 | Airoboros  | 13B   |  [paper]() |    [project](https://github.com/jondurbin/airoboros)    | LLaMA   | Yes       | -  | -  | 
 | UltraLM | 13B    |  [paper]() |    [project](https://github.com/thunlp/UltraChat)   | LLaMA   | Yes       | -  | - | 
+
 
 ## Multi-modality Instruction Tuning
 
