@@ -89,6 +89,14 @@ The typology of the paper is as follows:
         <td align="center">human-crafted</td>
         <td align="center">Yes</td>
 </tr>
+ <tr>
+        <td align="center">OIG\tnotex{id:2}</td> 
+        <td align="center">43M</td>
+        <td align="center">30</td>
+        <td align="center">En</td>
+        <td align="center">human-model-mixed</td>
+        <td align="center">Yes</td>
+</tr>
 </table>
 
 ### Models
