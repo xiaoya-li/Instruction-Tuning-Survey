@@ -588,7 +588,7 @@ The typology of the paper is as follows:
         <th></th>
 </tr>
 <tr>
-		<td align="center">MUL-TIINSTRUCT</td>
+		<td align="center">MUL-TIINSTRUCT [<a href="#ref45">45</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2212.10773" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/VT-NLP/MultiInstruct" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
@@ -596,7 +596,7 @@ The typology of the paper is as follows:
 		<td align="center">62 </td>
 </tr>
 <tr>
-		<td align="center">PMC-VQA</td>
+		<td align="center">PMC-VQA [<a href="#ref46">46</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.10415" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/xiaoman-zhang/PMC-VQA" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
@@ -604,7 +604,7 @@ The typology of the paper is as follows:
 		<td align="center">9</td>
 </tr>
 <tr>
-        <td rowspan="2" align="center">LAMM</td>
+        <td rowspan="2" align="center">LAMM [<a href="#ref47">47</a>]</td>
         <td rowspan="2" align="center"><a href="https://arxiv.org/abs/2306.06687" target="_blank">paper</a></td>
 		<td rowspan="2" align="center"><a href="https://github.com/OpenLAMM/LAMM" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
@@ -642,7 +642,7 @@ The typology of the paper is as follows:
         <th>Size</th>
 </tr>
 <tr>
-		<td align="center">InstructPix2Pix</td>
+		<td align="center">InstructPix2Pix [<a href="#ref48">48</a>]</td>
         <td align="center">983M</td>
         <td align="center"><a href="https://arxiv.org/abs/2211.09800" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/timothybrooks/instruct-pix2pix" target="_blank">project</a></td>
@@ -653,12 +653,12 @@ The typology of the paper is as follows:
         <td align="center">450K</td>
 </tr>
 <tr>
-        <td rowspan="3" align="center">LLaVA</td>
+        <td rowspan="3" align="center">LLaVA [<a href="#ref49">49</a>]</td>
          <td rowspan="3" align="center">13B</td>
         <td rowspan="3" align="center"><a href="https://arxiv.org/abs/2304.08485" target="_blank">paper</a></td>
 		<td rowspan="3" align="center"><a href="https://github.com/haotian-liu/LLaVA" target="_blank">project</a></td>
 		 <td rowspan="3" align="center">Image-Text</td>
-		<td align="center">CLIP</td>
+		<td align="center">CLIP [<a href="#ref50">50</a>]</td>
         <td align="center">400M</td>
          <td rowspan="3" align="center">Yes</td>
          <td rowspan="3" align="center">158K</td>
@@ -672,18 +672,18 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
 </tr>
 <tr>
-        <td rowspan="3" align="center">Video-LLaMA</td>
+        <td rowspan="3" align="center">Video-LLaMA [<a href="#ref51">51</a>]</td>
          <td rowspan="3" align="center">-</td>
         <td rowspan="3" align="center"><a href="https://arxiv.org/abs/2306.02858" target="_blank">paper</a></td>
 		<td rowspan="3" align="center"><a href="https://github.com/DAMO-NLP-SG/Video-LLaMA" target="_blank">project</a></td>
 		 <td rowspan="3" align="center">Image-Text-Video-Audio</td>
-		<td align="center">BLIP-2</td>
+		<td align="center">BLIP-2 [<a href="#ref52">52</a>]</td>
         <td align="center">-</td>
          <td rowspan="3" align="center">No</td>
          <td rowspan="3" align="center">-</td>
 </tr>
 <tr>
-		<td align="center">ImageBind</td>
+		<td align="center">ImageBind [<a href="#ref53">53</a>]</td>
         <td align="center">-</td>
 </tr>
 <tr>
@@ -691,34 +691,34 @@ The typology of the paper is as follows:
         <td align="center">7B/13B</td>
 </tr>
 <tr>
-		<td align="center">InstructBLIP</td>
+		<td align="center">InstructBLIP [<a href="#ref54">54</a>]</td>
         <td align="center">12B</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.06500" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/salesforce/LAVIS/tree/main/projects/instructblip" target="_blank">project</a></td>
 		<td align="center">Image-Text-Video</td>
-		<td align="center">BLIP-2</td>
+		<td align="center">BLIP-2 [<a href="#ref52">52</a>]</td>
         <td align="center">-</td>
         <td align="center">No</td>
         <td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Otter</td>
+		<td align="center">Otter [<a href="#ref55">55</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.03726" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/Luodian/Otter" target="_blank">project</a></td>
 		<td align="center">Image-Text-Video</td>
-		<td align="center">OpenFlamingo</td>
+		<td align="center">OpenFlamingo [<a href="#ref57">57</a>]</td>
         <td align="center">9B</td>
         <td align="center">Yes</td>
         <td align="center">2.8M</td>
 </tr>
 <tr>
-		<td align="center">MultiModal-GPT</td>
+		<td align="center">MultiModal-GPT [<a href="#ref57">57</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.04790" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/open-mmlab/Multimodal-GPT" target="_blank">project</a></td>
 		<td align="center">Image-Text-Video</td>
-		<td align="center">OpenFlamingo</td>
+		<td align="center">OpenFlamingo [<a href="#ref57">57</a>]</td>
         <td align="center">9B</td>
         <td align="center">No</td>
         <td align="center">-</td>
@@ -1151,109 +1151,110 @@ by scaling high-quality instructional conversations**.
 arXiv preprint arXiv:2305.14233, 2023.
 
 <a id="ref45">[45]</a> Zhiyang Xu, Ying Shen, and Lifu Huang.
-Multiinstruct: Improving multi-modal zero-
-shot learning via instruction tuning. ArXiv,
+**Multiinstruct: Improving multi-modal zero-
+shot learning via instruction tuning**. ArXiv,
 abs/2212.10773, 2022.
 
 <a id="ref46">[46]</a> Xiaoman Zhang, Chaoyi Wu, Ziheng Zhao,
 Weixiong Lin, Ya Zhang, Yanfeng Wang, and Weidi
-Xie. Pmc-vqa: Visual instruction tuning for medical
-visual question answering. ArXiv, abs/2305.10415,
+Xie. **Pmc-vqa: Visual instruction tuning for medical
+visual question answering**. ArXiv, abs/2305.10415,
 
 <a id="ref47">[47]</a> Zhenfei Yin, Jiong Wang, Jianjian Cao, Zhelun Shi,
 Dingning Liu, Mukai Li, Lu Sheng, Lei Bai, Xiaoshui
 Huang, Zhiyong Wang, Wanli Ouyang, and Jing Shao.
-Lamm: Language-assisted multi-modal instruction-
-tuning dataset, framework, and benchmark. ArXiv,
+**Lamm: Language-assisted multi-modal instruction-
+tuning dataset, framework, and benchmark**. ArXiv,
 abs/2306.06687, 2023.
 
 <a id="ref48">[48]</a> Tim Brooks, Aleksander Holynski, and Alexei A.
-Efros. Instructpix2pix: Learning to follow image
-editing instructions. ArXiv, abs/2211.09800, 2022.
+Efros. **Instructpix2pix: Learning to follow image
+editing instructions**. ArXiv, abs/2211.09800, 2022.
 
 <a id="ref49">[49]</a> Haotian Liu, Chunyuan Li, Qingyang Wu, and
-Yong Jae Lee. Visual instruction tuning. ArXiv,
+Yong Jae Lee. **Visual instruction tuning**. ArXiv,
 abs/2304.08485, 2023.
 
 <a id="ref50">[50]</a> Alec Radford, Jong Wook Kim, Chris Hallacy,
 Aditya Ramesh, Gabriel Goh, Sandhini Agarwal,
 Girish Sastry, Amanda Askell, Pamela Mishkin,
 Jack Clark, Gretchen Krueger, and Ilya Sutskever.
-Learning transferable visual models from natural
-language supervision. In International Conference
+**Learning transferable visual models from natural
+language supervision**. In International Conference
 on Machine Learning, 2021.
 
-<a id="ref51">[51]</a> Hang Zhang, Xin Li, and Lidong Bing. Video-
+<a id="ref51">[51]</a> Hang Zhang, Xin Li, and Lidong Bing. **Video-
 llama: An instruction-tuned audio-visual language
-model for video understanding. arXiv preprint
+model for video understanding**. arXiv preprint
 arXiv:2306.02858, 2023.
 
 <a id="ref52">[52]</a> Junnan Li, Dongxu Li, Silvio Savarese, and Steven
-Hoi. BLIP-2: bootstrapping language-image pre-
+Hoi. **BLIP-2: bootstrapping language-image pre-
 training with frozen image encoders and large
-language models. In ICML, 2023.
+language models**. In ICML, 2023.
 
 
 <a id="ref53">[53]</a> Rohit Girdhar, Alaaeldin El-Nouby, Zhuang Liu,
 Mannat Singh, Kalyan Vasudev Alwala, Armand
-Joulin, and Ishan Misra. Imagebind: One embedding
-space to bind them all. In CVPR, 2023.
+Joulin, and Ishan Misra. **Imagebind: One embedding
+space to bind them all**. In CVPR, 2023.
 
 <a id="ref54">[54]</a> Wenliang Dai, Junnan Li, Dongxu Li, Anthony
 Meng Huat Tiong, Junqi Zhao, Weisheng Wang,
 Boyang Li, Pascale Fung, and Steven Hoi.
-Instructblip: Towards general-purpose vision-
-language models with instruction tuning. ArXiv,
+**Instructblip: Towards general-purpose vision-
+language models with instruction tuning**. ArXiv,
 abs/2305.06500, 2023.
 
 <a id="ref55">[55]</a> Bo Li, Yuanhan Zhang, Liangyu Chen, Jinghao
-Wang, Jingkang Yang, and Ziwei Liu. Otter: A
-multi-modal model with in-context instruction tuning.
+Wang, Jingkang Yang, and Ziwei Liu. **Otter: A
+multi-modal model with in-context instruction tuning**.
 ArXiv, abs/2305.03726, 2023.
 
 <a id="ref56">[56]</a> Anas Awadalla, Irena Gao, Joshua Gardner, Jack
 Hessel, Yusuf Hanafy, Wanrong Zhu, Kalyani
 Marathe, Yonatan Bitton, Samir Gadre, Jenia Jitsev,
-et al. Openflamingo, 2023.
+et al. **Openflamingo**, 2023.
 
 <a id="ref57">[57]</a> Tao Gong, Chengqi Lyu, Shilong Zhang, Yudong
 Wang, Miao Zheng, Qianmengke Zhao, Kuikun
 Liu, Wenwei Zhang, Ping Luo, and Kai Chen.
-Multimodal-gpt: A vision and language model for
-dialogue with humans. ArXiv, abs/2305.04790, 2023.
+**Multimodal-gpt: A vision and language model for
+dialogue with humans**. ArXiv, abs/2305.04790, 2023.
 
 <a id="ref58">[58]</a> Prakhar Gupta, Cathy Jiao, Yi-Ting Yeh,
 Shikib Mehri, Maxine Eskénazi, and Jeffrey P.
-Bigham. Instructdial: Improving zero and few-shot
-generalization in dialogue through instruction tuning.
+Bigham. **Instructdial: Improving zero and few-shot
+generalization in dialogue through instruction tuning**.
 In Conference on Empirical Methods in Natural
 Language Processing, 2022.
 
 <a id="ref59">[59]</a> Bill Yuchen Lin, Kangmin Tan, Chris Miller,
-Beiwen Tian, and Xiang Ren. Unsupervised cross-
-task generalization via retrieval augmentation. ArXiv,
+Beiwen Tian, and Xiang Ren. **Unsupervised cross-
+task generalization via retrieval augmentation**. ArXiv,
 abs/2204.07937, 2022.
 
 <a id="ref60">[60]</a> Andrew Rosenbaum, Saleh Soltan, Wael Hamza,
-Yannick Versley, and Markus Boese. Linguist:
+Yannick Versley, and Markus Boese. **Linguist:
 Language model instruction tuning to generate
 annotated utterances for intent classification and
-slot tagging. In International Conference on
+slot tagging**. In International Conference on
 Computational Linguistics, 2022.
 
 <a id="ref61">[61]</a> Saleh Soltan, Shankar Ananthakrishnan, Jack
 FitzGerald, Rahul Gupta, Wael Hamza, Haidar Khan,
 Charith Peris, Stephen Rawls, Andy Rosenbaum,
-Anna Rumshisky, et al. Alexatm 20b: Few-shot
+Anna Rumshisky, et al. **Alexatm 20b: Few-shot
 learning using a large-scale multilingual seq2seq
-model. arXiv preprint arXiv:2208.01448, 2022.
+model**. arXiv preprint arXiv:2208.01448, 2022.
 
 <a id="ref62">[62]</a> Xiao Wang, Wei Zhou, Can Zu, Han Xia, Tianze
 Chen, Yuan Zhang, Rui Zheng, Junjie Ye, Qi Zhang,
 Tao Gui, Jihua Kang, J. Yang, Siyuan Li, and
-Chunsai Du. Instructuie: Multi-task instruction
-tuning for unified information extraction. ArXiv,
+Chunsai Du. **Instructuie: Multi-task instruction
+tuning for unified information extraction**. ArXiv,
 abs/2304.08085, 2023.
+
 
 
 
