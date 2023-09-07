@@ -738,7 +738,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td rowspan="3" align="center">Medical</td>
-         <td align="center">Radiology-GPT</td>
+         <td align="center">Radiology-GPT [<a href="#ref64">64</a>]</td>
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2306.08666" target="_blank">paper</a></td>
 		<td align="center"><a href="https://huggingface.co/spaces/allen-eric/radiology-gpt" target="_blank">project</a></td>
@@ -746,7 +746,7 @@ The typology of the paper is as follows:
         <td align="center">122K</td>
 </tr>
 <tr>
-        <td align="center">ChatDoctor</td>
+        <td align="center">ChatDoctor [<a href="#ref65">65</a>]</td>
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2303.14070" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/Kent0n-Li/ChatDoctor" target="_blank">project</a></td>
@@ -754,7 +754,7 @@ The typology of the paper is as follows:
         <td align="center">122K</td>
 </tr>
 <tr>
-         <td align="center">ChatGLM-Med</td>
+         <td align="center">ChatGLM-Med [<a href="#ref66">66</a>]</td>
         <td align="center">6B</td>
         <td align="center">-</td>
 		<td align="center"><a href="https://github.com/SCIR-HI/Med-ChatGLM" target="_blank">project</a></td>
@@ -764,7 +764,7 @@ The typology of the paper is as follows:
 
 <tr>
         <td rowspan="3" align="center">Writing</td>
-         <td align="center">Writing-Alpaca</td>
+         <td align="center">Writing-Alpaca [<a href="#ref61">61</a>]</td>
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.13225" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/facebookresearch/EditEval" target="_blank">project</a></td>
@@ -772,15 +772,15 @@ The typology of the paper is as follows:
         <td align="center">-</td>
 </tr>
 <tr>
-         <td align="center">CoEdIT</td>
+         <td align="center">CoEdIT [<a href="#ref62">62</a>]</td>
         <td align="center">11B</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.09857" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/vipulraheja/coedit" target="_blank">project</a></td>
-        <td align="center">FlanT5</td>
+        <td align="center">FLAN-T5 [<a href="#ref28">28</a>]</td>
         <td align="center">82K</td>
 </tr>
 <tr>
-         <td align="center">CoPoet</td>
+         <td align="center">CoPoet [<a href="#ref63">63</a>]</td>
         <td align="center">11B</td>
         <td align="center"><a href="https://aclanthology.org/2022.emnlp-main.460/" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/vishakhpk/creative-instructions" target="_blank">project</a></td>
@@ -789,7 +789,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td align="center">Code Generation</td>
-         <td align="center">WizardCoder</td>
+         <td align="center">WizardCoder [<a href="#ref68">68</a>]</td>
         <td align="center">15B</td>
         <td align="center"><a href="https://arxiv.org/abs/2306.08568" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/nlpxucan/WizardLM" target="_blank">project</a></td>
@@ -807,7 +807,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td align="center">Arithmetic</td>
-         <td align="center">Goat</td>
+         <td align="center">Goat [<a href="#ref67">67</a>]</td>
         <td align="center">7B</td>
         <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/liutiedong/goat" target="_blank">project</a></td>
@@ -816,11 +816,11 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td align="center">Information Extraction</td>
-         <td align="center">InstructUIE</td>
+         <td align="center">InstructUIE [<a href="#ref59">59</a>]</td>
         <td align="center">11B</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.08085" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/BeyonderXX/InstructUIE" target="_blank">project</a></td>
-        <td align="center">FLANT5</td>
+        <td align="center">FLAN-T5 [<a href="#ref28">28</a>]</td>
         <td align="center">1.0M</td>
 </tr>
 </table> 
@@ -1263,6 +1263,36 @@ resolution image synthesis with latent diffusion
 models**. In Proceedings of the IEEE/CVF conference
 on computer vision and pattern recognition, pages
 10684–10695, 2022.
+
+### Domain-specific Instruction Tuned LLMs
+
+<a id="ref64">[64]</a> Zheng Liu, Aoxiao Zhong, Yiwei Li, Longtao Yang,
+Chao Ju, Zihao Wu, Chong Ma, Peng Shu, Cheng
+Chen, Sekeun Kim, Haixing Dai, Lin Zhao, Dajiang
+Zhu, Jun Liu, Wei Liu, Dinggang Shen, Xiang Li,
+Quanzheng Li, and Tianming Liu. **Radiology-gpt: A
+large language model for radiology**. 2023.
+
+
+<a id="ref65">[65]</a> Yunxiang Li, Zihan Li, Kai Zhang, Ruilong Dan,
+and You Zhang. **Chatdoctor: A medical chat model
+fine-tuned on llama model using medical domain
+knowledge**. ArXiv, abs/2303.14070, 2023.
+
+<a id="ref66">[66]</a> Sendong Zhao Bing Qin Ting Liu Haochun Wang,
+Chi Liu. **Chatglm-med. github.com/SCIR-
+HI/Med-ChatGLM**, 2023.
+
+<a id="ref67">[67]</a> Tiedong Liu and Bryan Kian Hsiang Low. **Goat:
+Fine-tuned llama outperforms gpt-4 on arithmetic
+tasks**. arXiv preprint arXiv:2305.14201, 2023.
+
+<a id="ref68">[68]</a> Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun,
+Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing
+Ma, Qingwei Lin, and Daxin Jiang. **Wizardcoder:
+Empowering code large language models with evol-
+instruct**, 2023.
+
 
 
 ## Contact 
