@@ -81,7 +81,7 @@ The typology of the paper is as follows:
         <td align="center">Yes</td>
 </tr>
 <tr>
-        <td align="center">OIG</td> 
+        <td align="center">OIG [<a href="#ref2">2</a>]</td> 
         <td align="center">-</td>
         <td align="center"><a href="https://github.com/LAION-AI/Open-Instruction-Generalist" target="_blank">project</a></td>
         <td align="center">43M</td>
@@ -91,7 +91,7 @@ The typology of the paper is as follows:
         <td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">UnifiedSKG</td>
+		<td align="center">UnifiedSKG [<a href="#ref3">3</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2201.05966" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/hkunlp/unifiedskg" target="_blank">project</a></td>
 		<td align="center">0.8M</td>
@@ -101,7 +101,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Natural Instructions</td>
+		<td align="center">Natural Instructions [<a href="#ref4">4</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2104.08773" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/natural-instructions-v1" target="_blank">project</a></td>
 		<td align="center">193K</td>
@@ -111,7 +111,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Super-Natural Instructions</td>
+		<td align="center">Super-Natural Instructions [<a href="#ref5">5</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2204.07705" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/natural-instructions" target="_blank">project</a></td>
 		<td align="center">5M</td>
@@ -121,7 +121,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">P3</td>
+		<td align="center">P3 [<a href="#ref6">6</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2110.08207" target="_blank">paper</a></td>
         <td align="center"><a href="https://huggingface.co/datasets/bigscience/P3" target="_blank">project</a></td>
 		<td align="center">12M</td>
@@ -131,7 +131,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">xP3</td>
+		<td align="center">xP3 [<a href="#ref7">7</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2211.01786" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/bigscience-workshop/xmtf" target="_blank">project</a></td>
 		<td align="center">81M</td>
@@ -141,7 +141,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Flan 2021</td>
+		<td align="center">Flan 2021 [<a href="#ref8">8</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2301.13688" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/google-research/FLAN" target="_blank">project</a></td>
 		<td align="center">4.4M</td>
@@ -151,7 +151,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">COIG</td>
+		<td align="center">COIG [<a href="#ref9">9</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.07987" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/BAAI-Zlab/COIG" target="_blank">project</a></td>
 		<td align="center">-</td>
@@ -162,7 +162,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td rowspan="10" align="center">Follow users' instructions in a single turn</td>
-		<td align="center">InstructGPT</td>
+		<td align="center">InstructGPT [<a href="#ref10">10</a>]</td>
         <td align="center">-</td>
         <td align="center">-</td>
 		<td align="center">13K</td>
@@ -172,7 +172,7 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 </tr>
 <tr>
-		<td align="center">Unnatural Instructions</td>
+		<td align="center">Unnatural Instructions [<a href="#ref11">11</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2212.09689" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/orhonovich/unnatural-instructions" target="_blank">project</a></td>
 		<td align="center">240K</td>
@@ -182,7 +182,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Self-Instruct</td>
+		<td align="center">Self-Instruct [<a href="#ref12">12</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2212.10560" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/yizhongw/self-instruct" target="_blank">project</a></td>
 		<td align="center">52K</td>
@@ -192,7 +192,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">InstructWild</td>
+		<td align="center">InstructWild [<a href="#ref13">13</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://github.com/XueFuzhao/InstructionWild" target="_blank">project</a></td>
 		<td align="center">104K</td>
@@ -202,7 +202,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Evol-Instruct</td>
+		<td align="center">Evol-Instruct [<a href="#ref14">14</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.12244" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/nlpxucan/evol-instruct" target="_blank">project</a></td>
 		<td align="center">52K</td>
@@ -212,7 +212,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Alpaca</td>
+		<td align="center">Alpaca [<a href="#ref15">15</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://github.com/tatsu-lab/stanford_alpaca" target="_blank">project</a></td>
 		<td align="center">52K</td>
@@ -222,7 +222,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">LogiCoT</td>
+		<td align="center">LogiCoT [<a href="#ref16">16</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.12147" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/csitfun/LogiCoT" target="_blank">project</a></td>
 		<td align="center">-</td>
@@ -232,7 +232,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Dolly</td>
+		<td align="center">Dolly [<a href="#ref17">17</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://huggingface.co/datasets/databricks/databricks-dolly-15k" target="_blank">project</a></td>
 		<td align="center">15K</td>
@@ -242,7 +242,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">GPT-4-LLM</td>
+		<td align="center">GPT-4-LLM [<a href="#ref18">18</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.03277" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM" target="_blank">project</a></td>
 		<td align="center">52K</td>
@@ -252,7 +252,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">LIMA</td>
+		<td align="center">LIMA [<a href="#ref19">19</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.11206" target="_blank">paper</a></td>
         <td align="center"><a href="https://huggingface.co/datasets/GAIR/lima" target="_blank">project</a></td>
 		<td align="center">1K</td>
@@ -263,7 +263,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td rowspan="9" align="center">Offer assistance like humans across multiple turns</td>
-		<td align="center">ChatGPT</td>
+		<td align="center">ChatGPT [<a href="#ref20">20</a>]</td>
         <td align="center">-</td>
         <td align="center">-</td>
 		<td align="center">-</td>
@@ -273,7 +273,7 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 </tr>
 <tr>
-		<td align="center">Vicuna</td>
+		<td align="center">Vicuna [<a href="#ref21">21</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">project</a></td>
 		<td align="center">70K</td>
@@ -283,7 +283,7 @@ The typology of the paper is as follows:
 		<td align="center">No</td>
 </tr>
 <tr>
-		<td align="center">Guanaco</td>
+		<td align="center">Guanaco [<a href="#ref22">22</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://huggingface.co/datasets/JosephusCheung/GuanacoDataset" target="_blank">project</a></td>
 		<td align="center">534,530</td>
@@ -293,7 +293,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">OpenAssistant</td>
+		<td align="center">OpenAssistant [<a href="#ref23">23</a></a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.07327" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/LAION-AI/Open-Assistant" target="_blank">project</a></td>
 		<td align="center">161,443</td>
@@ -303,7 +303,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Baize v1</td>
+		<td align="center">Baize v1 [<a href="#ref24">24</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.01196" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/project-baize/baize-chatbot" target="_blank">project</a></td>
 		<td align="center">111.5K</td>
@@ -313,7 +313,7 @@ The typology of the paper is as follows:
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">UltraChat</td>
+		<td align="center">UltraChat [<a href="#ref25">25</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.14233" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/thunlp/UltraChat" target="_blank">project</a></td>
 		<td align="center">675K</td>
@@ -881,6 +881,138 @@ knowledge grounding with text-to-text language
 models. In Conference on Empirical Methods in
 Natural Language Processing, 2022.
 
+
+<a id="ref4">[4]</a> Or Honovich, Thomas Scialom, Omer Levy, and
+Timo Schick. Unnatural instructions: Tuning
+language models with (almost) no human labor.
+arXiv preprint arXiv:2212.09689, 2022.
+
+<a id="ref5">[5]</a> Yizhong Wang, Swaroop Mishra, Pegah
+Alipoormolabashi, Yeganeh Kordi, Amirreza
+Mirzaei, Anjana Arunkumar, Arjun Ashok,
+Arut Selvan Dhanasekaran, Atharva Naik, David
+Stap, et al. Super-naturalinstructions:generalization
+via declarative instructions on 1600+ tasks. In
+EMNLP, 2022.
+
+<a id="ref6">[6]</a>  Victor Sanh, Albert Webson, Colin Raffel, Stephen H
+Bach, Lintang Sutawika, Zaid Alyafeai, Antoine
+Chaffin, Arnaud Stiegler, Teven Le Scao, Arun
+Raja, et al. Multitask prompted training enables
+zero-shot task generalization. arXiv preprint
+arXiv:2110.08207, 2021.
+
+<a id="ref7">[7]</a> Niklas Muennighoff, Thomas Wang, Lintang
+Sutawika, Adam Roberts, Stella Biderman, Teven Le
+Scao, M Saiful Bari, Sheng Shen, Zheng-Xin
+Yong, Hailey Schoelkopf, et al. Crosslingual
+generalization through multitask finetuning. arXiv
+preprint arXiv:2211.01786, 2022.
+
+<a id="ref8">[8]</a> Shayne Longpre, Le Hou, Tu Vu, Albert Webson,
+Hyung Won Chung, Yi Tay, Denny Zhou, Quoc V Le,
+Barret Zoph, Jason Wei, et al. The flan collection:
+Designing data and methods for effective instruction
+tuning. arXiv preprint arXiv:2301.13688, 2023.
+
+<a id="ref9">[9]</a> Ge Zhang, Yemin Shi, Ruibo Liu, Ruibin Yuan, Yizhi
+Li, Siwei Dong, Yu Shu, Zhaoqun Li, Zekun Wang,
+Chenghua Lin, Wen-Fen Huang, and Jie Fu. Chinese
+open instruction generalist: A preliminary release.
+ArXiv, abs/2304.07987, 2023.
+
+<a id="ref10">[10]</a> Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo
+Almeida, Carroll Wainwright, Pamela Mishkin,
+Chong Zhang, Sandhini Agarwal, Katarina Slama,
+Alex Ray, et al. Training language models to follow
+instructions with human feedback. Advances in
+Neural Information Processing Systems, 35:27730–
+27744, 2022.
+
+
+<a id="ref11">[11]</a> Honovich, Or, Thomas Scialom, Omer Levy, and Timo Schick. Unnatural instructions: Tuning language models with (almost) no human labor. arXiv preprint arXiv:2212.09689 (2022).
+
+<a id="ref12">[12]</a> Yizhong Wang, Yeganeh Kordi, Swaroop Mishra,
+Alisa Liu, Noah A Smith, Daniel Khashabi, and
+Hannaneh Hajishirzi. Self-instruct: Aligning
+language model with self generated instructions.
+arXiv preprint arXiv:2212.10560, 2022.
+
+<a id="ref13">[13]</a> Fuzhao Xue, Kabir Jain, Mahir Hitesh Shah,
+Zangwei Zheng, and Yang You. Instruction
+in the wild: A user-based instruction dataset.
+https://github.com/XueFuzhao/InstructionWild,2023.
+
+
+<a id="ref14">[14]</a> Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng,
+Pu Zhao, Jiazhan Feng, Chongyang Tao, and Daxin
+Jiang. Wizardlm: Empowering large language
+models to follow complex instructions, 2023.
+
+<a id="ref15">[15]</a> Rohan Taori, Ishaan Gulrajani, Tianyi Zhang,
+Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
+Liang, and Tatsunori B Hashimoto. Alpaca:
+A strong, replicable instruction-following model.
+Stanford Center for Research on Foundation Models.
+https://crfm. stanford. edu/2023/03/13/alpaca. html,
+3(6):7, 2023.
+
+
+<a id="ref16">[16]</a> Hanmeng Liu, Zhiyang Teng, Leyang Cui, Chaoli
+Zhang, Qiji Zhou, and Yue Zhang. Logicot: Logical
+chain-of-thought instruction-tuning data collection
+with gpt-4. ArXiv, abs/2305.12147, 2023.
+
+<a id="ref17">[17]</a> Mike Conover, Matt Hayes, Ankit Mathur, Xiangrui
+Meng, Jianwei Xie, Jun Wan, Sam Shah, Ali Ghodsi,
+Patrick Wendell, Matei Zaharia, et al. Free dolly:
+Introducing the world’s first truly open instruction-
+tuned llm, 2023.
+
+<a id="ref18">[18]</a> Baolin Peng, Chunyuan Li, Pengcheng He, Michel
+Galley, and Jianfeng Gao. Instruction tuning with
+gpt-4. arXiv preprint arXiv:2304.03277, 2023.
+
+<a id="ref19">[19]</a> Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer,
+Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping
+Yu, L. Yu, Susan Zhang, Gargi Ghosh, Mike Lewis,
+Luke Zettlemoyer, and Omer Levy. Lima: Less is
+more for alignment. ArXiv, abs/2305.11206, 2023.
+
+<a id="ref20">[20]</a> OpenAI. Introducing chatgpt. Blog post
+openai.com/blog/chatgpt, 2022.
+
+<a id="ref21">[21]</a> Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng,
+Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan
+Zhuang, Yonghao Zhuang, Joseph E Gonzalez, et al.
+Vicuna: An open-source chatbot impressing gpt-4
+with 90%* chatgpt quality. See https://vicuna. lmsys.
+org (accessed 14 April 2023), 2023.
+
+<a id="ref22">[22]</a> JosephusCheung. Guanaco: Generative universal
+assistant for natural-language adaptive context-aware
+omnilingual outputs, 2021.
+
+
+<a id="ref23">[23]</a> Andreas Köpf, Yannic Kilcher, Dimitri von Rütte,
+Sotiris Anagnostidis, Zhi-Rui Tam, Keith Stevens,
+Abdullah Barhoum, Nguyen Minh Duc, Oliver
+Stanley, Richárd Nagyfi, et al. Openassistant
+conversations–democratizing large language model
+alignment. arXiv preprint arXiv:2304.07327, 2023.
+
+
+<a id="ref24">[24]</a> Mike Conover, Matt Hayes, Ankit Mathur, Jianwei
+Xie, Jun Wan, Sam Shah, Ali Ghodsi, Patrick
+Wendell, Matei Zaharia, and Reynold Xin. Free
+dolly: Introducing the world’s first truly open
+instruction-tuned llm, 2023.
+
+<a id="ref25">[25]</a> Ning Ding, Yulin Chen, Bokai Xu, Yujia Qin, Zhi
+Zheng, Shengding Hu, Zhiyuan Liu, Maosong Sun,
+and Bowen Zhou. Enhancing chat language models
+by scaling high-quality instructional conversations.
+arXiv preprint arXiv:2305.14233, 2023.
 
 
 ## Contact 
