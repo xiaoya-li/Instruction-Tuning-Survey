@@ -14,7 +14,6 @@ If you find this repository helpful, please cite the following:
 
 ### News 
 
-
 * [21 Aug, 2023] 🥳 We release the first version of the paper. 
 
 
@@ -400,7 +399,7 @@ The typology of the paper is as follows:
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/lm-sys/FastChat" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">70K</td>
@@ -410,7 +409,7 @@ The typology of the paper is as follows:
 		<td align="center">7B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2304.03277" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">52K</td>
@@ -430,7 +429,7 @@ The typology of the paper is as follows:
 		<td align="center">7B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2304.12244" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/nlpxucan/WizardLM" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">Evol-Instruct</td>
 		<td align="center">70K</td>
@@ -459,7 +458,7 @@ The typology of the paper is as follows:
 		<td align="center">175B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2212.12017" target="_blank">paper</a></td>
 		<td align="center"><a href="https://huggingface.co/facebook/opt-iml-30b" target="_blank">project</a></td>
-		<td align="center">OPT[<a href="#ref34">34</a>]</td>
+		<td align="center">OPT [<a href="#ref34">34</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -469,7 +468,7 @@ The typology of the paper is as follows:
 		<td align="center">12B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/databrickslabs/dolly" target="_blank">project</a></td>
-		<td align="center">Pythia[<a href="#ref35">35</a>]</td>
+		<td align="center">Pythia [<a href="#ref35">35</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">15K</td>
@@ -479,7 +478,7 @@ The typology of the paper is as follows:
 		<td align="center">40B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/tiiuae/falcon-40b-instruct" target="_blank">project</a></td>
-		<td align="center">Falcon[<a href="#ref37">37</a>]</td>
+		<td align="center">Falcon [<a href="#ref37">37</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -489,7 +488,7 @@ The typology of the paper is as follows:
 		<td align="center">7B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/JosephusCheung/Guanaco" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">586K</td>
@@ -499,7 +498,7 @@ The typology of the paper is as follows:
 		<td align="center">15B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/openaccess-ai-collective/minotaur-15b" target="_blank">project</a></td>
-		<td align="center">Starcoder Plus[<a href="#ref39">39</a>]</td>
+		<td align="center">Starcoder Plus [<a href="#ref39">39</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -509,7 +508,7 @@ The typology of the paper is as follows:
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/NousResearch/Nous-Hermes-13b" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">300K+</td>
@@ -519,7 +518,7 @@ The typology of the paper is as follows:
 		<td align="center">6.7B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2306.04751" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/allenai/open-instruct" target="_blank">project</a></td>
-		<td align="center">OPT[<a href="#ref34">34</a>]</td>
+		<td align="center">OPT [<a href="#ref34">34</a>]</td>
 		<td align="center">No</td>
 		<td align="center">Mixed</td>
 		<td align="center">-</td>
@@ -529,7 +528,7 @@ The typology of the paper is as follows:
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/RUC-GSAI/YuLan-Chat" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">250K</td>
@@ -549,7 +548,7 @@ The typology of the paper is as follows:
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/jondurbin/airoboros" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -559,7 +558,7 @@ The typology of the paper is as follows:
 		<td align="center">13B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2305.14233" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/thunlp/UltraChat" target="_blank">project</a></td>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -647,7 +646,7 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2211.09800" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/timothybrooks/instruct-pix2pix" target="_blank">project</a></td>
 		<td align="center">Image-Text</td>
-		<td align="center">Stable Diffusion</td>
+		<td align="center">Stable Diffusion [<a href="#ref63">63</a>]</td>
         <td align="center">983M</td>
         <td align="center">Yes</td>
         <td align="center">450K</td>
@@ -664,11 +663,11 @@ The typology of the paper is as follows:
          <td rowspan="3" align="center">158K</td>
 </tr>
 <tr>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
         <td align="center">7B</td>
 </tr>
 <tr>
-		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
         <td align="center">7B</td>
 </tr>
 <tr>
@@ -751,7 +750,7 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2303.14070" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/Kent0n-Li/ChatDoctor" target="_blank">project</a></td>
-        <td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+        <td align="center">LLaMA [<a href="#ref30">30</a>]</td>
         <td align="center">122K</td>
 </tr>
 <tr>
@@ -812,7 +811,7 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
         <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/liutiedong/goat" target="_blank">project</a></td>
-        <td align="center">LLaMA[<a href="#ref30">30</a>]</td>
+        <td align="center">LLaMA [<a href="#ref30">30</a>]</td>
         <td align="center">1.0M</td>
 </tr>
 <tr>
@@ -930,7 +929,6 @@ Alex Ray, et al. **Training language models to follow
 instructions with human feedback**. Advances in
 Neural Information Processing Systems, 35:27730–
 27744, 2022.
-
 
 <a id="ref11">[11]</a> Honovich, Or, Thomas Scialom, Omer Levy, and Timo Schick. **Unnatural instructions: Tuning language models with (almost) no human labor**. arXiv preprint arXiv:2212.09689 (2022).
 
@@ -1150,6 +1148,8 @@ and Bowen Zhou. **Enhancing chat language models
 by scaling high-quality instructional conversations**.
 arXiv preprint arXiv:2305.14233, 2023.
 
+### Multimodal Instruction Datasets
+
 <a id="ref45">[45]</a> Zhiyang Xu, Ying Shen, and Lifu Huang.
 **Multiinstruct: Improving multi-modal zero-
 shot learning via instruction tuning**. ArXiv,
@@ -1166,6 +1166,8 @@ Huang, Zhiyong Wang, Wanli Ouyang, and Jing Shao.
 **Lamm: Language-assisted multi-modal instruction-
 tuning dataset, framework, and benchmark**. ArXiv,
 abs/2306.06687, 2023.
+
+### Multimodal Instruction Tuned Models
 
 <a id="ref48">[48]</a> Tim Brooks, Aleksander Holynski, and Alexei A.
 Efros. **Instructpix2pix: Learning to follow image
@@ -1255,7 +1257,12 @@ Chunsai Du. **Instructuie: Multi-task instruction
 tuning for unified information extraction**. ArXiv,
 abs/2304.08085, 2023.
 
-
+<a id="ref63">[63]</a> Robin Rombach, Andreas Blattmann, Dominik
+Lorenz, Patrick Esser, and Björn Ommer. **High-
+resolution image synthesis with latent diffusion
+models**. In Proceedings of the IEEE/CVF conference
+on computer vision and pattern recognition, pages
+10684–10695, 2022.
 
 
 ## Contact 
