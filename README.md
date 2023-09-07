@@ -14,6 +14,7 @@ If you find this repository helpful, please cite the following:
 
 ## 🥳 News 
 
+
 * [21 Aug, 2023] We release the first version of the paper. 
 
 
@@ -1133,8 +1134,7 @@ camels go? exploring the state of instruction tuning
 on open resources**. ArXiv, abs/2306.04751, 2023.
 
 <a id="ref41">[41]</a> YuLan-Chat-Team. **Yulan-chat: An open-
-source bilingual chatbot**. https://github.com/RUC-
-GSAI/YuLan-Chat, 2023.
+source bilingual chatbot**. github.com/RUC-GSAI/YuLan-Chat, 2023.
 
 <a id="ref42">[42]</a> Sun Tianxiang and Qiu Xipeng. **Moss**. Blog post
 txsun1997.github.io/blogs/moss.html, 2023.
