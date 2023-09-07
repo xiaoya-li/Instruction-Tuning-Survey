@@ -346,21 +346,21 @@ The typology of the paper is as follows:
         <th>Size</th>
     </tr>
     <tr>
-        <td align="center">Instruct-GPT</td>
+        <td align="center">InstructGPT [<a href="#ref10">10</a>]</td>
         <td align="center">176B</td>
         <td align="center"><a href="https://www.example.com/project1" target="_blank">paper</a></td>
         <td align="center">-</td>
-        <td align="center">GPT-3</td>
+        <td align="center">GPT-3[<a href="#ref26">26</a>]</td>
         <td align="center">Yes</td>
         <td align="center">-</td>
         <td align="center">-</td>
     </tr>
     <tr>
-        <td align="center">BLOOMZ</td>
+        <td align="center">BLOOMZ[<a href="#ref7">7</a>]</td>
         <td align="center">176B</td>
         <td align="center"><a href="https://www.example.com/project1" target="_blank">paper</a></td>
         <td align="center"><a href="https://huggingface.co/bigscience/bloomz" target="_blank">project</a></td>
-        <td align="center">BLOOM</td>
+        <td align="center">BLOOM[<a href="#ref27">27</a>]</td>
         <td align="center">No</td>
         <td align="center">xP3</td>
         <td align="center">-</td>
@@ -376,47 +376,47 @@ The typology of the paper is as follows:
         <td align="center"></td>
     </tr>
 <tr>
-		<td align="center">FLAN-T5</td>
+		<td align="center">FLAN-T5[<a href="#ref28">28</a>]</td>
 		<td align="center">11B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2210.11416" target="_blank">paper</a></td>
 		<td align="center"><a href="https://huggingface.co/google/flan-t5-xxl" target="_blank">project</a></td>
-		<td align="center">T5</td>
+		<td align="center">T5[<a href="#ref29">29</a>]</td>
 		<td align="center">No</td>
 		<td align="center">FLAN 2021</td>
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Alpaca</td>
+		<td align="center">Alpaca[<a href="#ref15">15</a>]</td>
 		<td align="center">7B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/tatsu-lab/stanford_alpaca" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">52K</td>
 </tr>
 <tr>
-		<td align="center">Vicuna</td>
+		<td align="center">Vicuna[<a href="#ref21">21</a>]</td>
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/lm-sys/FastChat" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">70K</td>
 </tr>
 <tr>
-		<td align="center">GPT-4-LLM</td>
+		<td align="center">GPT-4-LLM[<a href="#ref18">18</a>]</td>
 		<td align="center">7B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2304.03277" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">52K</td>
 </tr>
 <tr>
-		<td align="center">Claude</td>
+		<td align="center">Claude[<a href="#ref31">31</a>]</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -426,27 +426,27 @@ The typology of the paper is as follows:
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">WizardLM</td>
+		<td align="center">WizardLM[<a href="#ref14">14</a>]</td>
 		<td align="center">7B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2304.12244" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/nlpxucan/WizardLM" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">Evol-Instruct</td>
 		<td align="center">70K</td>
 </tr>
 <tr>
-		<td align="center">ChatGLM2</td>
+		<td align="center">ChatGLM2[<a href="#ref32">32</a>]</td>
 		<td align="center">6B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/THUDM/ChatGLM2-6B" target="_blank">project</a></td>
-		<td align="center">GLM</td>
+		<td align="center">GLM[<a href="#ref32">32</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">1.1 Tokens</td>
 </tr>
 <tr>
-		<td align="center">LIMA</td>
+		<td align="center">LIMA[<a href="#ref19">19</a>]</td>
 		<td align="center">65B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2305.11206 ｜  -" target="_blank">paper</a></td>
 		<td align="center"><a href="LLaMA" target="_blank">project</a></td>
@@ -455,87 +455,87 @@ The typology of the paper is as follows:
 		<td align="center">1K</td>
 </tr>
 <tr>
-		<td align="center">OPT-IML</td>
+		<td align="center">OPT-IML[<a href="#ref33">33</a>]</td>
 		<td align="center">175B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2212.12017" target="_blank">paper</a></td>
 		<td align="center"><a href="https://huggingface.co/facebook/opt-iml-30b" target="_blank">project</a></td>
-		<td align="center">OPT</td>
+		<td align="center">OPT[<a href="#ref34">34</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Dolly 2.0</td>
+		<td align="center">Dolly 2.0[<a href="#ref17">17</a>]</td>
 		<td align="center">12B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/databrickslabs/dolly" target="_blank">project</a></td>
-		<td align="center">Pythia</td>
+		<td align="center">Pythia[<a href="#ref35">35</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">15K</td>
 </tr>
 <tr>
-		<td align="center">Falcon-Instruct</td>
+		<td align="center">Falcon-Instruct[<a href="#ref36">36</a>]</td>
 		<td align="center">40B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/tiiuae/falcon-40b-instruct" target="_blank">project</a></td>
-		<td align="center">Falcon</td>
+		<td align="center">Falcon[<a href="#ref37">37</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Guanaco</td>
+		<td align="center">Guanaco[<a href="#ref22">22</a>]</td>
 		<td align="center">7B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/JosephusCheung/Guanaco" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">586K</td>
 </tr>
 <tr>
-		<td align="center">Minotaur</td>
+		<td align="center">Minotaur[<a href="#ref38">38</a>]</td>
 		<td align="center">15B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/openaccess-ai-collective/minotaur-15b" target="_blank">project</a></td>
-		<td align="center">Starcoder Plus</td>
+		<td align="center">Starcoder Plus[<a href="#ref39">39</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Nous-Hermes</td>
+		<td align="center">Nous-Hermes[<a href="#ref40">40</a>]</td>
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://huggingface.co/NousResearch/Nous-Hermes-13b" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">No</td>
 		<td align="center">-</td>
 		<td align="center">300K+</td>
 </tr>
 <tr>
-		<td align="center">TÜLU</td>
+		<td align="center">TÜLU[<a href="#ref41">41</a>]</td>
 		<td align="center">6.7B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2306.04751" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/allenai/open-instruct" target="_blank">project</a></td>
-		<td align="center">OPT</td>
+		<td align="center">OPT[<a href="#ref34">34</a>]</td>
 		<td align="center">No</td>
 		<td align="center">Mixed</td>
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">YuLan-Chat</td>
+		<td align="center">YuLan-Chat[<a href="#ref42">42</a>]</td>
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/RUC-GSAI/YuLan-Chat" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">250K</td>
 </tr>
 <tr>
-		<td align="center">MOSS</td>
+		<td align="center">MOSS[<a href="#ref43">43</a>]</td>
 		<td align="center">16B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/OpenLMLab/MOSS" target="_blank">project</a></td>
@@ -545,21 +545,21 @@ The typology of the paper is as follows:
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Airoboros</td>
+		<td align="center">Airoboros[<a href="#ref44">44</a>]</td>
 		<td align="center">13B</td>
 		<td align="center">-</td>
 		<td align="center"><a href="https://github.com/jondurbin/airoboros" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">UltraLM</td>
+		<td align="center">UltraLM[<a href="#ref25">25</a>]</td>
 		<td align="center">13B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2305.14233" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/thunlp/UltraChat" target="_blank">project</a></td>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
@@ -664,11 +664,11 @@ The typology of the paper is as follows:
          <td rowspan="3" align="center">158K</td>
 </tr>
 <tr>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
         <td align="center">7B</td>
 </tr>
 <tr>
-		<td align="center">LLaMA</td>
+		<td align="center">LLaMA[<a href="#ref30">30</a>]</td>
         <td align="center">7B</td>
 </tr>
 <tr>
@@ -687,7 +687,7 @@ The typology of the paper is as follows:
         <td align="center">-</td>
 </tr>
 <tr>
-		<td align="center">Vicuna</td>
+		<td align="center">Vicuna[<a href="#ref21">21</a>]</td>
         <td align="center">7B/13B</td>
 </tr>
 <tr>
@@ -743,7 +743,7 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2306.08666" target="_blank">paper</a></td>
 		<td align="center"><a href="https://huggingface.co/spaces/allen-eric/radiology-gpt" target="_blank">project</a></td>
-        <td align="center">Alpaca</td>
+        <td align="center">Alpaca[<a href="#ref15">15</a>]</td>
         <td align="center">122K</td>
 </tr>
 <tr>
@@ -751,7 +751,7 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2303.14070" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/Kent0n-Li/ChatDoctor" target="_blank">project</a></td>
-        <td align="center">LLaMA</td>
+        <td align="center">LLaMA[<a href="#ref30">30</a>]</td>
         <td align="center">122K</td>
 </tr>
 <tr>
@@ -785,7 +785,7 @@ The typology of the paper is as follows:
         <td align="center">11B</td>
         <td align="center"><a href="https://aclanthology.org/2022.emnlp-main.460/" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/vishakhpk/creative-instructions" target="_blank">project</a></td>
-        <td align="center">T5</td>
+        <td align="center">T5[<a href="#ref29">29</a>]</td>
         <td align="center">-</td>
 </tr>
 <tr>
@@ -803,7 +803,7 @@ The typology of the paper is as follows:
         <td align="center">220M</td>
         <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/amazon-science/instruction-tuning-for-absa" target="_blank">project</a></td>
-        <td align="center">T5</td>
+        <td align="center">T5[<a href="#ref29">29</a>]</td>
         <td align="center">-</td>
 </tr>
 <tr>
@@ -812,7 +812,7 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
         <td align="center"><a href="https://aclanthology.org/2023.wassa-1.3.pdf" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/liutiedong/goat" target="_blank">project</a></td>
-        <td align="center">LLaMA</td>
+        <td align="center">LLaMA[<a href="#ref30">30</a>]</td>
         <td align="center">1.0M</td>
 </tr>
 <tr>
@@ -868,150 +868,288 @@ The typology of the paper is as follows:
 
 ## References
 
+### Instruction Datasets
+
 <a id="ref1">[1]</a> Khashabi, Daniel, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. Unifiedqa: Crossing format boundaries with a single qa system. arXiv preprint arXiv:2005.00700 (2020). [Paper](https://arxiv.org/abs/2005.00700) 
 
-<a id="ref2">[2]</a> LAION.ai. Oig: the open instruction generalist dataset, 2023.
+<a id="ref2">[2]</a> LAION.ai. **Oig: the open instruction generalist dataset**, 2023.
 
 <a id="ref3">[3]</a> Tianbao Xie, Chen Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I. Wang, Victor Zhong, Bailin Wang, Chengzu Li,
 Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir R.
 Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang,
 Noah A. Smith, Luke Zettlemoyer, and Tao Yu.
-Unifiedskg: Unifying and multi-tasking structured
+**Unifiedskg: Unifying and multi-tasking structured
 knowledge grounding with text-to-text language
-models. In Conference on Empirical Methods in
+models**. In Conference on Empirical Methods in
 Natural Language Processing, 2022.
 
 
 <a id="ref4">[4]</a> Or Honovich, Thomas Scialom, Omer Levy, and
-Timo Schick. Unnatural instructions: Tuning
-language models with (almost) no human labor.
+Timo Schick. **Unnatural instructions: Tuning
+language models with (almost) no human labor**.
 arXiv preprint arXiv:2212.09689, 2022.
 
 <a id="ref5">[5]</a> Yizhong Wang, Swaroop Mishra, Pegah
 Alipoormolabashi, Yeganeh Kordi, Amirreza
 Mirzaei, Anjana Arunkumar, Arjun Ashok,
 Arut Selvan Dhanasekaran, Atharva Naik, David
-Stap, et al. Super-naturalinstructions:generalization
-via declarative instructions on 1600+ tasks. In
+Stap, et al. **Super-naturalinstructions:generalization
+via declarative instructions on 1600+ tasks**. In
 EMNLP, 2022.
 
 <a id="ref6">[6]</a>  Victor Sanh, Albert Webson, Colin Raffel, Stephen H
 Bach, Lintang Sutawika, Zaid Alyafeai, Antoine
 Chaffin, Arnaud Stiegler, Teven Le Scao, Arun
-Raja, et al. Multitask prompted training enables
-zero-shot task generalization. arXiv preprint
+Raja, et al. **Multitask prompted training enables
+zero-shot task generalization**. arXiv preprint
 arXiv:2110.08207, 2021.
 
 <a id="ref7">[7]</a> Niklas Muennighoff, Thomas Wang, Lintang
 Sutawika, Adam Roberts, Stella Biderman, Teven Le
 Scao, M Saiful Bari, Sheng Shen, Zheng-Xin
-Yong, Hailey Schoelkopf, et al. Crosslingual
-generalization through multitask finetuning. arXiv
+Yong, Hailey Schoelkopf, et al. **Crosslingual
+generalization through multitask finetuning**. arXiv
 preprint arXiv:2211.01786, 2022.
 
 <a id="ref8">[8]</a> Shayne Longpre, Le Hou, Tu Vu, Albert Webson,
 Hyung Won Chung, Yi Tay, Denny Zhou, Quoc V Le,
-Barret Zoph, Jason Wei, et al. The flan collection:
+Barret Zoph, Jason Wei, et al. **The flan collection:
 Designing data and methods for effective instruction
-tuning. arXiv preprint arXiv:2301.13688, 2023.
+tuning**. arXiv preprint arXiv:2301.13688, 2023.
 
 <a id="ref9">[9]</a> Ge Zhang, Yemin Shi, Ruibo Liu, Ruibin Yuan, Yizhi
 Li, Siwei Dong, Yu Shu, Zhaoqun Li, Zekun Wang,
-Chenghua Lin, Wen-Fen Huang, and Jie Fu. Chinese
-open instruction generalist: A preliminary release.
+Chenghua Lin, Wen-Fen Huang, and Jie Fu. **Chinese
+open instruction generalist: A preliminary release**.
 ArXiv, abs/2304.07987, 2023.
 
 <a id="ref10">[10]</a> Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo
 Almeida, Carroll Wainwright, Pamela Mishkin,
 Chong Zhang, Sandhini Agarwal, Katarina Slama,
-Alex Ray, et al. Training language models to follow
-instructions with human feedback. Advances in
+Alex Ray, et al. **Training language models to follow
+instructions with human feedback**. Advances in
 Neural Information Processing Systems, 35:27730–
 27744, 2022.
 
 
-<a id="ref11">[11]</a> Honovich, Or, Thomas Scialom, Omer Levy, and Timo Schick. Unnatural instructions: Tuning language models with (almost) no human labor. arXiv preprint arXiv:2212.09689 (2022).
+<a id="ref11">[11]</a> Honovich, Or, Thomas Scialom, Omer Levy, and Timo Schick. **Unnatural instructions: Tuning language models with (almost) no human labor**. arXiv preprint arXiv:2212.09689 (2022).
 
 <a id="ref12">[12]</a> Yizhong Wang, Yeganeh Kordi, Swaroop Mishra,
 Alisa Liu, Noah A Smith, Daniel Khashabi, and
-Hannaneh Hajishirzi. Self-instruct: Aligning
-language model with self generated instructions.
+Hannaneh Hajishirzi. **Self-instruct: Aligning
+language model with self generated instructions**.
 arXiv preprint arXiv:2212.10560, 2022.
 
 <a id="ref13">[13]</a> Fuzhao Xue, Kabir Jain, Mahir Hitesh Shah,
-Zangwei Zheng, and Yang You. Instruction
-in the wild: A user-based instruction dataset.
+Zangwei Zheng, and Yang You. **Instruction
+in the wild: A user-based instruction dataset**.
 `github.com/XueFuzhao/InstructionWild,2023`.
 
 
 <a id="ref14">[14]</a> Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng,
 Pu Zhao, Jiazhan Feng, Chongyang Tao, and Daxin
-Jiang. Wizardlm: Empowering large language
-models to follow complex instructions, 2023.
+Jiang. **Wizardlm: Empowering large language
+models to follow complex instructions**, 2023.
 
 <a id="ref15">[15]</a> Rohan Taori, Ishaan Gulrajani, Tianyi Zhang,
 Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
-Liang, and Tatsunori B Hashimoto. Alpaca:
+Liang, and Tatsunori B Hashimoto. **Alpaca:
 A strong, replicable instruction-following model.
-Stanford Center for Research on Foundation Models.
+Stanford Center for Research on Foundation Models**.
 `https://crfm.stanford.edu/2023/03/13/alpaca.html`,
 3(6):7, 2023.
 
 
 <a id="ref16">[16]</a> Hanmeng Liu, Zhiyang Teng, Leyang Cui, Chaoli
-Zhang, Qiji Zhou, and Yue Zhang. Logicot: Logical
+Zhang, Qiji Zhou, and Yue Zhang. **Logicot: Logical
 chain-of-thought instruction-tuning data collection
-with gpt-4. ArXiv, abs/2305.12147, 2023.
+with gpt-4**. ArXiv, abs/2305.12147, 2023.
 
 <a id="ref17">[17]</a> Mike Conover, Matt Hayes, Ankit Mathur, Xiangrui
 Meng, Jianwei Xie, Jun Wan, Sam Shah, Ali Ghodsi,
-Patrick Wendell, Matei Zaharia, et al. Free dolly:
+Patrick Wendell, Matei Zaharia, et al. **Free dolly:
 Introducing the world’s first truly open instruction-
-tuned llm, 2023.
+tuned llm**, 2023.
 
 <a id="ref18">[18]</a> Baolin Peng, Chunyuan Li, Pengcheng He, Michel
-Galley, and Jianfeng Gao. Instruction tuning with
-gpt-4. arXiv preprint arXiv:2304.03277, 2023.
+Galley, and Jianfeng Gao. **Instruction tuning with
+gpt-4**. arXiv preprint arXiv:2304.03277, 2023.
 
 <a id="ref19">[19]</a> Chunting Zhou, Pengfei Liu, Puxin Xu, Srini Iyer,
 Jiao Sun, Yuning Mao, Xuezhe Ma, Avia Efrat, Ping
 Yu, L. Yu, Susan Zhang, Gargi Ghosh, Mike Lewis,
-Luke Zettlemoyer, and Omer Levy. Lima: Less is
-more for alignment. ArXiv, abs/2305.11206, 2023.
+Luke Zettlemoyer, and Omer Levy. **Lima: Less is
+more for alignment**. ArXiv, abs/2305.11206, 2023.
 
-<a id="ref20">[20]</a> OpenAI. Introducing chatgpt. Blog post
+<a id="ref20">[20]</a> OpenAI. **Introducing chatgpt**. Blog post
 openai.com/blog/chatgpt, 2022.
 
 <a id="ref21">[21]</a> Wei-Lin Chiang, Zhuohan Li, Zi Lin, Ying Sheng,
 Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan
 Zhuang, Yonghao Zhuang, Joseph E Gonzalez, et al.
-Vicuna: An open-source chatbot impressing gpt-4
-with 90%* chatgpt quality. See `https://vicuna.lmsys.org` (accessed 14 April 2023), 2023.
+**Vicuna: An open-source chatbot impressing gpt-4
+with 90% chatgpt quality**. See `https://vicuna.lmsys.org` (accessed 14 April 2023), 2023.
 
-<a id="ref22">[22]</a> JosephusCheung. Guanaco: Generative universal
+<a id="ref22">[22]</a> JosephusCheung. **Guanaco: Generative universal
 assistant for natural-language adaptive context-aware
-omnilingual outputs, 2021.
+omnilingual outputs**, 2021.
 
 
 <a id="ref23">[23]</a> Andreas Köpf, Yannic Kilcher, Dimitri von Rütte,
 Sotiris Anagnostidis, Zhi-Rui Tam, Keith Stevens,
 Abdullah Barhoum, Nguyen Minh Duc, Oliver
-Stanley, Richárd Nagyfi, et al. Openassistant
+Stanley, Richárd Nagyfi, et al. **Openassistant
 conversations–democratizing large language model
-alignment. arXiv preprint arXiv:2304.07327, 2023.
-
+alignment**. arXiv preprint arXiv:2304.07327, 2023.
 
 <a id="ref24">[24]</a> Mike Conover, Matt Hayes, Ankit Mathur, Jianwei
 Xie, Jun Wan, Sam Shah, Ali Ghodsi, Patrick
-Wendell, Matei Zaharia, and Reynold Xin. Free
+Wendell, Matei Zaharia, and Reynold Xin. **Free
 dolly: Introducing the world’s first truly open
-instruction-tuned llm, 2023.
+instruction-tuned llm**, 2023.
 
 <a id="ref25">[25]</a> Ning Ding, Yulin Chen, Bokai Xu, Yujia Qin, Zhi
 Zheng, Shengding Hu, Zhiyuan Liu, Maosong Sun,
-and Bowen Zhou. Enhancing chat language models
-by scaling high-quality instructional conversations.
+and Bowen Zhou. **Enhancing chat language models
+by scaling high-quality instructional conversations**.
 arXiv preprint arXiv:2305.14233, 2023.
+
+### Instruction Tuned LLMs
+
+<a id="ref26">[26]</a> Tom B. Brown, Benjamin Mann, Nick Ryder,
+Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, Pranav Shyam, Girish Sastry,
+Amanda Askell, Sandhini Agarwal, Ariel Herbert-
+Voss, Gretchen Krueger, T. J. Henighan, Rewon
+Child, Aditya Ramesh, Daniel M. Ziegler, Jeff Wu,
+Clemens Winter, Christopher Hesse, Mark Chen, Eric
+Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess,
+Jack Clark, Christopher Berner, Sam McCandlish,
+Alec Radford, Ilya Sutskever, and Dario Amodei.
+**Language models are few-shot learners**. ArXiv,
+abs/2005.14165, 2020.
+
+
+<a id="ref27">[27]</a> Scao, Teven Le, Angela Fan, Christopher Akiki, Ellie Pavlick, Suzana Ilić, Daniel Hesslow, Roman Castagné et al. **Bloom: A 176b-parameter open-access multilingual language model**. arXiv preprint arXiv:2211.05100 (2022).
+
+<a id="ref28">[28]</a> Hyung Won Chung, Le Hou, S. Longpre, Barret
+Zoph, Yi Tay, William Fedus, Eric Li, Xuezhi
+Wang, Mostafa Dehghani, Siddhartha Brahma, Albert
+Webson, Shixiang Shane Gu, Zhuyun Dai, Mirac
+Suzgun, Xinyun Chen, Aakanksha Chowdhery,
+Dasha Valter, Sharan Narang, Gaurav Mishra,
+Adams Wei Yu, Vincent Zhao, Yanping Huang,
+Andrew M. Dai, Hongkun Yu, Slav Petrov, Ed Huai
+hsin Chi, Jeff Dean, Jacob Devlin, Adam Roberts,
+Denny Zhou, Quoc V. Le, and Jason Wei. **Scaling
+instruction-finetuned language models**. ArXiv,
+abs/2210.11416, 2022.
+
+<a id="ref29">[29]</a> Colin Raffel, Noam M. Shazeer, Adam Roberts,
+Katherine Lee, Sharan Narang, Michael Matena,
+Yanqi Zhou, Wei Li, and Peter J. Liu. **Exploring the
+limits of transfer learning with a unified text-to-text
+transformer**. ArXiv, abs/1910.10683, 2019.
+
+
+<a id="ref30">[30]</a> Hugo Touvron, Thibaut Lavril, Gautier Izacard,
+Xavier Martinet, Marie-Anne Lachaux, Timothée
+Lacroix, Baptiste Rozière, Naman Goyal, Eric
+Hambro, Faisal Azhar, Aur’elien Rodriguez, Armand
+Joulin, Edouard Grave, and Guillaume Lample.
+**Llama: Open and efficient foundation language
+models**. ArXiv, abs/2302.13971, 2023.
+
+
+<a id="ref31">[31]</a> Yuntao Bai, Saurav Kadavath, Sandipan Kundu,
+Amanda Askell, Jackson Kernion, Andy Jones, Anna
+Chen, Anna Goldie, Azalia Mirhoseini, Cameron
+McKinnon, et al. **Constitutional ai: Harmlessness
+from ai feedback**. arXiv preprint arXiv:2212.08073, 2022.
+
+
+<a id="ref32">[32]</a> Zhengxiao Du, Yujie Qian, Xiao Liu, Ming
+Ding, Jiezhong Qiu, Zhilin Yang, and Jie Tang.
+**Glm: General language model pretraining with
+autoregressive blank infilling**. In Proceedings of
+the 60th Annual Meeting of the Association for
+Computational Linguistics (Volume 1: Long Papers),
+pages 320–335, 2022.
+
+
+<a id="ref33">[33]</a> Srinivas Iyer, Xiaojuan Lin, Ramakanth Pasunuru,
+Todor Mihaylov, Daniel Simig, Ping Yu, Kurt
+Shuster, Tianlu Wang, Qing Liu, Punit Singh
+Koura, Xian Li, Brian O’Horo, Gabriel Pereyra, Jeff
+Wang, Christopher Dewan, Asli Celikyilmaz, Luke
+Zettlemoyer, and Veselin Stoyanov. **Opt-iml: Scaling
+language model instruction meta learning through the
+lens of generalization**. ArXiv, abs/2212.12017, 2022.
+
+
+<a id="ref34">[34]</a> Stella Rose Biderman, Hailey Schoelkopf,
+Quentin G. Anthony, Herbie Bradley, Kyle O’Brien,
+Eric Hallahan, Mohammad Aflah Khan, Shivanshu
+Purohit, USVSN Sai Prashanth, Edward Raff, Aviya
+Skowron, Lintang Sutawika, and Oskar van der Wal.
+**Pythia: A suite for analyzing large language models
+across training and scaling**. ArXiv, abs/2304.01373, 2023.
+
+
+<a id="ref35">[35]</a> Ebtesam Almazrouei, Hamza Alobeidli, Abdulaziz
+Alshamsi, Alessandro Cappelli, Ruxandra Cojocaru,
+Merouane Debbah, Etienne Goffinet, Daniel Heslow,
+Julien Launay, Quentin Malartic, Badreddine Noune,
+Baptiste Pannier, and Guilherme Penedo. **Falcon-
+40B: an open large language model with state-of-the-
+art performance**. 2023.
+
+<a id="ref36">[36]</a> Ebtesam Almazrouei, Hamza Alobeidli, Abdulaziz
+Alshamsi, Alessandro Cappelli, Ruxandra Cojocaru,
+Merouane Debbah, Etienne Goffinet, Daniel Heslow,
+Julien Launay, Quentin Malartic, et al. **Falcon-40b:
+an open large language model with state-of-the-art
+performance**, 2023.
+
+
+<a id="ref37">[37]</a> **OpenAccess AI Collective**. software:
+huggingface.co/openaccess-ai-collective/minotaur-
+15b, 2023.
+
+
+<a id="ref38">[38]</a> Raymond Li, Loubna Ben Allal, Yangtian Zi, Niklas
+Muennighoff, Denis Kocetkov, Chenghao Mou, Marc
+Marone, Christopher Akiki, Jia Li, Jenny Chim, et al.
+**Starcoder: may the source be with you**! arXiv
+preprint arXiv:2305.06161, 2023.
+
+<a id="ref39">[39]</a> **NousResearch**. software:
+huggingface.co/NousResearch/Nous-Hermes-13b, 2023.
+
+
+<a id="ref40">[40]</a> Yizhong Wang, Hamish Ivison, Pradeep Dasigi,
+Jack Hessel, Tushar Khot, Khyathi Raghavi Chandu,
+David Wadden, Kelsey MacMillan, Noah A. Smith,
+Iz Beltagy, and Hanna Hajishirzi. **How far can
+camels go? exploring the state of instruction tuning
+on open resources**. ArXiv, abs/2306.04751, 2023.
+
+<a id="ref41">[41]</a> YuLan-Chat-Team. **Yulan-chat: An open-
+source bilingual chatbot**. https://github.com/RUC-
+GSAI/YuLan-Chat, 2023.
+
+<a id="ref42">[42]</a> Sun Tianxiang and Qiu Xipeng. **Moss**. Blog post
+txsun1997.github.io/blogs/moss.html, 2023.
+
+<a id="ref43">[43]</a> Jon Durbin. **Airoboros**. software:
+github.com/jondurbin/airoboros, 2023.
+
+<a id="ref44">[44]</a> Ning Ding, Yulin Chen, Bokai Xu, Yujia Qin, Zhi
+Zheng, Shengding Hu, Zhiyuan Liu, Maosong Sun,
+and Bowen Zhou. **Enhancing chat language models
+by scaling high-quality instructional conversations**.
+arXiv preprint arXiv:2305.14233, 2023.
+
 
 
 ## Contact 
