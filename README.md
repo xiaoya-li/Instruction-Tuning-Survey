@@ -50,7 +50,7 @@ pointing out current deficiencies of existing strategies and suggest some avenue
 The typology of the paper is as follows: 
 
 <div align="center">
-  <img src="assets/paper_typology_v2.png" width="800">
+  <img src="assets/paper_typology_v4.png" width="800">
 </div>
 
 
