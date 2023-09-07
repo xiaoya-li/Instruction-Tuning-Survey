@@ -872,7 +872,7 @@ Noah A. Smith, Luke Zettlemoyer, and Tao Yu.
 **Unifiedskg: Unifying and multi-tasking structured
 knowledge grounding with text-to-text language
 models**. In Conference on Empirical Methods in
-Natural Language Processing, 2022. [Paper](https://arxiv.org/abs/) 
+Natural Language Processing, 2022. [Paper](https://arxiv.org/abs/2201.05966) 
 
 
 <a id="ref4">[4]</a> Or Honovich, Thomas Scialom, Omer Levy, and
@@ -920,7 +920,7 @@ Chong Zhang, Sandhini Agarwal, Katarina Slama,
 Alex Ray, et al. **Training language models to follow
 instructions with human feedback**. Advances in
 Neural Information Processing Systems, 35:27730–
-27744, 2022. [Paper](https://arxiv.org/abs/) 
+27744, 2022. [Paper](https://arxiv.org/abs/2203.02155) 
 
 <a id="ref11">[11]</a> Honovich, Or, Thomas Scialom, Omer Levy, and Timo Schick. 
 **Unnatural instructions: Tuning language models with (almost) no human labor**. arXiv preprint arXiv:2212.09689 (2022).
@@ -941,13 +941,13 @@ in the wild: A user-based instruction dataset**.
 <a id="ref14">[14]</a> Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng,
 Pu Zhao, Jiazhan Feng, Chongyang Tao, and Daxin
 Jiang. **Wizardlm: Empowering large language
-models to follow complex instructions**, 2023. [Paper](https://arxiv.org/abs/) 
+models to follow complex instructions**, 2023. [Paper](https://arxiv.org/abs/2304.12244) 
 
 <a id="ref15">[15]</a> Rohan Taori, Ishaan Gulrajani, Tianyi Zhang,
 Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
 Liang, and Tatsunori B Hashimoto. **Alpaca:
-A strong, replicable instruction-following model.
-Stanford Center for Research on Foundation Models**.
+A strong, replicable instruction-following model**.
+Stanford Center for Research on Foundation Models.
 `https://crfm.stanford.edu/2023/03/13/alpaca.html`,
 3(6):7, 2023.
 
@@ -961,7 +961,7 @@ with gpt-4**. ArXiv, abs/2305.12147, 2023. [Paper](https://arxiv.org/abs/2305.12
 Meng, Jianwei Xie, Jun Wan, Sam Shah, Ali Ghodsi,
 Patrick Wendell, Matei Zaharia, et al. **Free dolly:
 Introducing the world’s first truly open instruction-
-tuned llm**, 2023. [Paper](https://arxiv.org/abs/) 
+tuned llm**, 2023. 
 
 <a id="ref18">[18]</a> Baolin Peng, Chunyuan Li, Pengcheng He, Michel
 Galley, and Jianfeng Gao. **Instruction tuning with
@@ -998,7 +998,7 @@ alignment**. arXiv preprint arXiv:2304.07327, 2023. [Paper](https://arxiv.org/ab
 Xie, Jun Wan, Sam Shah, Ali Ghodsi, Patrick
 Wendell, Matei Zaharia, and Reynold Xin. **Free
 dolly: Introducing the world’s first truly open
-instruction-tuned llm**, 2023. [Paper](https://arxiv.org/abs/) 
+instruction-tuned llm**, 2023.
 
 <a id="ref25">[25]</a> Ning Ding, Yulin Chen, Bokai Xu, Yujia Qin, Zhi
 Zheng, Shengding Hu, Zhiyuan Liu, Maosong Sun,
@@ -1073,7 +1073,7 @@ autoregressive blank infilling**. In Proceedings of
 the 60th Annual Meeting of the Association for
 Computational Linguistics (Volume 1: Long Papers),
 pages 320–335, 2022.
-[Paper](https://arxiv.org/abs/) 
+[Paper](https://arxiv.org/abs/2103.10360) 
 
 <a id="ref33">[33]</a> Srinivas Iyer, Xiaojuan Lin, Ramakanth Pasunuru,
 Todor Mihaylov, Daniel Simig, Ping Yu, Kurt
@@ -1103,15 +1103,7 @@ Julien Launay, Quentin Malartic, Badreddine Noune,
 Baptiste Pannier, and Guilherme Penedo. **Falcon-
 40B: an open large language model with state-of-the-
 art performance**. 2023.
-[Paper](https://arxiv.org/abs/) 
-
-<a id="ref36">[36]</a> Ebtesam Almazrouei, Hamza Alobeidli, Abdulaziz
-Alshamsi, Alessandro Cappelli, Ruxandra Cojocaru,
-Merouane Debbah, Etienne Goffinet, Daniel Heslow,
-Julien Launay, Quentin Malartic, et al. **Falcon-40b:
-an open large language model with state-of-the-art
-performance**, 2023.
-[Paper](https://arxiv.org/abs/) 
+[Paper](https://arxiv.org/abs/2306.01116)
 
 
 <a id="ref37">[37]</a> **OpenAccess AI Collective**. software:
@@ -1191,7 +1183,7 @@ Girish Sastry, Amanda Askell, Pamela Mishkin,
 Jack Clark, Gretchen Krueger, and Ilya Sutskever.
 **Learning transferable visual models from natural
 language supervision**. In International Conference
-on Machine Learning, 2021. [Paper](https://arxiv.org/abs/) 
+on Machine Learning, 2021. [Paper](https://arxiv.org/abs/2103.00020) 
 
 <a id="ref51">[51]</a> Hang Zhang, Xin Li, and Lidong Bing. **Video-
 llama: An instruction-tuned audio-visual language
@@ -1201,13 +1193,13 @@ arXiv:2306.02858, 2023. [Paper](https://arxiv.org/abs/2306.02858)
 <a id="ref52">[52]</a> Junnan Li, Dongxu Li, Silvio Savarese, and Steven
 Hoi. **BLIP-2: bootstrapping language-image pre-
 training with frozen image encoders and large
-language models**. In ICML, 2023. [Paper](https://arxiv.org/abs/) 
+language models**. In ICML, 2023. [Paper](https://arxiv.org/abs/2301.12597) 
 
 
 <a id="ref53">[53]</a> Rohit Girdhar, Alaaeldin El-Nouby, Zhuang Liu,
 Mannat Singh, Kalyan Vasudev Alwala, Armand
 Joulin, and Ishan Misra. **Imagebind: One embedding
-space to bind them all**. In CVPR, 2023. [Paper](https://arxiv.org/abs/) 
+space to bind them all**. In CVPR, 2023. [Paper](https://arxiv.org/abs/2305.05665) 
 
 <a id="ref54">[54]</a> Wenliang Dai, Junnan Li, Dongxu Li, Anthony
 Meng Huat Tiong, Junqi Zhao, Weisheng Wang,
@@ -1224,7 +1216,7 @@ ArXiv, abs/2305.03726, 2023. [Paper](https://arxiv.org/abs/2305.03726)
 <a id="ref56">[56]</a> Anas Awadalla, Irena Gao, Joshua Gardner, Jack
 Hessel, Yusuf Hanafy, Wanrong Zhu, Kalyani
 Marathe, Yonatan Bitton, Samir Gadre, Jenia Jitsev,
-et al. **Openflamingo**, 2023. [Paper](https://arxiv.org/abs/) 
+et al. **Openflamingo**, 2023. 
 
 <a id="ref57">[57]</a> Tao Gong, Chengqi Lyu, Shilong Zhang, Yudong
 Wang, Miao Zheng, Qianmengke Zhao, Kuikun
@@ -1237,7 +1229,7 @@ Shikib Mehri, Maxine Eskénazi, and Jeffrey P.
 Bigham. **Instructdial: Improving zero and few-shot
 generalization in dialogue through instruction tuning**.
 In Conference on Empirical Methods in Natural
-Language Processing, 2022. [Paper](https://arxiv.org/abs/) 
+Language Processing, 2022. [Paper](https://arxiv.org/abs/2205.12673) 
 
 <a id="ref59">[59]</a> Bill Yuchen Lin, Kangmin Tan, Chris Miller,
 Beiwen Tian, and Xiang Ren. **Unsupervised cross-
@@ -1249,7 +1241,7 @@ Yannick Versley, and Markus Boese. **Linguist:
 Language model instruction tuning to generate
 annotated utterances for intent classification and
 slot tagging**. In International Conference on
-Computational Linguistics, 2022. [Paper](https://arxiv.org/abs/) 
+Computational Linguistics, 2022. [Paper](https://arxiv.org/abs/2209.09900) 
 
 <a id="ref61">[61]</a> Saleh Soltan, Shankar Ananthakrishnan, Jack
 FitzGerald, Rahul Gupta, Wael Hamza, Haidar Khan,
@@ -1270,7 +1262,7 @@ Lorenz, Patrick Esser, and Björn Ommer. **High-
 resolution image synthesis with latent diffusion
 models**. In Proceedings of the IEEE/CVF conference
 on computer vision and pattern recognition, pages
-10684–10695, 2022. [Paper](https://arxiv.org/abs/) 
+10684–10695, 2022. [Paper](https://arxiv.org/abs/2112.10752) 
 
 ### Domain-specific Instruction Tuned LLMs
 
@@ -1279,7 +1271,7 @@ Chao Ju, Zihao Wu, Chong Ma, Peng Shu, Cheng
 Chen, Sekeun Kim, Haixing Dai, Lin Zhao, Dajiang
 Zhu, Jun Liu, Wei Liu, Dinggang Shen, Xiang Li,
 Quanzheng Li, and Tianming Liu. **Radiology-gpt: A
-large language model for radiology**. 2023. [Paper](https://arxiv.org/abs/) 
+large language model for radiology**. 2023. [Paper](https://arxiv.org/abs/2306.08666) 
 
 
 <a id="ref65">[65]</a> Yunxiang Li, Zihan Li, Kai Zhang, Ruilong Dan,
@@ -1299,7 +1291,7 @@ tasks**. arXiv preprint arXiv:2305.14201, 2023. [Paper](https://arxiv.org/abs/23
 Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing
 Ma, Qingwei Lin, and Daxin Jiang. **Wizardcoder:
 Empowering code large language models with evol-
-instruct**, 2023. [Paper](https://arxiv.org/abs/) 
+instruct**, 2023. [Paper](https://arxiv.org/abs/2306.08568) 
 
 ### Efficient Tuning Techniques
 
@@ -1319,13 +1311,13 @@ instruct**, 2023. [Paper](https://arxiv.org/abs/)
 
 <a id="ref72">[72]</a> Kai Lv, Yuqing Yang, Tengxiao Liu, Qi jie Gao, Qipeng Guo, and Xipeng Qiu. 2023. 
 **Full parameter fine-tuning for large language models with limited resources**.
-[Paper](https://arxiv.org/abs/) 
+[Paper](https://arxiv.org/abs/2306.09782) 
 
 
 <a id="ref72">[73]</a> Ning Ding, Yujia Qin, Guang Yang, Fu Wei, Zonghan Yang, Yusheng Su, Shengding Hu, Yulin Chen, Chi-Min Chan, 
 Weize Chen, Jing Yi, Weilin Zhao, Xiaozhi Wang, Zhiyuan Liu, Haitao Zheng, Jianfei Chen, Y. Liu, Jie Tang, Juanzi Li, and Maosong Sun. 2023b. 
-**Parameter-efficient fine-tuning of large-scale pre-trained language models. Nature Machine Intelligence**, 5:220–235.
-[Paper](https://arxiv.org/abs/) 
+**Parameter-efficient fine-tuning of large-scale pre-trained language models**. Nature Machine Intelligence, 5:220–235.
+[Paper](https://www.nature.com/articles/s42256-023-00626-4) 
 
 
 ## Contact 
