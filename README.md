@@ -868,7 +868,19 @@ The typology of the paper is as follows:
 
 ## References
 
-<a id="ref1">[1]</a> Khashabi, Daniel, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. "Unifiedqa: Crossing format boundaries with a single qa system." arXiv preprint arXiv:2005.00700 (2020). [Paper](https://arxiv.org/abs/2005.00700) 
+<a id="ref1">[1]</a> Khashabi, Daniel, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. Unifiedqa: Crossing format boundaries with a single qa system. arXiv preprint arXiv:2005.00700 (2020). [Paper](https://arxiv.org/abs/2005.00700) 
+
+<a id="ref2">[2]</a> LAION.ai. Oig: the open instruction generalist dataset, 2023.
+
+<a id="ref3">[3]</a> Tianbao Xie, Chen Henry Wu, Peng Shi, Ruiqi Zhong, Torsten Scholak, Michihiro Yasunaga, Chien-Sheng Wu, Ming Zhong, Pengcheng Yin, Sida I. Wang, Victor Zhong, Bailin Wang, Chengzu Li,
+Connor Boyle, Ansong Ni, Ziyu Yao, Dragomir R.
+Radev, Caiming Xiong, Lingpeng Kong, Rui Zhang,
+Noah A. Smith, Luke Zettlemoyer, and Tao Yu.
+Unifiedskg: Unifying and multi-tasking structured
+knowledge grounding with text-to-text language
+models. In Conference on Empirical Methods in
+Natural Language Processing, 2022.
+
 
 
 ## Contact 
