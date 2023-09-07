@@ -28,7 +28,7 @@ If you find this repository helpful, please cite the following:
   * [Models](#Models)
 * [Domain-specific Instruction Tuning](#Domain-specific-Instruction-Tuning)
 * [Efficient Tuning Techniques](#Efficient-Tuning-Techniques)
-* [Paper List](#Paper-List)
+* [References](#References)
 * [Contact](#Contact) 
   
 
@@ -71,7 +71,7 @@ The typology of the paper is as follows:
 </tr>
 <tr>
         <td rowspan="9" align="center">Generalize to unseen tasks</td>
-        <td align="center">UnifiedQA [^1]</td> 
+        <td align="center">UnifiedQA [[1]](#1)</td> 
         <td align="center"><a href="https://arxiv.org/abs/2005.00700" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/unifiedqa" target="_blank">project</a></td>
         <td align="center">750K</td>
@@ -866,9 +866,9 @@ The typology of the paper is as follows:
 
 </table>
 
-## Paper List
+## References
 
-[^1]: Khashabi, Daniel, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. "Unifiedqa: Crossing format boundaries with a single qa system." arXiv preprint arXiv:2005.00700 (2020). [Paper](https://arxiv.org/abs/2005.00700) 
+<a id="1">[1]</a> Khashabi, Daniel, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. "Unifiedqa: Crossing format boundaries with a single qa system." arXiv preprint arXiv:2005.00700 (2020). [Paper](https://arxiv.org/abs/2005.00700) 
 
 
 ## Contact 
