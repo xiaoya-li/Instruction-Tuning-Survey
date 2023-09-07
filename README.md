@@ -365,16 +365,6 @@ The typology of the paper is as follows:
         <td align="center">xP3</td>
         <td align="center">-</td>
     </tr>
-    <tr>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"><a href="https://www.example.com/project1" target="_blank">paper</a></td>
-        <td align="center"><a href="https://www.example.com/project1" target="_blank">project</a></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-        <td align="center"></td>
-    </tr>
 <tr>
 		<td align="center">FLAN-T5 [<a href="#ref28">28</a>]</td>
 		<td align="center">11B</td>
@@ -450,8 +440,8 @@ The typology of the paper is as follows:
 		<td align="center">65B</td>
 		<td align="center"><a href="https://arxiv.org/abs/2305.11206 ｜  -" target="_blank">paper</a></td>
 		<td align="center"><a href="LLaMA" target="_blank">project</a></td>
+		<td align="center">LLaMA [<a href="#ref30">30</a>]</td>
 		<td align="center">Yes</td>
-		<td align="center">-</td>
 		<td align="center">1K</td>
 </tr>
 <tr>
@@ -759,7 +749,7 @@ The typology of the paper is as follows:
         <td align="center">6B</td>
         <td align="center">-</td>
 		<td align="center"><a href="https://github.com/SCIR-HI/Med-ChatGLM" target="_blank">project</a></td>
-        <td align="center">ChatGLM</td>
+        <td align="center">ChatGLM [<a href="#ref32">32</a>]</td>
         <td align="center">-</td>
 </tr>
 
@@ -769,7 +759,7 @@ The typology of the paper is as follows:
         <td align="center">7B</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.13225" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/facebookresearch/EditEval" target="_blank">project</a></td>
-        <td align="center">LLaMa </td>
+        <td align="center">LLaMA [<a href="#ref30">30</a>]</td>
         <td align="center">-</td>
 </tr>
 <tr>
@@ -794,7 +784,7 @@ The typology of the paper is as follows:
         <td align="center">15B</td>
         <td align="center"><a href="https://arxiv.org/abs/2306.08568" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/nlpxucan/WizardLM" target="_blank">project</a></td>
-        <td align="center">StarCoder</td>
+        <td align="center">StarCoder [<a href="#ref39">39</a>]</td>
         <td align="center">78K</td>
 </tr>
 <tr>
