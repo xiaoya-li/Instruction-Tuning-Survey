@@ -941,7 +941,7 @@ arXiv preprint arXiv:2212.10560, 2022.
 <a id="ref13">[13]</a> Fuzhao Xue, Kabir Jain, Mahir Hitesh Shah,
 Zangwei Zheng, and Yang You. Instruction
 in the wild: A user-based instruction dataset.
-https://github.com/XueFuzhao/InstructionWild,2023.
+`github.com/XueFuzhao/InstructionWild,2023`.
 
 
 <a id="ref14">[14]</a> Can Xu, Qingfeng Sun, Kai Zheng, Xiubo Geng,
@@ -954,7 +954,7 @@ Yann Dubois, Xuechen Li, Carlos Guestrin, Percy
 Liang, and Tatsunori B Hashimoto. Alpaca:
 A strong, replicable instruction-following model.
 Stanford Center for Research on Foundation Models.
-https://crfm. stanford. edu/2023/03/13/alpaca. html,
+`https://crfm.stanford.edu/2023/03/13/alpaca.html`,
 3(6):7, 2023.
 
 
@@ -986,8 +986,7 @@ openai.com/blog/chatgpt, 2022.
 Zhanghao Wu, Hao Zhang, Lianmin Zheng, Siyuan
 Zhuang, Yonghao Zhuang, Joseph E Gonzalez, et al.
 Vicuna: An open-source chatbot impressing gpt-4
-with 90%* chatgpt quality. See https://vicuna. lmsys.
-org (accessed 14 April 2023), 2023.
+with 90%* chatgpt quality. See `https://vicuna.lmsys.org` (accessed 14 April 2023), 2023.
 
 <a id="ref22">[22]</a> JosephusCheung. Guanaco: Generative universal
 assistant for natural-language adaptive context-aware
