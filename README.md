@@ -1291,9 +1291,9 @@ knowledge**. ArXiv, abs/2303.14070, 2023. [Paper](https://arxiv.org/abs/2303.140
 Chi Liu. **Chatglm-med. github.com/SCIR-
 HI/Med-ChatGLM**, 2023.
 
-<a id="ref67">[67]</a> Tiedong Liu and Bryan Kian Hsiang Low. **Goat:
+<a id="ref67">[67]</a> Tiedong Liu and Bryan Kian Hsiang. **Goat:
 Fine-tuned llama outperforms gpt-4 on arithmetic
-tasks**. arXiv preprint arXiv:2305.14201, 2023. [Paper](https://arxiv.org/abs/2305.14201, 2023) 
+tasks**. arXiv preprint arXiv:2305.14201, 2023. [Paper](https://arxiv.org/abs/2305.14201) 
 
 <a id="ref68">[68]</a> Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun,
 Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing
