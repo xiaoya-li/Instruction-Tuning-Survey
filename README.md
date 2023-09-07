@@ -12,9 +12,9 @@ If you find this repository helpful, please cite the following:
 }
 ```
 
-### News 
+### 🥳 News 
 
-* [21 Aug, 2023] 🥳 We release the first version of the paper. 
+* [21 Aug, 2023] We release the first version of the paper. 
 
 
 ## Table of Contents 
