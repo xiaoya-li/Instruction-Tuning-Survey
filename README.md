@@ -15,8 +15,8 @@ If you find this repository helpful, please cite the following:
 ## 🥳 News 
 
 **Stay tuned! More related work will be updated!**
-* [07 Sep, 2023] Create the repository. 
-* [21 Aug, 2023] Release the first version of the paper. 
+* [07 Sep, 2023] The repository is created. 
+* [21 Aug, 2023] We release the first version of the paper. 
 
 
 ## Table of Contents 
