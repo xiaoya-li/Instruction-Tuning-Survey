@@ -825,30 +825,30 @@ The typology of the paper is as follows:
         <th>Project</th>
 </tr>
 <tr>
-        <td align="center">LoRA</td>
+        <td align="center">LoRA [<a href="#ref69">69</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2106.09685" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/microsoft/LoRA" target="_blank">project</a></td>
 </tr>
 <tr>
-        <td align="center">HINT</td>
+        <td align="center">HINT [<a href="#ref70">70</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2212.10315" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/allenai/hyper-task-descriptions" target="_blank">project</a></td>
 </tr>
 
 <tr>
-        <td align="center">QLoRA</td>
+        <td align="center">QLoRA [<a href="#ref71">71</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2305.14314" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/artidoro/qlora" target="_blank">project</a></td>
 </tr>
 
 <tr>
-        <td align="center">LOMO</td>
+        <td align="center">LOMO [<a href="#ref72">72</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2306.09782" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/OpenLMLab/LOMO" target="_blank">project</a></td>
 </tr>
 
 <tr>
-        <td align="center">Delta-tuning</td>
+        <td align="center">Delta-tuning [<a href="#ref73">73</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2203.06904" target="_blank">paper</a></td>
 		<td align="center"><a href="https://github.com/thunlp/OpenDelta" target="_blank">project</a></td>
 </tr>
@@ -1283,6 +1283,21 @@ Ma, Qingwei Lin, and Daxin Jiang. **Wizardcoder:
 Empowering code large language models with evol-
 instruct**, 2023.
 
+### Efficient Tuning Techniques
+
+<a id="ref69">[69]</a> Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. 2021. **Lora: Low-rank adaptation of large language models**. arXiv preprint arXiv:2106.09685.
+
+
+<a id="ref70">[70]</a> Hamish Ivison, Akshita Bhagia, Yizhong Wang, Hannaneh Hajishirzi, and Matthew E. Peters. 2022. **Hint: Hypernetwork instruction tuning for efficient zero-shot generalisation**. ArXiv, abs/2212.10315.
+
+
+<a id="ref71">[71]</a> Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer. 2023. **Qlora: Efficient finetuning of quantized llms**. arXiv preprint arXiv:2305.14314.
+
+
+<a id="ref72">[72]</a> Kai Lv, Yuqing Yang, Tengxiao Liu, Qi jie Gao, Qipeng Guo, and Xipeng Qiu. 2023. **Full parameter fine-tuning for large language models with limited resources**.
+
+
+<a id="ref72">[73]</a> Ning Ding, Yujia Qin, Guang Yang, Fu Wei, Zonghan Yang, Yusheng Su, Shengding Hu, Yulin Chen, Chi-Min Chan, Weize Chen, Jing Yi, Weilin Zhao, Xiaozhi Wang, Zhiyuan Liu, Haitao Zheng, Jianfei Chen, Y. Liu, Jie Tang, Juanzi Li, and Maosong Sun. 2023b. **Parameter-efficient fine-tuning of large-scale pre-trained language models. Nature Machine Intelligence**, 5:220–235.
 
 
 ## Contact 
