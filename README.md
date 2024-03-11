@@ -21,20 +21,17 @@ If you find this repository helpful, please cite the following:
 
 
 ## Table of Contents 
-- [Instruction Tuning for Large Language Models: A Survey](#instruction-tuning-for-large-language-models-a-survey)
-	- [🥳 News](#-news)
-	- [Table of Contents](#table-of-contents)
-	- [Overview](#overview)
-	- [Instruction Tuning](#instruction-tuning)
-		- [Datasets](#datasets)
-		- [Models](#models)
-	- [Multi-modality Instruction Tuning](#multi-modality-instruction-tuning)
-		- [Datasets](#datasets-1)
-		- [Models](#models-1)
-	- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning)
-	- [Efficient Tuning Techniques](#efficient-tuning-techniques)
-	- [References](#references)
-	- [Contact](#contact)
+- [Overview](#overview)
+- [Instruction Tuning](#instruction-tuning)
+	- [Datasets](#datasets)
+	- [Models](#models)
+- [Multi-modality Instruction Tuning](#multi-modality-instruction-tuning)
+	- [Datasets](#datasets-1)
+	- [Models](#models-1)
+- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning)
+- [Efficient Tuning Techniques](#efficient-tuning-techniques)
+- [References](#references)
+- [Contact](#contact)
   
 
 ## Overview
