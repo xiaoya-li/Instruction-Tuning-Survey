@@ -15,22 +15,23 @@ If you find this repository helpful, please cite the following:
 ## 🥳 News 
 
 **Stay tuned! More related work will be updated!**
+* [11 Mar, 2024] We update work (papers and projects) related to synthetic data generation and image-text generation.
 * [07 Sep, 2023] The repository is created. 
 * [21 Aug, 2023] We release the first version of the paper. 
 
 
 ## Table of Contents 
-* [Overview](#Overview)
-* [Instruction Tuning](#Instruction-Tuning)
-  * [Datasets](#Datasets)
-  * [Models](#Models)
-* [Multi-modality Instruction Tuning](#Multi-modality-Instruction-Tuning)
-  * [Datasets](#Datasets)
-  * [Models](#Models)
-* [Domain-specific Instruction Tuning](#Domain-specific-Instruction-Tuning)
-* [Efficient Tuning Techniques](#Efficient-Tuning-Techniques)
-* [References](#References)
-* [Contact](#Contact) 
+- [Overview](#overview)
+- [Instruction Tuning](#instruction-tuning)
+	- [Datasets](#datasets)
+	- [Models](#models)
+- [Multi-modality Instruction Tuning](#multi-modality-instruction-tuning)
+	- [Datasets](#datasets-1)
+	- [Models](#models-1)
+- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning)
+- [Efficient Tuning Techniques](#efficient-tuning-techniques)
+- [References](#references)
+- [Contact](#contact)
   
 
 ## Overview
@@ -50,7 +51,7 @@ pointing out current deficiencies of existing strategies and suggest some avenue
 The typology of the paper is as follows: 
 
 <div align="center">
-  <img src="assets/paper_typology_v4.png" width="960">
+  <img src="assets/overview.png" width="960">
 </div>
 
 
@@ -65,30 +66,18 @@ The typology of the paper is as follows:
         <th>Paper</th> 
         <th>Project</th> 
         <th># of Instructions</th>
-        <th># of Tasks</th>
         <th># of Lang</th>
         <th>Construction</th>
         <th>Open Source</th>
 </tr>
 <tr>
-        <td rowspan="9" align="center">Generalize to unseen tasks</td>
+        <td rowspan="13" align="center">Human-Crafted</td>
         <td align="center">UnifiedQA [<a href="#ref1">1</a>]</td> 
         <td align="center"><a href="https://arxiv.org/abs/2005.00700" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/unifiedqa" target="_blank">project</a></td>
         <td align="center">750K</td>
-        <td align="center">46</td>
         <td align="center">En</td>
         <td align="center">human-crafted</td>
-        <td align="center">Yes</td>
-</tr>
-<tr>
-        <td align="center">OIG [<a href="#ref2">2</a>]</td> 
-        <td align="center">-</td>
-        <td align="center"><a href="https://github.com/LAION-AI/Open-Instruction-Generalist" target="_blank">project</a></td>
-        <td align="center">43M</td>
-        <td align="center">30</td>
-        <td align="center">En</td>
-        <td align="center">human-model-mixed</td>
         <td align="center">Yes</td>
 </tr>
 <tr>
@@ -96,7 +85,6 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2201.05966" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/hkunlp/unifiedskg" target="_blank">project</a></td>
 		<td align="center">0.8M</td>
-		<td align="center">-</td>
 		<td align="center">En</td>
 		<td align="center">human-crafted</td>
 		<td align="center">Yes</td>
@@ -106,7 +94,6 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2104.08773" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/natural-instructions-v1" target="_blank">project</a></td>
 		<td align="center">193K</td>
-		<td align="center">61</td>
 		<td align="center">En</td>
 		<td align="center">human-crafted</td>
 		<td align="center">Yes</td>
@@ -116,7 +103,6 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2204.07705" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/allenai/natural-instructions" target="_blank">project</a></td>
 		<td align="center">5M</td>
-		<td align="center">76</td>
 		<td align="center">55 Lang</td>
 		<td align="center">human-crafted</td>
 		<td align="center">Yes</td>
@@ -126,7 +112,6 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2110.08207" target="_blank">paper</a></td>
         <td align="center"><a href="https://huggingface.co/datasets/bigscience/P3" target="_blank">project</a></td>
 		<td align="center">12M</td>
-		<td align="center">62</td>
 		<td align="center">En</td>
 		<td align="center">human-crafted</td>
 		<td align="center">Yes</td>
@@ -136,7 +121,6 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2211.01786" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/bigscience-workshop/xmtf" target="_blank">project</a></td>
 		<td align="center">81M</td>
-		<td align="center">53</td>
 		<td align="center">46 Lang</td>
 		<td align="center">human-crafted</td>
 		<td align="center">Yes</td>
@@ -146,7 +130,6 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2301.13688" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/google-research/FLAN" target="_blank">project</a></td>
 		<td align="center">4.4M</td>
-		<td align="center">62</td>
 		<td align="center">En</td>
 		<td align="center">human-crafted</td>
 		<td align="center">Yes</td>
@@ -158,36 +141,68 @@ The typology of the paper is as follows:
 		<td align="center">-</td>
 		<td align="center">-</td>
 		<td align="center">-</td>
-		<td align="center">-</td>
 		<td align="center">Yes</td>
 </tr>
 <tr>
-        <td rowspan="10" align="center">Follow users' instructions in a single turn</td>
 		<td align="center">InstructGPT [<a href="#ref10">10</a>]</td>
         <td align="center">-</td>
         <td align="center">-</td>
 		<td align="center">13K</td>
+		<td align="center">Multi</td>
+		<td align="center">human-crafted</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Dolly [<a href="#ref17">17</a>]</td>
+        <td align="center">-</td>
+        <td align="center"><a href="https://huggingface.co/datasets/databricks/databricks-dolly-15k" target="_blank">project</a></td>
+		<td align="center">15K</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">LIMA [<a href="#ref19">19</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2305.11206" target="_blank">paper</a></td>
+        <td align="center"><a href="https://huggingface.co/datasets/GAIR/lima" target="_blank">project</a></td>
+		<td align="center">1K</td>
+		<td align="center">En</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">ChatGPT [<a href="#ref20">20</a>]</td>
+        <td align="center">-</td>
+        <td align="center">-</td>
 		<td align="center">-</td>
 		<td align="center">Multi</td>
 		<td align="center">human-crafted</td>
 		<td align="center">No</td>
 </tr>
 <tr>
+		<td align="center">OpenAssistant [<a href="#ref23">23</a></a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2304.07327" target="_blank">paper</a></td>
+        <td align="center"><a href="https://github.com/LAION-AI/Open-Assistant" target="_blank">project</a></td>
+		<td align="center">161,443</td>
+		<td align="center">Multi</td>
+		<td align="center">human-crafted</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td rowspan="20" align="center">Synthetic Data (Distillation)</td>
+        <td align="center">OIG [<a href="#ref2">2</a>]</td> 
+        <td align="center">-</td>
+        <td align="center"><a href="https://github.com/LAION-AI/Open-Instruction-Generalist" target="_blank">project</a></td>
+        <td align="center">43M</td>
+        <td align="center">En</td>
+        <td align="center">ChatGPT (No technique reports)</td>
+        <td align="center">Yes</td>
+</tr>
+<tr>
 		<td align="center">Unnatural Instructions [<a href="#ref11">11</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2212.09689" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/orhonovich/unnatural-instructions" target="_blank">project</a></td>
 		<td align="center">240K</td>
-		<td align="center">-</td>
-		<td align="center">En</td>
-		<td align="center">InstructGPT-generated</td>
-		<td align="center">Yes</td>
-</tr>
-<tr>
-		<td align="center">Self-Instruct [<a href="#ref12">12</a>]</td>
-        <td align="center"><a href="https://arxiv.org/abs/2212.10560" target="_blank">paper</a></td>
-        <td align="center"><a href="https://github.com/yizhongw/self-instruct" target="_blank">project</a></td>
-		<td align="center">52K</td>
-		<td align="center">-</td>
 		<td align="center">En</td>
 		<td align="center">InstructGPT-generated</td>
 		<td align="center">Yes</td>
@@ -197,19 +212,17 @@ The typology of the paper is as follows:
         <td align="center">-</td>
         <td align="center"><a href="https://github.com/XueFuzhao/InstructionWild" target="_blank">project</a></td>
 		<td align="center">104K</td>
-		<td align="center">429</td>
 		<td align="center">-</td>
-		<td align="center">model-generated</td>
+		<td align="center">ChatGPT-Generated</td>
 		<td align="center">Yes</td>
 </tr>
 <tr>
-		<td align="center">Evol-Instruct [<a href="#ref14">14</a>]</td>
+		<td align="center">Evol-Instruct / WizardLM [<a href="#ref14">14</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.12244" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/nlpxucan/evol-instruct" target="_blank">project</a></td>
 		<td align="center">52K</td>
-		<td align="center">-</td>
 		<td align="center">En</td>
-		<td align="center">ChatGPT-generated</td>
+		<td align="center">ChatGPT-Generated</td>
 		<td align="center">Yes</td>
 </tr>
 <tr>
@@ -217,7 +230,6 @@ The typology of the paper is as follows:
         <td align="center">-</td>
         <td align="center"><a href="https://github.com/tatsu-lab/stanford_alpaca" target="_blank">project</a></td>
 		<td align="center">52K</td>
-		<td align="center">-</td>
 		<td align="center">En</td>
 		<td align="center">InstructGPT-generated</td>
 		<td align="center">Yes</td>
@@ -227,19 +239,8 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2305.12147" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/csitfun/LogiCoT" target="_blank">project</a></td>
 		<td align="center">-</td>
-		<td align="center">2</td>
 		<td align="center">En</td>
-		<td align="center">GPT-4-generated</td>
-		<td align="center">Yes</td>
-</tr>
-<tr>
-		<td align="center">Dolly [<a href="#ref17">17</a>]</td>
-        <td align="center">-</td>
-        <td align="center"><a href="https://huggingface.co/datasets/databricks/databricks-dolly-15k" target="_blank">project</a></td>
-		<td align="center">15K</td>
-		<td align="center">7</td>
-		<td align="center">En</td>
-		<td align="center">human-crafted</td>
+		<td align="center">GPT-4-Generated</td>
 		<td align="center">Yes</td>
 </tr>
 <tr>
@@ -247,70 +248,26 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2304.03277" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM" target="_blank">project</a></td>
 		<td align="center">52K</td>
-		<td align="center">-</td>
 		<td align="center">En&Zh</td>
-		<td align="center">GPT-4-generated</td>
+		<td align="center">GPT-4-Generated</td>
 		<td align="center">Yes</td>
-</tr>
-<tr>
-		<td align="center">LIMA [<a href="#ref19">19</a>]</td>
-        <td align="center"><a href="https://arxiv.org/abs/2305.11206" target="_blank">paper</a></td>
-        <td align="center"><a href="https://huggingface.co/datasets/GAIR/lima" target="_blank">project</a></td>
-		<td align="center">1K</td>
-		<td align="center">-</td>
-		<td align="center">En</td>
-		<td align="center">human-crafted</td>
-		<td align="center">Yes</td>
-</tr>
-<tr>
-        <td rowspan="9" align="center">Offer assistance like humans across multiple turns</td>
-		<td align="center">ChatGPT [<a href="#ref20">20</a>]</td>
-        <td align="center">-</td>
-        <td align="center">-</td>
-		<td align="center">-</td>
-		<td align="center">-</td>
-		<td align="center">Multi</td>
-		<td align="center">human-crafted</td>
-		<td align="center">No</td>
 </tr>
 <tr>
 		<td align="center">Vicuna [<a href="#ref21">21</a>]</td>
         <td align="center">-</td>
         <td align="center"><a href="https://lmsys.org/blog/2023-03-30-vicuna/" target="_blank">project</a></td>
 		<td align="center">70K</td>
-		<td align="center">-</td>
 		<td align="center">En</td>
-		<td align="center">user-shared</td>
+		<td align="center">Real User-ChatGPT Conversations</td>
 		<td align="center">No</td>
-</tr>
-<tr>
-		<td align="center">Guanaco [<a href="#ref22">22</a>]</td>
-        <td align="center">-</td>
-        <td align="center"><a href="https://huggingface.co/datasets/JosephusCheung/GuanacoDataset" target="_blank">project</a></td>
-		<td align="center">534,530</td>
-		<td align="center">-</td>
-		<td align="center">Multi</td>
-		<td align="center">model-generated</td>
-		<td align="center">Yes</td>
-</tr>
-<tr>
-		<td align="center">OpenAssistant [<a href="#ref23">23</a></a>]</td>
-        <td align="center"><a href="https://arxiv.org/abs/2304.07327" target="_blank">paper</a></td>
-        <td align="center"><a href="https://github.com/LAION-AI/Open-Assistant" target="_blank">project</a></td>
-		<td align="center">161,443</td>
-		<td align="center">-</td>
-		<td align="center">Multi</td>
-		<td align="center">human-crafted</td>
-		<td align="center">Yes</td>
 </tr>
 <tr>
 		<td align="center">Baize v1 [<a href="#ref24">24</a>]</td>
         <td align="center"><a href="https://arxiv.org/abs/2304.01196" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/project-baize/baize-chatbot" target="_blank">project</a></td>
 		<td align="center">111.5K</td>
-		<td align="center">-</td>
 		<td align="center">En</td>
-		<td align="center">ChatGPT-generated</td>
+		<td align="center">ChatGPT-Generated</td>
 		<td align="center">Yes</td>
 </tr>
 <tr>
@@ -318,9 +275,126 @@ The typology of the paper is as follows:
         <td align="center"><a href="https://arxiv.org/abs/2305.14233" target="_blank">paper</a></td>
         <td align="center"><a href="https://github.com/thunlp/UltraChat" target="_blank">project</a></td>
 		<td align="center">675K</td>
-		<td align="center">-</td>
 		<td align="center">En&Zh</td>
-		<td align="center">model-generated</td>
+		<td align="center">GPT 3/4-Generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Guanaco [<a href="#ref22">22</a>]</td>
+        <td align="center">-</td>
+        <td align="center"><a href="https://huggingface.co/datasets/JosephusCheung/GuanacoDataset" target="_blank">project</a></td>
+		<td align="center">534,530</td>
+		<td align="center">Multi</td>
+		<td align="center">GPT (Unknonwn Version)-Generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Orca [<a href="#ref74">74</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2306.02707.pdf" target="_blank">paper</a></td>
+        <td align="center"><a href="https://huggingface.co/datasets/Open-Orca/OpenOrca" target="_blank">project</a></td>
+		<td align="center">1.5M</td>
+		<td align="center">En</td>
+		<td align="center">GPT 3.5/4-Generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">ShareGPT </td>
+        <td align="center">-</td>
+        <td align="center"><a href="https://huggingface.co/datasets/RyokoAI/ShareGPT52K" target="_blank">project</a></td>
+		<td align="center">90K</td>
+		<td align="center">Multi</td>
+		<td align="center">Real User-ChatGPT Conversations</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">WildChat </td>
+        <td align="center">-</td>
+        <td align="center"><a href="https://huggingface.co/datasets/allenai/WildChat" target="_blank">project</a></td>
+		<td align="center">150K</td>
+		<td align="center">Multi</td>
+		<td align="center">Real User-ChatGPT Conversations</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">WizardCoder [<a href="#ref75">75</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2306.08568.pdf" target="_blank">paper</a></td>
+        <td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">Code</td>
+		<td align="center">LLaMa 2-Generated</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Magicoder [<a href="#ref76">76</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2312.02120.pdf" target="_blank">paper</a></td>
+        <td align="center"><a href="https://github.com/ise-uiuc/magicoder?tab=readme-ov-file#-dataset" target="_blank">project</a></td>
+		<td align="center">75K/110K</td>
+		<td align="center">Code</td>
+		<td align="center">GPT-3.5-Generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">WaveCoder [<a href="#ref77">77</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2312.14187.pdf" target="_blank">paper</a></td>
+        <td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">Code</td>
+		<td align="center">GPT 4-Generated</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Phi-1 [<a href="#ref78">78</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2306.11644.pdf" target="_blank">paper</a></td>
+        <td align="center"><a href="https://huggingface.co/microsoft/phi-1" target="_blank">project</a></td>
+		<td align="center">6B Tokens</td>
+		<td align="center">Code Q and A</td>
+		<td align="center">GPT-3.5-Generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Phi-1.5 [<a href="#ref79">79</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2309.05463.pdf" target="_blank">paper</a></td>
+        <td align="center">-</td>
+		<td align="center">-</td>
+		<td align="center">Code Q and A</td>
+		<td align="center">GPT-3.5-Generated</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">Nectar [<a href="#ref80">80</a>]</td>
+        <td align="center"><a href="https://starling.cs.berkeley.edu/" target="_blank">paper</a></td>
+        <td align="center"><a href="https://huggingface.co/datasets/berkeley-nest/Nectar" target="_blank">project</a></td>
+		<td align="center">~183K</td>
+		<td align="center">En</td>
+		<td align="center">GPT 4-Generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td rowspan="3" align="center">Synthetic Data (Self-Improvement)</td>
+		<td align="center">Self-Instruct [<a href="#ref12">12</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2212.10560" target="_blank">paper</a></td>
+        <td align="center"><a href="https://github.com/yizhongw/self-instruct" target="_blank">project</a></td>
+		<td align="center">52K</td>
+		<td align="center">En</td>
+		<td align="center">InstructGPT-generated</td>
+		<td align="center">Yes</td>
+</tr>
+<tr>
+		<td align="center">Instruction Backtranslation [<a href="#ref81">81</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2308.06259.pdf" target="_blank">paper</a></td>
+        <td align="center">-</td>
+		<td align="center">502K</td>
+		<td align="center">En</td>
+		<td align="center">LLaMa-Generated</td>
+		<td align="center">No</td>
+</tr>
+<tr>
+		<td align="center">SPIN [<a href="#ref82">82</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2401.01335.pdf" target="_blank">paper</a></td>
+        <td align="center"><a href="https://github.com/uclaml/SPIN?tab=readme-ov-file#Data" target="_blank">project</a></td>
+		<td align="center">49.8K</td>
+		<td align="center">En</td>
+		<td align="center">Zephyr-Generated</td>
 		<td align="center">Yes</td>
 </tr>
 </table>
@@ -859,8 +933,6 @@ The typology of the paper is as follows:
 
 ## References
 
-### Instruction Datasets
-
 <a id="ref1">[1]</a> Khashabi, Daniel, Sewon Min, Tushar Khot, Ashish Sabharwal, Oyvind Tafjord, Peter Clark, and Hannaneh Hajishirzi. **Unifiedqa: Crossing format boundaries with a single qa system**. arXiv preprint arXiv:2005.00700 (2020). [Paper](https://arxiv.org/abs/2005.00700) 
 
 <a id="ref2">[2]</a> LAION.ai. **Oig: the open instruction generalist dataset**, 2023. 
@@ -1006,8 +1078,6 @@ and Bowen Zhou. **Enhancing chat language models
 by scaling high-quality instructional conversations**.
 arXiv preprint arXiv:2305.14233, 2023. [Paper](https://arxiv.org/abs/2305.14233) 
 
-### Instruction Tuned LLMs
-
 <a id="ref26">[26]</a> Tom B. Brown, Benjamin Mann, Nick Ryder,
 Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal,
 Arvind Neelakantan, Pranav Shyam, Girish Sastry,
@@ -1146,8 +1216,6 @@ by scaling high-quality instructional conversations**.
 arXiv preprint arXiv:2305.14233, 2023.
 [Paper](https://arxiv.org/abs/2305.14233) 
 
-### Multimodal Instruction Datasets
-
 <a id="ref45">[45]</a> Zhiyang Xu, Ying Shen, and Lifu Huang.
 **Multiinstruct: Improving multi-modal zero-
 shot learning via instruction tuning**. ArXiv,
@@ -1166,8 +1234,6 @@ Huang, Zhiyong Wang, Wanli Ouyang, and Jing Shao.
 **Lamm: Language-assisted multi-modal instruction-
 tuning dataset, framework, and benchmark**. ArXiv,
 abs/2306.06687, 2023. [Paper](https://arxiv.org/abs/2306.06687) 
-
-### Multimodal Instruction Tuned Models
 
 <a id="ref48">[48]</a> Tim Brooks, Aleksander Holynski, and Alexei A.
 Efros. **Instructpix2pix: Learning to follow image
@@ -1264,8 +1330,6 @@ models**. In Proceedings of the IEEE/CVF conference
 on computer vision and pattern recognition, pages
 10684–10695, 2022. [Paper](https://arxiv.org/abs/2112.10752) 
 
-### Domain-specific Instruction Tuned LLMs
-
 <a id="ref64">[64]</a> Zheng Liu, Aoxiao Zhong, Yiwei Li, Longtao Yang,
 Chao Ju, Zihao Wu, Chong Ma, Peng Shu, Cheng
 Chen, Sekeun Kim, Haixing Dai, Lin Zhao, Dajiang
@@ -1293,8 +1357,6 @@ Ma, Qingwei Lin, and Daxin Jiang. **Wizardcoder:
 Empowering code large language models with evol-
 instruct**, 2023. [Paper](https://arxiv.org/abs/2306.08568) 
 
-### Efficient Tuning Techniques
-
 <a id="ref69">[69]</a> Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, and Weizhu Chen. 2021. 
 **Lora: Low-rank adaptation of large language models**. arXiv preprint arXiv:2106.09685. [Paper](https://arxiv.org/abs/2106.09685) 
 
@@ -1314,11 +1376,37 @@ instruct**, 2023. [Paper](https://arxiv.org/abs/2306.08568)
 [Paper](https://arxiv.org/abs/2306.09782) 
 
 
-<a id="ref72">[73]</a> Ning Ding, Yujia Qin, Guang Yang, Fu Wei, Zonghan Yang, Yusheng Su, Shengding Hu, Yulin Chen, Chi-Min Chan, 
+<a id="ref73">[73]</a> Ning Ding, Yujia Qin, Guang Yang, Fu Wei, Zonghan Yang, Yusheng Su, Shengding Hu, Yulin Chen, Chi-Min Chan, 
 Weize Chen, Jing Yi, Weilin Zhao, Xiaozhi Wang, Zhiyuan Liu, Haitao Zheng, Jianfei Chen, Y. Liu, Jie Tang, Juanzi Li, and Maosong Sun. 2023b. 
 **Parameter-efficient fine-tuning of large-scale pre-trained language models**. Nature Machine Intelligence, 5:220–235.
 [Paper](https://www.nature.com/articles/s42256-023-00626-4) 
 
+<a id="ref74">[74]</a> Subhabrata Mukherjee, Arindam Mitra, Ganesh Jawahar, Sahaj Agarwal, Hamid Palangi, and Ahmed Awadallah. 2023. **Orca: Progressive learning from complex explanation traces of gpt-4.** arXiv preprint arXiv:2306.02707.
+[Paper](https://arxiv.org/pdf/2306.02707.pdf) 
+
+<a id="ref75">[75]</a> Ziyang Luo, Can Xu, Pu Zhao, Qingfeng Sun, Xiubo Geng, Wenxiang Hu, Chongyang Tao, Jing Ma, Qingwei Lin, and Daxin Jiang. 2023. **Wizardcoder: Empowering code large language models with evol-instruct.**
+[Paper](https://arxiv.org/pdf/2306.08568.pdf) 
+
+<a id="ref76">[76]</a> Yuxiang Wei, Zhe Wang, Jiawei Liu, Yifeng Ding, and Lingming Zhang. 2023b. **Magicoder: Source code is all you need.** arXiv preprint arXiv:2312.02120.
+[Paper](https://arxiv.org/pdf/2312.02120.pdf) 
+
+<a id="ref77">[77]</a> Zhaojian Yu, Xin Zhang, Ning Shang, Yangyu Huang, Can Xu, Yishujie Zhao, Wenxiang Hu, and Qiufeng Yin. 2023. **Wavecoder: Widespread and versatile enhanced instruction tuning with refined data generation.** arXiv preprint arXiv:2312.14187.
+[Paper](https://arxiv.org/pdf/2312.14187.pdf) 
+
+<a id="ref78">[78]</a> Suriya Gunasekar, Yi Zhang, Jyoti Aneja, Caio César Teodoro Mendes, Allie Del Giorno, Sivakanth Gopi, Mojan Javaheripi, Piero Kauffmann, Gustavo de Rosa, Olli Saarikivi, et al. 2023. **Textbooks are all you need.** arXiv preprint arXiv:2306.11644.
+[Paper](https://arxiv.org/pdf/2306.11644.pdf) 
+
+<a id="ref79">[79]</a> Yuanzhi Li, Sébastien Bubeck, Ronen Eldan, Allie Del Giorno, Suriya Gunasekar, and Yin Tat Lee. 2023h. **Textbooks are all you need ii: phi-1.5 technical report.** arXiv preprint arXiv:2309.05463.
+[Paper](https://arxiv.org/pdf/2309.05463.pdf) 
+
+<a id="ref80">[80]</a> Banghua Zhu, Evan Frick, Tianhao Wu, Hanlin Zhu, and Jiantao Jiao. 2023a. **Starling-7b: Improving llm helpfulness & harmlessness with rlaif.**
+[Paper](https://starling.cs.berkeley.edu/) 
+
+<a id="ref81">[81]</a> Xian Li, Ping Yu, Chunting Zhou, Timo Schick, Luke Zettlemoyer, Omer Levy, Jason Weston, and Mike Lewis. 2023g. **Self-alignment with instruction backtranslation.** arXiv preprint arXiv:2308.06259.
+[Paper](https://arxiv.org/pdf/2308.06259.pdf) 
+
+<a id="ref82">[82]</a> Zixiang Chen, Yihe Deng, Huizhuo Yuan, Kaixuan Ji, and Quanquan Gu. 2024. **Self-play fine-tuning converts weak language models to strong language models.** arXiv preprint arXiv:2401.01335.
+[Paper](https://arxiv.org/pdf/2401.01335.pdf) 
 
 ## Contact 
 
