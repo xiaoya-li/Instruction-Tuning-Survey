@@ -15,10 +15,10 @@ If you find this repository helpful, please cite the following:
 ## 🥳 News 
 
 **Stay tuned! More related work will be updated!**
-* [12 Mar, 2024] We update work (papers and projects) related to large multimodal models.
-* [11 Mar, 2024] We update work (papers and projects) related to synthetic data generation and image-text generation.
-* [07 Sep, 2023] The repository is created. 
-* [21 Aug, 2023] We release the first version of the paper. 
+* **[12 Mar, 2024]** We update work (papers and projects) related to large multimodal models.
+* **[11 Mar, 2024]** We update work (papers and projects) related to synthetic data generation and image-text generation.
+* **[07 Sep, 2023]** The repository is created. 
+* **[21 Aug, 2023]** We release the first version of the paper. 
 
 
 ## Table of Contents 
