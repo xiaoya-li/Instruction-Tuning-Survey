@@ -15,6 +15,7 @@ If you find this repository helpful, please cite the following:
 ## 🥳 News 
 
 **Stay tuned! More related work will be updated!**
+* **[16 Oct, 2024]** We update work (papers and projects) related to evaluation benchmkars and superficial alignment.
 * **[12 Mar, 2024]** We update work (papers and projects) related to large multimodal models.
 * **[11 Mar, 2024]** We update work (papers and projects) related to synthetic data generation and image-text generation.
 * **[07 Sep, 2023]** The repository is created. 
@@ -22,23 +23,29 @@ If you find this repository helpful, please cite the following:
 
 
 ## Table of Contents 
-- [Overview](#overview)
-- [Instruction Tuning](#instruction-tuning)
-	- [Datasets](#datasets)
-	- [Models](#models)
-- [Multi-modality Instruction Tuning](#multi-modality-instruction-tuning)
-	- [Datasets](#datasets-1)
-	- [Models](#models-1)
-- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning)
-- [Efficient Tuning Techniques](#efficient-tuning-techniques)
-- [References](#references)
-	- [Instruction Tuning (Datasets)](#instruction-tuning-datasets)
-	- [Instruction Tuning (Models)](#instruction-tuning-models)
-	- [Multi-modality Instruction Tuning (Datasets)](#multi-modality-instruction-tuning-datasets)
-	- [Multi-modality Instruction Tuning (Models)](#multi-modality-instruction-tuning-models)
-	- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning-1)
-	- [Efficient Tuning Techniques](#efficient-tuning-techniques-1)
-- [Contact](#contact)
+- [Instruction Tuning for Large Language Models: A Survey](#instruction-tuning-for-large-language-models-a-survey)
+	- [🥳 News](#-news)
+	- [Table of Contents](#table-of-contents)
+	- [Overview](#overview)
+	- [Instruction Tuning](#instruction-tuning)
+		- [Datasets](#datasets)
+		- [Models](#models)
+	- [Multi-modality Instruction Tuning](#multi-modality-instruction-tuning)
+		- [Datasets](#datasets-1)
+		- [Models](#models-1)
+	- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning)
+	- [Efficient Tuning Techniques](#efficient-tuning-techniques)
+	- [Evaluations](#evaluations)
+	- [References](#references)
+		- [Instruction Tuning (Datasets)](#instruction-tuning-datasets)
+		- [Instruction Tuning (Models)](#instruction-tuning-models)
+		- [Multi-modality Instruction Tuning (Datasets)](#multi-modality-instruction-tuning-datasets)
+		- [Multi-modality Instruction Tuning (Models)](#multi-modality-instruction-tuning-models)
+		- [Domain-specific Instruction Tuning](#domain-specific-instruction-tuning-1)
+		- [Efficient Tuning Techniques](#efficient-tuning-techniques-1)
+		- [Evaluations](#evaluations-1)
+		- [Superficial Alignment](#superficial-alignment)
+	- [Contact](#contact)
   
 
 ## Overview
@@ -962,6 +969,87 @@ The typology of the paper is as follows:
 
 </table>
 
+
+
+## Evaluations
+
+<table border="1" style="text-align:center;">
+<tr>
+        <th style="width:8cm;">Close-ended Evaluations</th>
+        <th>Paper</th>
+        <th>Project</th>
+</tr>
+<tr>
+        <td align="center">Massive Multitask Language Understanding (MMLU) [<a href="#ref85">85</a>]</td>
+        <td align="center"><a href="https://arxiv.org/pdf/2009.03300" target="_blank">paper</a></td>
+		<td align="center"><a href="https://huggingface.co/datasets/cais/mmlu" target="_blank">project</a></td>
+</tr>
+<tr>
+        <td align="center">MATH [<a href="#ref86">86</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2103.03874" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/hendrycks/math" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">GSM8K [<a href="#ref87">87</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2110.14168" target="_blank">paper</a></td>
+		<td align="center"><a href="https://huggingface.co/datasets/openai/gsm8k" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">BIG-Bench Hard (BBH) [<a href="#ref88">88</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2210.09261" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/suzgunmirac/BIG-Bench-Hard" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">HumanEval [<a href="#ref89">89</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2107.03374" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/openai/human-eval" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">IFEval [<a href="#ref90">90</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2311.07911" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/google-research/google-research/tree/master/instruction_following_eval" target="_blank">project</a></td>
+</tr>
+
+
+</table>
+
+
+<table border="1" style="text-align:center;">
+<tr>
+        <th style="width:8cm;">GPT-Based Evaluations</th>
+        <th>Paper</th>
+        <th>Project</th>
+</tr>
+<tr>
+        <td align="center">AlpacaEval [<a href="#ref91">91</a>]</td>
+        <td align="center">-</a></td>
+		<td align="center"><a href="https://github.com/tatsu-lab/alpaca_eval" target="_blank">project</a></td>
+</tr>
+<tr>
+        <td align="center">Length-Controlled AlpacaEval [<a href="#ref92">92</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2404.04475" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/tatsu-lab/alpaca_eval" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">MT-Bench [<a href="#ref93">93</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2306.05685" target="_blank">paper</a></td>
+		<td align="center"><a href="https://huggingface.co/spaces/lmsys/mt-bench" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">WildBench [<a href="#ref94">94</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2406.04770" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/allenai/WildBench" target="_blank">project</a></td>
+</tr>
+
+</table>
+
+
 ## References
 
 ### Instruction Tuning (Datasets)
@@ -1417,6 +1505,65 @@ abs/2304.08085, 2023. [Paper](https://arxiv.org/abs/2304.08085)
 <a id="ref84">[84]</a> Weize Chen, Jing Yi, Weilin Zhao, Xiaozhi Wang, Zhiyuan Liu, Haitao Zheng, Jianfei Chen, Y. Liu, Jie Tang, Juanzi Li, and Maosong Sun. 2023b. 
 **Parameter-efficient fine-tuning of large-scale pre-trained language models**. Nature Machine Intelligence, 5:220–235.
 [Paper](https://www.nature.com/articles/s42256-023-00626-4) 
+
+
+
+### Evaluations
+<a id="ref85">[85]</a> Hendrycks, Dan and Burns, Collin and Basart, Steven and Zou, Andy and Mazeika, Mantas and Song, Dawn and Steinhardt, Jacob. 2020a. 
+**Measuring massive multitask language understanding**. arXiv:2009.03300.
+[Paper](https://arxiv.org/pdf/2009.03300)
+
+<a id="ref86">[86]</a> Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob. 2021. 
+**Measuring mathematical problem solving with the math dataset**. arXiv preprint arXiv:2103.03874.
+[Paper](https://arxiv.org/abs/2103.03874)
+
+<a id="ref87">[87]</a> Karl Cobbe and Vineet Kosaraju and Mohammad Bavarian and Mark Chen and Heewoo Jun and Lukasz Kaiser and Matthias Plappert and Jerry Tworek and Jacob Hilton and Reiichiro Nakano and Christopher Hesse and John Schulman. 2021. 
+**Training Verifiers to Solve Math Word Problems**.
+[Paper](https://arxiv.org/abs/2110.14168)
+
+<a id="ref88">[88]</a> Suzgun, Mirac and Scales, Nathan and Sch{\"a}rli, Nathanael and Gehrmann, Sebastian and Tay, Yi and Chung, Hyung Won and Chowdhery, Aakanksha and Le, Quoc V and Chi, Ed H and Zhou, Denny and others. 2022a. 
+**Challenging big-bench tasks and whether chain-of-thought can solve them**. arXiv preprint arXiv:2210.09261
+[Paper](https://arxiv.org/abs/2210.09261)
+
+<a id="ref89">[89]</a> Chen, Mark and Tworek, Jerry and Jun, Heewoo and Yuan, Qiming and Pinto, Henrique Ponde De Oliveira and Kaplan, Jared and Edwards, Harri and Burda, Yuri and Joseph, Nicholas and Brockman, Greg and others. 2021a. 
+**Evaluating large language models trained on code**. arXiv preprint arXiv:2107.03374
+[Paper](https://arxiv.org/abs/2107.03374)
+
+<a id="ref90">[90]</a> Zhou, Jeffrey and Lu, Tianjian and Mishra, Swaroop and Brahma, Siddhartha and Basu, Sujoy and Luan, Yi and Zhou, Denny and Hou, Le. 2023b. 
+**Instruction-following evaluation for large language models**. arXiv preprint arXiv:2311.07911
+[Paper](https://arxiv.org/abs/2311.07911)
+
+<a id="ref91">[91]</a> Xuechen Li and Tianyi Zhang and Yann Dubois and Rohan Taori and Ishaan Gulrajani and Carlos Guestrin and Percy Liang and Tatsunori B. Hashimoto. 2023h. 
+**AlpacaEval: An Automatic Evaluator of Instruction-following Models**. GitHub repository
+[GitHub](https://github.com/tatsu-lab/alpaca_eval)
+
+<a id="ref92">[92]</a> Dubois, Yann and Galambosi, Bal{\'a}zs and Liang, Percy and Hashimoto, Tatsunori B. 2024. 
+**Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators**. arXiv preprint arXiv:2404.04475
+[Paper](https://arxiv.org/abs/2404.04475)
+
+<a id="ref93">[93]</a> Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric and others. 2023. 
+**Judging llm-as-a-judge with mt-bench and chatbot arena**. Advances in Neural Information Processing Systems
+[Paper](https://arxiv.org/abs/2306.05685)
+
+<a id="ref94">[94]</a> Lin, Bill Yuchen and Deng, Yuntian and Chandu, Khyathi and Brahman, Faeze and Ravichander, Abhilasha and Pyatkin, Valentina and Dziri, Nouha and Bras, Ronan Le and Choi, Yejin. 2024. 
+**WILDBENCH: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild**. arXiv preprint arXiv:2406.04770
+[Paper](https://arxiv.org/abs/2406.04770)
+
+
+### Superficial Alignment
+
+<a id="ref95">[95]</a> Po-Nien Kung and Nanyun Peng. 2023. 
+**Do Models Really Learn to Follow Instructions? An Empirical Study of Instruction Tuning**. ACL.
+[Paper](https://aclanthology.org/2023.acl-short.113.pdf)
+
+<a id="ref96">[96]</a> Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and Mike Lewis and Luke Zettlemoyer and Omer Levy. 2023a. 
+**LIMA: Less Is More for Alignment**. NeurIPS 2023.
+[Paper](https://openreview.net/pdf?id=KBMOKmX2he)
+
+<a id="ref97">[97]</a> Lin, Bill Yuchen and Ravichander, Abhilasha and Lu, Ximing and Dziri, Nouha and Sclar, Melanie and Chandu, Khyathi and Bhagavatula, Chandra and Choi, Yejin. 2023a. 
+**The unlocking spell on base llms: Rethinking alignment via in-context learning**. ICLR 2024.
+[Paper](https://openreview.net/pdf?id=wxJ0eXwwda)
+
 
 ## Contact 
 
