@@ -15,6 +15,7 @@ If you find this repository helpful, please cite the following:
 ## 🥳 News 
 
 **Stay tuned! More related work will be updated!**
+* **[01 Dec, 2024]** We update work (papers and projects) related to GPT-4 based evaluation benchmkars.
 * **[16 Oct, 2024]** We update work (papers and projects) related to evaluation benchmkars and superficial alignment.
 * **[12 Mar, 2024]** We update work (papers and projects) related to large multimodal models.
 * **[11 Mar, 2024]** We update work (papers and projects) related to synthetic data generation and image-text generation.
@@ -1047,6 +1048,30 @@ The typology of the paper is as follows:
 		<td align="center"><a href="https://github.com/allenai/WildBench" target="_blank">project</a></td>
 </tr>
 
+<tr>
+        <td align="center">FastChat [<a href="#ref95">95</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2306.05685" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">Chatbot Arena [<a href="#ref96">96</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2403.04132" target="_blank">paper</a></td>
+		<td align="center"><a href="https://lmarena.ai/" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">Arena-Hard [<a href="#ref97">97</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2406.11939" target="_blank">paper</a></td>
+		<td align="center"><a href="https://lmsys.org/blog/2024-04-19-arena-hard/" target="_blank">project</a></td>
+</tr>
+
+<tr>
+        <td align="center">InFoBench [<a href="#ref98">98</a>]</td>
+        <td align="center"><a href="https://arxiv.org/abs/2401.03601" target="_blank">paper</a></td>
+		<td align="center"><a href="https://github.com/qinyiwei/InfoBench" target="_blank">project</a></td>
+</tr>
+
 </table>
 
 
@@ -1549,18 +1574,34 @@ abs/2304.08085, 2023. [Paper](https://arxiv.org/abs/2304.08085)
 **WILDBENCH: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild**. arXiv preprint arXiv:2406.04770
 [Paper](https://arxiv.org/abs/2406.04770)
 
+<a id="ref95">[95]</a> Lianmin Zheng, Wei-Lin Chiang, Ying Sheng, Siyuan Zhuang, Zhanghao Wu, Yonghao Zhuang, Zi Lin, Zhuohan Li, Dacheng Li, Eric P. Xing, Hao Zhang, Joseph E. Gonzalez, Ion Stoica. 2023. 
+**Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena**. arXiv preprint arXiv:2306.05685
+[Paper](https://arxiv.org/abs/2306.05685)
+
+<a id="ref96">[96]</a> Wei-Lin Chiang, Lianmin Zheng, Ying Sheng, Anastasios Nikolas Angelopoulos, Tianle Li, Dacheng Li, Hao Zhang, Banghua Zhu, Michael Jordan, Joseph E. Gonzalez, Ion Stoica. 2024. 
+**Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference**. arXiv preprint arXiv:2403.04132
+[Paper](https://arxiv.org/abs/2403.04132)
+
+<a id="ref97">[97]</a> Tianle Li, Wei-Lin Chiang, Evan Frick, Lisa Dunlap, Tianhao Wu, Banghua Zhu, Joseph E. Gonzalez, Ion Stoica. 2024. 
+**From Crowdsourced Data to High-Quality Benchmarks: Arena-Hard and BenchBuilder Pipeline**. arXiv preprint arXiv:2406.11939
+[Paper](https://arxiv.org/abs/2406.11939)
+
+<a id="ref98">[98]</a> Yiwei Qin, Kaiqiang Song, Yebowen Hu, Wenlin Yao, Sangwoo Cho, Xiaoyang Wang, Xuansheng Wu, Fei Liu, Pengfei Liu, Dong Yu. 2024. 
+**InFoBench: Evaluating Instruction Following Ability in Large Language Models**. arXiv preprint arXiv:2401.03601
+[Paper](https://arxiv.org/abs/2401.03601)
+
 
 ### Superficial Alignment
 
-<a id="ref95">[95]</a> Po-Nien Kung and Nanyun Peng. 2023. 
+<a id="ref99">[99]</a> Po-Nien Kung and Nanyun Peng. 2023. 
 **Do Models Really Learn to Follow Instructions? An Empirical Study of Instruction Tuning**. ACL.
 [Paper](https://aclanthology.org/2023.acl-short.113.pdf)
 
-<a id="ref96">[96]</a> Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and Mike Lewis and Luke Zettlemoyer and Omer Levy. 2023a. 
+<a id="ref100">[100]</a> Chunting Zhou and Pengfei Liu and Puxin Xu and Srini Iyer and Jiao Sun and Yuning Mao and Xuezhe Ma and Avia Efrat and Ping Yu and L. Yu and Susan Zhang and Gargi Ghosh and Mike Lewis and Luke Zettlemoyer and Omer Levy. 2023a. 
 **LIMA: Less Is More for Alignment**. NeurIPS 2023.
 [Paper](https://openreview.net/pdf?id=KBMOKmX2he)
 
-<a id="ref97">[97]</a> Lin, Bill Yuchen and Ravichander, Abhilasha and Lu, Ximing and Dziri, Nouha and Sclar, Melanie and Chandu, Khyathi and Bhagavatula, Chandra and Choi, Yejin. 2023a. 
+<a id="ref101">[101]</a> Lin, Bill Yuchen and Ravichander, Abhilasha and Lu, Ximing and Dziri, Nouha and Sclar, Melanie and Chandu, Khyathi and Bhagavatula, Chandra and Choi, Yejin. 2023a. 
 **The unlocking spell on base llms: Rethinking alignment via in-context learning**. ICLR 2024.
 [Paper](https://openreview.net/pdf?id=wxJ0eXwwda)
 
